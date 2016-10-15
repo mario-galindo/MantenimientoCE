@@ -72,7 +72,7 @@
             <Grid.RowDefinitions>
                 <RowDefinition Height="15*"/>
                 <RowDefinition Height="95*"/>
-                <RowDefinition Height="18*"/>
+                <RowDefinition Height="10*"/>
             </Grid.RowDefinitions>
 
             <Grid Name="Encabezado" Background="#66b3ff">
@@ -325,11 +325,11 @@
             </Grid>
 
             <Grid Grid.Row="2" Name="Pie" Background="#bfbfbf" Opacity="0.5">
-                <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Right">
+                <!--<StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Right">
                     <Button Template="{StaticResource BtnNuevoDepartamento}" Margin="0,0,20,0"  Cursor="Hand"></Button>
                     <Button Grid.Column="1" Template="{StaticResource BtnEditarDepartamento}" Margin="0,0,20,0" Cursor="Hand" ></Button>
                     <Button Grid.Column="2" Template="{StaticResource BtnBorrarDepartamento}" Margin="0,0,20,0" Cursor="Hand"></Button>
-                </StackPanel>
+                </StackPanel>-->
                 <Button Command="{Binding ComandoAnimarPanel}" HorizontalAlignment="Left" Grid.Column="2" Template="{StaticResource Usuario}" Margin="0,0,20,0" Cursor="Hand"></Button>
             </Grid>
 
@@ -348,7 +348,7 @@
                 <Grid.RowDefinitions>
                     <RowDefinition Height="15*"/>
                     <RowDefinition Height="95*"/>
-                    <RowDefinition Height="18*"/>
+                    <RowDefinition Height="10*"/>
                 </Grid.RowDefinitions>
                 <Grid Name="EncabezadoPanel" Background="#66b3ff"/>
                 <Grid Margin="15" Grid.Row="1" Name="CuerpoPanel">
@@ -392,7 +392,7 @@
                     </Grid>
                 </Grid>
                 <Grid x:Name="PiePanel" Grid.Row="2" Background="#bfbfbf" Opacity="0.5">
-                    <Button Command="{Binding ComandoAnimarPanel}" HorizontalAlignment="Right" Grid.Column="2" Template="{StaticResource Usuario}" Margin="0,0,20,0" Cursor="Hand"></Button>
+                    <Button Command="{Binding ComandoAnimarPanel}" HorizontalAlignment="Right" Grid.Column="2" Template="{StaticResource BtnAtras}" Margin="0,0,20,0" Cursor="Hand"></Button>
                 </Grid>
             </Grid>
         </Grid>
