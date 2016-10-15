@@ -75,7 +75,7 @@
                 <RowDefinition Height="18*"/>
             </Grid.RowDefinitions>
 
-            <Grid Name="Encabezado" Background="Blue">
+            <Grid Name="Encabezado" Background="#66b3ff">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="10*" MinWidth="200"></ColumnDefinition>
                     <ColumnDefinition Width="40*" MinWidth="800"></ColumnDefinition>
@@ -350,7 +350,7 @@
                     <RowDefinition Height="95*"/>
                     <RowDefinition Height="18*"/>
                 </Grid.RowDefinitions>
-                <Grid Name="EncabezadoPanel" Background="Blue"/>
+                <Grid Name="EncabezadoPanel" Background="#66b3ff"/>
                 <Grid Margin="15" Grid.Row="1" Name="CuerpoPanel">
                     <Grid Name="Lista5" Margin="10" Grid.Row="1">
                         <Grid Name="SubGridUsuario">

@@ -170,9 +170,9 @@ namespace Services.Servicios
             using (var contexto = new UnitOfWork())
             {
                 Tema NuevoTema = new Tema();
-                int LastId = contexto.Tema.Count() + 1;
+                //int LastId = contexto.Tema.Count() + 1;
 
-                NuevoTema.TemaId = "TEM" + LastId.ToString();
+                NuevoTema.TemaId = temaDTO.TemaId;
                 NuevoTema.Orden = temaDTO.Orden;
                 NuevoTema.Nombre = temaDTO.Nombre;
                 NuevoTema.CategoriaId = temaDTO.CategoriaId;

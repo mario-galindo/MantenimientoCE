@@ -507,7 +507,7 @@ namespace ControlDeEstudio.ViewModels
         }
         public void LlenarPaginadoSubtemas()
         {
-            if (TemaSeleccionado != null)
+            if (TemaSeleccionado != null && TemaSeleccionado.SubTemas != null)
             {
                 PaginadoSubtemas = new PagedCollectionView(TemaSeleccionado.SubTemas);
             }
@@ -667,10 +667,10 @@ namespace ControlDeEstudio.ViewModels
             }
         }
 
-
         public void GuardarTema()
         {
-          TemaDTO.CategoriaId = CategoriaSeleccionada.CategoriaId;
+            TemaDTO.CategoriaId = CategoriaSeleccionada.CategoriaId;
+            TemaDTO.TemaId = "TEM" + GenerarID(TemaDTO.Nombre);
             proxy.GuardarTemaAsync(TemaDTO);
         }
 
@@ -679,7 +679,19 @@ namespace ControlDeEstudio.ViewModels
             if (e.Error == null)
             {
                 MostrarMensaje("Tema Guardado","Exito");
-                ListarCategorias();
+
+                var temaNuevo = new TestServiceReference.TemasDTO()
+                {
+                    CategoriaId = TemaDTO.CategoriaId,
+                    Error = TemaDTO.Error,
+                    Estado = TemaDTO.Estado,
+                    Nombre = TemaDTO.Nombre,
+                    Orden = TemaDTO.Orden,
+                    SubTemas = TemaDTO.SubTemas,
+                    TemaId = TemaDTO.TemaId
+                };
+
+                CategoriaSeleccionada.Temas.Add(temaNuevo);
             }
             else
             {
@@ -704,7 +716,9 @@ namespace ControlDeEstudio.ViewModels
             if (e.Error == null)
             {
                 MostrarMensaje("Se elimino el tema", "Exito");
-                ListarCategorias();
+               
+                var index = CategoriaSeleccionada.Temas.IndexOf(TemaSeleccionado);
+                CategoriaSeleccionada.Temas.RemoveAt(index);
             }
             else
             {
@@ -733,7 +747,16 @@ namespace ControlDeEstudio.ViewModels
             if (e.Error == null)
             {
                 MostrarMensaje("Tema editado", "Exito");
-                ListarCategorias();
+                //ListarCategorias();
+                foreach (var tema in CategoriaSeleccionada.Temas)
+                {
+                    if (tema.TemaId == TemaDTO.TemaId)
+                    {
+                        tema.Nombre = TemaDTO.Nombre;
+                        tema.Orden = TemaDTO.Orden;
+                        tema.Estado = TemaDTO.Estado;
+                    }
+                }
             }
             else
             {
@@ -1180,6 +1203,16 @@ namespace ControlDeEstudio.ViewModels
 
         }
 
+        public string GenerarID(string Nombre)
+        {
+            int size = Nombre.Trim().Length;
+            if (size % 2 == 0)
+            {
+                size++;
+            }
+
+            return Nombre + size.ToString();
+        }
         #endregion
 
         #region Comandos 
