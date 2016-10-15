@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="TestService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:45634/Servicios/TestService.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:45634/Servicios/TestService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:45634/Servicios/TestService.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/Services.DTOs" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="ITestService_DoWork_InputMessage">
+    <wsdl:part name="parameters" element="tns:DoWork" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_DoWork_OutputMessage">
+    <wsdl:part name="parameters" element="tns:DoWorkResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_ObtenerCategorias_InputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerCategorias" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_ObtenerCategorias_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ObtenerCategoriasResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_AgregarCategoria_InputMessage">
+    <wsdl:part name="parameters" element="tns:AgregarCategoria" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_AgregarCategoria_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AgregarCategoriaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_EliminarCategoria_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarCategoria" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_EliminarCategoria_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarCategoriaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_ModificarCategoria_InputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarCategoria" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_ModificarCategoria_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ModificarCategoriaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_GuardarTema_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarTema" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_GuardarTema_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarTemaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_EliminarTema_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarTema" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_EliminarTema_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarTemaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_EditarTema_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditarTema" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_EditarTema_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditarTemaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_GuardarSubtema_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarSubtema" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_GuardarSubtema_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarSubtemaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_EliminarSubtema_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarSubtema" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_EliminarSubtema_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarSubtemaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_EditarSubtema_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditarSubtema" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_EditarSubtema_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditarSubtemaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_GuardarReferencia_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarReferencia" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_GuardarReferencia_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarReferenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_EliminarReferencia_InputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarReferencia" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_EliminarReferencia_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EliminarReferenciaResponse" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_EditarReferencia_InputMessage">
+    <wsdl:part name="parameters" element="tns:EditarReferencia" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_EditarReferencia_OutputMessage">
+    <wsdl:part name="parameters" element="tns:EditarReferenciaResponse" />
+  </wsdl:message>
+  <wsdl:portType name="ITestService">
+    <wsdl:operation name="DoWork">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITestService/DoWork" message="tns:ITestService_DoWork_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITestService/DoWorkResponse" message="tns:ITestService_DoWork_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerCategorias">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITestService/ObtenerCategorias" message="tns:ITestService_ObtenerCategorias_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITestService/ObtenerCategoriasResponse" message="tns:ITestService_ObtenerCategorias_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AgregarCategoria">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITestService/AgregarCategoria" message="tns:ITestService_AgregarCategoria_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITestService/AgregarCategoriaResponse" message="tns:ITestService_AgregarCategoria_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarCategoria">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITestService/EliminarCategoria" message="tns:ITestService_EliminarCategoria_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITestService/EliminarCategoriaResponse" message="tns:ITestService_EliminarCategoria_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="ModificarCategoria">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITestService/ModificarCategoria" message="tns:ITestService_ModificarCategoria_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITestService/ModificarCategoriaResponse" message="tns:ITestService_ModificarCategoria_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuardarTema">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITestService/GuardarTema" message="tns:ITestService_GuardarTema_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITestService/GuardarTemaResponse" message="tns:ITestService_GuardarTema_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarTema">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITestService/EliminarTema" message="tns:ITestService_EliminarTema_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITestService/EliminarTemaResponse" message="tns:ITestService_EliminarTema_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditarTema">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITestService/EditarTema" message="tns:ITestService_EditarTema_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITestService/EditarTemaResponse" message="tns:ITestService_EditarTema_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuardarSubtema">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITestService/GuardarSubtema" message="tns:ITestService_GuardarSubtema_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITestService/GuardarSubtemaResponse" message="tns:ITestService_GuardarSubtema_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarSubtema">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITestService/EliminarSubtema" message="tns:ITestService_EliminarSubtema_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITestService/EliminarSubtemaResponse" message="tns:ITestService_EliminarSubtema_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditarSubtema">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITestService/EditarSubtema" message="tns:ITestService_EditarSubtema_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITestService/EditarSubtemaResponse" message="tns:ITestService_EditarSubtema_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuardarReferencia">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITestService/GuardarReferencia" message="tns:ITestService_GuardarReferencia_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITestService/GuardarReferenciaResponse" message="tns:ITestService_GuardarReferencia_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EliminarReferencia">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITestService/EliminarReferencia" message="tns:ITestService_EliminarReferencia_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITestService/EliminarReferenciaResponse" message="tns:ITestService_EliminarReferencia_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="EditarReferencia">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITestService/EditarReferencia" message="tns:ITestService_EditarReferencia_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITestService/EditarReferenciaResponse" message="tns:ITestService_EditarReferencia_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_ITestService" type="tns:ITestService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="DoWork">
+      <soap:operation soapAction="http://tempuri.org/ITestService/DoWork" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ObtenerCategorias">
+      <soap:operation soapAction="http://tempuri.org/ITestService/ObtenerCategorias" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="AgregarCategoria">
+      <soap:operation soapAction="http://tempuri.org/ITestService/AgregarCategoria" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarCategoria">
+      <soap:operation soapAction="http://tempuri.org/ITestService/EliminarCategoria" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="ModificarCategoria">
+      <soap:operation soapAction="http://tempuri.org/ITestService/ModificarCategoria" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuardarTema">
+      <soap:operation soapAction="http://tempuri.org/ITestService/GuardarTema" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarTema">
+      <soap:operation soapAction="http://tempuri.org/ITestService/EliminarTema" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarTema">
+      <soap:operation soapAction="http://tempuri.org/ITestService/EditarTema" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuardarSubtema">
+      <soap:operation soapAction="http://tempuri.org/ITestService/GuardarSubtema" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarSubtema">
+      <soap:operation soapAction="http://tempuri.org/ITestService/EliminarSubtema" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarSubtema">
+      <soap:operation soapAction="http://tempuri.org/ITestService/EditarSubtema" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuardarReferencia">
+      <soap:operation soapAction="http://tempuri.org/ITestService/GuardarReferencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EliminarReferencia">
+      <soap:operation soapAction="http://tempuri.org/ITestService/EliminarReferencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="EditarReferencia">
+      <soap:operation soapAction="http://tempuri.org/ITestService/EditarReferencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="TestService">
+    <wsdl:port name="BasicHttpBinding_ITestService" binding="tns:BasicHttpBinding_ITestService">
+      <soap:address location="http://localhost:45634/Servicios/TestService.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

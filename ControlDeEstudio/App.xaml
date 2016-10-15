@@ -1,0 +1,19 @@
+﻿<Application xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+             x:Class="ControlDeEstudio.App"
+             xmlns:viewModel="clr-namespace:ControlDeEstudio.ViewModels">
+    <Application.Resources>
+
+        <ResourceDictionary>
+
+            <viewModel:ViewModelLocator x:Key="viewModelLocator"></viewModel:ViewModelLocator>
+
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source=" DiccionarioBotones.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+
+
+    </Application.Resources>
+    
+</Application>

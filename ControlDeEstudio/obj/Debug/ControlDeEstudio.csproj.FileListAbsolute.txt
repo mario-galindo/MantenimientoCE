@@ -1,0 +1,833 @@
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\UTEK\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ControlDeEstudio.dll
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\UTEK\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ControlDeEstudio.pdb
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\UTEK\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\AppManifest.xaml
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\UTEK\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ControlDeEstudio.xap
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\UTEK\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ControlDeEstudioTestPage.html
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\UTEK\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\ControlDeEstudio.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\UTEK\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\App.g.cs
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\UTEK\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\MainPage.g.cs
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\UTEK\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\Views\ControlDeEstudioView.g.cs
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\UTEK\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\ControlDeEstudio.g.resources
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\UTEK\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\ControlDeEstudio.dll
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\UTEK\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\ControlDeEstudio.pdb
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\UTEK\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\XapCacheFile.xml
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ControlDeEstudio.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ControlDeEstudio.pdb
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\App.g.cs
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\MainPage.g.cs
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\Views\ControlDeEstudioView.g.cs
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\ControlDeEstudio.g.resources
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\ControlDeEstudio.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\ControlDeEstudio.pdb
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\AppManifest.xaml
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ControlDeEstudio.xap
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ControlDeEstudioTestPage.html
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\XapCacheFile.xml
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\System.Windows.Controls.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\Modales\ModalReferencia.g.cs
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ControlDeEstudio.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ControlDeEstudio.pdb
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\AppManifest.xaml
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ControlDeEstudio.xap
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ControlDeEstudioTestPage.html
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\System.Windows.Controls.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\App.g.cs
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\MainPage.g.cs
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\Modales\ModalReferencia.g.cs
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\Views\ControlDeEstudioView.g.cs
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\ControlDeEstudio.g.resources
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\ControlDeEstudio.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\ControlDeEstudio.pdb
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\XapCacheFile.xml
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\Modales\ModalSubtema.g.cs
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\TemplateSubtemas.g.cs
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\TemplateReferencias.g.cs
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\ControlDeEstudio.csprojResolveAssemblyReference.cache
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\App.g.cs
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\CategoriaTemplate.g.cs
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\MainPage.g.cs
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\Modales\ModalReferencia.g.cs
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\Modales\ModalSubtema.g.cs
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\TemplateReferencias.g.cs
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\TemplateSubtemas.g.cs
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\Views\ControlDeEstudioView.g.cs
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\ControlDeEstudio.g.resources
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ControlDeEstudio.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ControlDeEstudio.pdb
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\AppManifest.xaml
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ControlDeEstudio.xap
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ControlDeEstudioTestPage.html
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\System.Windows.Controls.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\System.Windows.Controls.xml
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\TemplateTemas.g.cs
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\ControlDeEstudio.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\ControlDeEstudio.pdb
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\ControlDeEstudio\obj\Debug\XapCacheFile.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\AppManifest.xaml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.xap
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudioTestPage.html
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\Microsoft.Practices.ServiceLocation.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Controls.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\Microsoft.Practices.ServiceLocation.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\Microsoft.Practices.ServiceLocation.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Controls.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.csprojResolveAssemblyReference.cache
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\App.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\CategoriaTemplate.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\MainPage.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\ModalReferencia.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\ModalSubtema.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\TemplateReferencias.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\TemplateSubtemas.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\TemplateTemas.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Views\ControlDeEstudioView.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.g.resources
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\XapCacheFile.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\AppManifest.xaml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.xap
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudioTestPage.html
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Controls.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Controls.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\App.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\MainPage.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\ModalReferencia.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\ModalSubtema.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Views\ControlDeEstudioView.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.g.resources
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\XapCacheFile.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\CategoriaTemplate.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\TemplateReferencias.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\TemplateSubtemas.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\TemplateTemas.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\AgregarCategoria.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.csprojResolveAssemblyReference.cache
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\AppManifest.xaml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.xap
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudioTestPage.html
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Controls.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Controls.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\App.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\AgregarCategoria.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\CategoriaTemplate.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\MainPage.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\ModalReferencia.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\ModalSubtema.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\TemplateReferencias.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\TemplateSubtemas.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\TemplateTemas.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Views\ControlDeEstudioView.g.cs
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.g.resources
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\XapCacheFile.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.csprojResolveAssemblyReference.cache
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.pdb
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\AppManifest.xaml
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.xap
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudioTestPage.html
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Controls.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Controls.xml
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\App.g.cs
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\AgregarCategoria.g.cs
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\ModalTema.g.cs
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\CategoriaTemplate.g.cs
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\MainPage.g.cs
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\ModalReferencia.g.cs
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\ModalSubtema.g.cs
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\TemplateReferencias.g.cs
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\TemplateSubtemas.g.cs
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\TemplateTemas.g.cs
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Views\ControlDeEstudioView.g.cs
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.g.resources
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.pdb
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\XapCacheFile.xml
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.pdb
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\AppManifest.xaml
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.xap
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudioTestPage.html
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Controls.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Controls.xml
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\App.g.cs
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\AgregarCategoria.g.cs
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\ModalTema.g.cs
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\CategoriaTemplate.g.cs
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\MainPage.g.cs
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\ModalReferencia.g.cs
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\ModalSubtema.g.cs
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\TemplateReferencias.g.cs
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\TemplateSubtemas.g.cs
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\TemplateTemas.g.cs
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Views\ControlDeEstudioView.g.cs
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.g.resources
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.pdb
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\XapCacheFile.xml
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.pdb
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\AppManifest.xaml
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.xap
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudioTestPage.html
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Controls.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Controls.xml
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\App.g.cs
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\AgregarCategoria.g.cs
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\ModalTema.g.cs
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\CategoriaTemplate.g.cs
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\MainPage.g.cs
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\ModalReferencia.g.cs
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\ModalSubtema.g.cs
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\TemplateReferencias.g.cs
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\TemplateSubtemas.g.cs
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\TemplateTemas.g.cs
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Views\ControlDeEstudioView.g.cs
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.g.resources
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.pdb
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\XapCacheFile.xml
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.csprojResolveAssemblyReference.cache
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.pdb
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\AppManifest.xaml
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudio.xap
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ControlDeEstudioTestPage.html
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Controls.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Interactivity.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.pdb
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.xml
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.pdb
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.xml
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Controls.xml
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ar\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\bg\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ca\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\cs\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\da\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\de\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\el\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\es\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\et\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\eu\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fi\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fr\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\he\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hr\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hu\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\id\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\it\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ja\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ko\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lt\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lv\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ms\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\nl\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\no\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pl\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt-BR\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ro\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ru\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sk\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sl\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sr-Latn-CS\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sv\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\th\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\tr\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\uk\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\vi\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\App.g.cs
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\AgregarCategoria.g.cs
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\ModalTema.g.cs
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\CategoriaTemplate.g.cs
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\MainPage.g.cs
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\ModalReferencia.g.cs
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\ModalSubtema.g.cs
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\TemplateReferencias.g.cs
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\TemplateSubtemas.g.cs
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Templates\TemplateTemas.g.cs
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Views\ControlDeEstudioView.g.cs
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.g.resources
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.pdb
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\XapCacheFile.xml
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Controls.Data.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Data.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Controls.Data.Input.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Controls.Data.xml
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Data.xml
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.Windows.Controls.Data.Input.xml
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ar\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\bg\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ca\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\cs\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\da\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\el\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\et\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\eu\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fi\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\he\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hr\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hu\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\id\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lt\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lv\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ms\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\nl\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\no\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pl\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt-BR\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ro\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ru\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sk\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sl\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sv\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\th\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\tr\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\uk\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\vi\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\de\System.Windows.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\es\System.Windows.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fr\System.Windows.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\it\System.Windows.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ja\System.Windows.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ko\System.Windows.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ru\System.Windows.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ar\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\bg\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ca\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\cs\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\da\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\el\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\et\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\eu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\he\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hu\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\id\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ms\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\nl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\no\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt-BR\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ro\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ru\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sl\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sr-Cyrl-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sr-Latn-CS\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sv\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\th\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\tr\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\uk\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\vi\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ar\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\bg\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ca\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\cs\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\da\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\el\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\et\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\eu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\he\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\hu\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\id\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\lv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ms\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\nl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\no\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\pt-BR\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ro\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\ru\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sl\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sr-Cyrl-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sr-Latn-CS\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\sv\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\th\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\tr\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\uk\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\vi\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\Modales\ModalUsuarioy.g.cs
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.csprojResolveAssemblyReference.cache

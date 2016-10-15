@@ -1,0 +1,410 @@
+﻿<UserControl x:Class="ControlDeEstudio.Views.ControlDeEstudioView"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+    xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
+    mc:Ignorable="d"
+    d:DesignHeight="768" d:DesignWidth="1024"
+               xmlns:helpers="clr-namespace:ControlDeEstudio.ClasesComunes"    
+             helpers:StateManager.VisualStateProperty="{Binding VisualStateName,Mode=TwoWay}"
+             xmlns:tm="clr-namespace:ControlDeEstudio"
+             xmlns:ruta="clr-namespace:ControlDeEstudio.ClasesComunes"
+              DataContext="{Binding Path=CategoriaViewModel,Source={StaticResource ResourceKey=viewModelLocator}}">
+
+    <UserControl.Resources>
+        <ruta:CambioDeColorMensaje x:Key="Convertidor"/>
+    </UserControl.Resources>
+
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <VisualStateManager.VisualStateGroups>
+            <VisualStateGroup x:Name="VisualStateGroup2">
+                <VisualStateGroup.Transitions>
+                    <VisualTransition GeneratedDuration="0:0:0.5">
+                        <VisualTransition.GeneratedEasingFunction>
+                            <CubicEase EasingMode="EaseInOut"/>
+                        </VisualTransition.GeneratedEasingFunction>
+                    </VisualTransition>
+                </VisualStateGroup.Transitions>
+                <VisualState x:Name="Normal2">
+                    <Storyboard>
+                        <DoubleAnimation Duration="0" To="-2" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="UserPanel" d:IsOptimized="True"/>
+                    </Storyboard>
+                </VisualState>
+                <VisualState x:Name="MostrarShiftState">
+                    <Storyboard>
+                        <DoubleAnimation Duration="0" To="500" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="UserPanel" d:IsOptimized="True"/>
+                    </Storyboard>
+                </VisualState>
+                <VisualState x:Name="Normal">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="grid">
+                            <DiscreteObjectKeyFrame KeyTime="0">
+                                <DiscreteObjectKeyFrame.Value>
+                                    <Visibility>Visible</Visibility>
+                                </DiscreteObjectKeyFrame.Value>
+                            </DiscreteObjectKeyFrame>
+                        </ObjectAnimationUsingKeyFrames>
+                        <DoubleAnimation Duration="0" To="-68.034" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateY)" Storyboard.TargetName="grid" d:IsOptimized="True"/>
+                        <DoubleAnimation Duration="0" To="0" Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid" d:IsOptimized="True"/>
+                    </Storyboard>
+                </VisualState>
+                <VisualState x:Name="MostrarMensaje">
+                    <Storyboard>
+                        <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="grid">
+                            <DiscreteObjectKeyFrame KeyTime="0">
+                                <DiscreteObjectKeyFrame.Value>
+                                    <Visibility>Visible</Visibility>
+                                </DiscreteObjectKeyFrame.Value>
+                            </DiscreteObjectKeyFrame>
+                        </ObjectAnimationUsingKeyFrames>
+                        <DoubleAnimation Duration="0" To="1" Storyboard.TargetProperty="(UIElement.Opacity)" Storyboard.TargetName="grid" d:IsOptimized="True"/>
+                    </Storyboard>
+                </VisualState>
+            </VisualStateGroup>
+           
+        </VisualStateManager.VisualStateGroups>
+ 
+
+        <Grid Name="Padre">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="15*"/>
+                <RowDefinition Height="95*"/>
+                <RowDefinition Height="18*"/>
+            </Grid.RowDefinitions>
+
+            <Grid Name="Encabezado" Background="Blue">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="10*" MinWidth="200"></ColumnDefinition>
+                    <ColumnDefinition Width="40*" MinWidth="800"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+
+                <Grid MinWidth="100" MaxWidth="1000">
+                    <HyperlinkButton FontWeight="ExtraBold" FontFamily="century gothic" FontSize="14" Foreground="White" HorizontalAlignment="Center" VerticalAlignment="Top" Content="Ir registro de horas" NavigateUri="http://172.19.10.236:8585/#!/main" TargetName="_blank" Margin="10,60,0,0"/>
+                </Grid>
+
+                <!--<Button Width="100" Height="50" HorizontalAlignment="Center" Cursor="Hand" Template="{StaticResource BtnIrRegistroHoras}"></Button>-->
+                <TextBlock FontFamily="century gothic" FontWeight="Bold" Grid.ColumnSpan="2" Text="MANTENIMIENTO DE CONTROL DE ESTUDIO" Foreground="White" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+            </Grid>
+
+            <Grid Margin="15" Grid.Row="1" Name="Cuerpo">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="234*"/>
+                    <ColumnDefinition Width="234*"/>
+                    <ColumnDefinition Width="234*"/>
+                    <ColumnDefinition Width="234*"/>
+                </Grid.ColumnDefinitions>
+
+                <Grid Name="Lista1" Margin="10">
+                    <Grid Name="SubGridCategoria">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="10*"/>
+                            <RowDefinition Height="100*"/>
+                            <RowDefinition Height="10*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Name="GridHeaderCategoria">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100*"/>
+                                <ColumnDefinition Width="100"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Rectangle Fill="#bfbfbf" Grid.ColumnSpan="2" StrokeThickness="1" Stroke="Black"/>
+                            <TextBlock Text="Categoria" HorizontalAlignment="Left" FontFamily="century gothic" FontSize="18" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" Margin="8,0,0,0"></TextBlock>
+
+                            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                                <Button Template="{StaticResource BtnNuevoDepartamento}" Command="{Binding ComandoChildWindows}" CommandParameter="Add" HorizontalAlignment="Right" Cursor="Hand" Margin="3,0,5,0"></Button>
+                                <Button Template="{StaticResource BtnEditarDepartamento}" Command="{Binding ComandoChildWindows}" CommandParameter="Edit" HorizontalAlignment="Right"  Cursor="Hand" Margin="3,0,5,0"></Button>
+                                <Button Template="{StaticResource BtnBorrarDepartamento}" Command="{Binding ComandoEliminar}" HorizontalAlignment="Right" Cursor="Hand" Margin="3,0,5,0"></Button>
+                            </StackPanel>
+
+                        </Grid>
+
+                        <ListBox  ItemsSource="{Binding PaginadoCategorias}" SelectedItem="{Binding CategoriaSeleccionada,Mode=TwoWay}"  Grid.Row="1" Grid.RowSpan="2" >
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <tm:CategoriaTemplate></tm:CategoriaTemplate>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="SelectionChanged">
+                                    <i:InvokeCommandAction Command="{Binding ComandoSelectedItemChangedCategoria}"/>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+
+                        </ListBox>
+
+                        <sdk:DataPager x:Name="dataPager1"
+                            PageSize="10"
+                            AutoEllipsis="True"
+                            NumericButtonCount="3"
+                            DisplayMode="FirstLastPreviousNextNumeric"
+                            IsTotalItemCountFixed="True"
+                            Source="{Binding PaginadoCategorias}" 
+                            Grid.Row="2" 
+                            Height="43"
+                            FontFamily="century gothic"
+                            FontWeight="Bold"
+                            FontSize="14"
+                            VerticalAlignment="Bottom"/>
+
+                    </Grid>
+                </Grid>
+
+                <Grid Name="Lista2" Grid.Column="1" Margin="10">
+                    <Grid Name="SubGridTema">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="10*"/>
+                            <RowDefinition Height="100*"/>
+                            <RowDefinition Height="10*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Name="GridHeaderTema">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100*"/>
+                                <ColumnDefinition Width="100"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Rectangle Fill="#bfbfbf" Grid.ColumnSpan="2" StrokeThickness="1" Stroke="Black"/>
+                            <TextBlock Text="Tema" HorizontalAlignment="Left" FontFamily="century gothic" FontSize="18" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" Margin="8,0,0,0"></TextBlock>
+
+                            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                                <Button Template="{StaticResource BtnNuevoDepartamento}" HorizontalAlignment="Right" Cursor="Hand" Margin="3,0,5,0" Command="{Binding ComandoModalTema}"></Button>
+                                <Button Template="{StaticResource BtnEditarDepartamento}" HorizontalAlignment="Right"  Cursor="Hand" Margin="3,0,5,0" Command="{Binding ComandoMostrarEditarTema}"></Button>
+                                <Button Template="{StaticResource BtnBorrarDepartamento}"  HorizontalAlignment="Right" Cursor="Hand" Margin="3,0,5,0" Command="{Binding ComandoBorrarTema}"></Button>
+                            </StackPanel>
+
+                        </Grid>
+
+                        <ListBox Grid.Row="1" Grid.RowSpan="2"  SelectedItem="{Binding TemaSeleccionado,Mode=TwoWay}" ItemsSource="{Binding PaginadoTemas, Mode=TwoWay}">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <tm:TemplateTemas></tm:TemplateTemas>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="SelectionChanged">
+                                    <i:InvokeCommandAction Command="{Binding ComandoSelectedItemChangedTema}"/>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+
+                        </ListBox>
+
+                        <sdk:DataPager x:Name="dataPager2"
+                            PageSize="10"
+                            AutoEllipsis="True"
+                            NumericButtonCount="3"
+                            DisplayMode="FirstLastPreviousNextNumeric"
+                            IsTotalItemCountFixed="True"
+                            Source="{Binding PaginadoTemas}" 
+                            Grid.Row="2" 
+                            Height="43" 
+                            FontFamily="century gothic"
+                            FontWeight="Bold"
+                            FontSize="14"
+                            VerticalAlignment="Bottom"/>
+
+                    </Grid>
+                </Grid>
+
+                <Grid Name="Lista3" Grid.Column="2" Margin="10">
+                    <Grid Name="SubGridSubtema" >
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="10*"/>
+                            <RowDefinition Height="100*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Name="GridHeaderSubtema">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100*"/>
+                                <ColumnDefinition Width="100"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Rectangle Fill="#bfbfbf" Grid.ColumnSpan="2" StrokeThickness="1" Stroke="Black"/>
+                            <TextBlock Text="Subtema" HorizontalAlignment="Left" FontFamily="century gothic" FontSize="18" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" Margin="8,0,0,0"></TextBlock>
+
+                            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                                <Button Template="{StaticResource BtnNuevoDepartamento}" HorizontalAlignment="Right" Cursor="Hand" Margin="3,0,5,0" Command="{Binding ComandoModalSubtema}"></Button>
+                                <Button Template="{StaticResource BtnEditarDepartamento}" HorizontalAlignment="Right"  Cursor="Hand" Margin="3,0,5,0" Command="{Binding ComandoMostrarEditarSubtema}"></Button>
+                                <Button Template="{StaticResource BtnBorrarDepartamento}"  HorizontalAlignment="Right" Cursor="Hand" Margin="3,0,5,0" Command="{Binding ComandoBorrarSubtema}"></Button>
+                            </StackPanel>
+
+                        </Grid>
+                  
+                        <ListBox x:Name="listBox1" BorderThickness="1" ItemsSource="{Binding PaginadoSubtemas, Mode=TwoWay}" SelectedItem="{Binding SubtemaSeleccionado,Mode=TwoWay}" Grid.Row="1" >
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <tm:TemplateSubtemas></tm:TemplateSubtemas>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+
+                            <i:Interaction.Triggers>
+                                <i:EventTrigger EventName="SelectionChanged">
+                                    <i:InvokeCommandAction Command="{Binding ComandoSelectedItemChangedSubTema}"/>
+                                </i:EventTrigger>
+                            </i:Interaction.Triggers>
+
+                        </ListBox>
+
+
+
+                        <sdk:DataPager x:Name="dataPager3"
+                            PageSize="10"
+                            AutoEllipsis="True"
+                            NumericButtonCount="3"
+                            DisplayMode="FirstLastPreviousNextNumeric"
+                            IsTotalItemCountFixed="True"
+                            Source="{Binding PaginadoSubtemas}" 
+                            Grid.Row="2" 
+                            Height="43"
+                            FontFamily="century gothic"
+                            FontWeight="Bold"
+                            FontSize="14"
+                            VerticalAlignment="Bottom"/>
+                   
+
+                    </Grid>
+                </Grid>
+
+                <Grid Name="Lista4" Grid.Column="3" Margin="10">
+                    <Grid Name="SubGridReferencias">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="10*"/>
+                            <RowDefinition Height="100*"/>
+                        </Grid.RowDefinitions>
+
+                        <Grid Name="GridHeader">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100*"/>
+                                <ColumnDefinition Width="100"/>
+                            </Grid.ColumnDefinitions>
+
+                            <Rectangle Fill="#bfbfbf" Grid.ColumnSpan="2" StrokeThickness="1" Stroke="Black"/>
+                            <TextBlock Text="Referencias" HorizontalAlignment="Left" FontFamily="century gothic" FontSize="18" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" Margin="8,0,0,0"></TextBlock>
+
+                            <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                                <Button Template="{StaticResource BtnNuevoDepartamento}" HorizontalAlignment="Right" Cursor="Hand" Margin="3,0,5,0" Command="{Binding ComandoModalReferencias}"/>
+                                <Button Template="{StaticResource BtnEditarDepartamento}" HorizontalAlignment="Right"  Cursor="Hand" Margin="3,0,5,0" Command="{Binding ComandoMostrarEditarReferencias}"/>
+                                <Button Template="{StaticResource BtnBorrarDepartamento}"  HorizontalAlignment="Right" Cursor="Hand" Margin="3,0,5,0" Command="{Binding ComandoBorrarReferencias}"/>
+                            </StackPanel>
+
+                        </Grid>
+
+
+                        <ListBox x:Name="listBox2"  ItemsSource="{Binding PaginadoReferencias, Mode=TwoWay}" Grid.Row="1" SelectedItem="{Binding ReferenciaSeleccionada, Mode=TwoWay}">
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <tm:TemplateReferencias></tm:TemplateReferencias>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+
+                        
+                        </ListBox>
+
+                        <sdk:DataPager x:Name="dataPager4"
+                            PageSize="10"
+                            AutoEllipsis="True"
+                            NumericButtonCount="3"
+                            DisplayMode="FirstLastPreviousNextNumeric"
+                            IsTotalItemCountFixed="True"
+                            Source="{Binding PaginadoReferencias}" 
+                            Grid.Row="2" 
+                            Height="43"
+                            FontFamily="century gothic"
+                            FontWeight="Bold"
+                            FontSize="14"
+                            VerticalAlignment="Bottom"/>
+
+                    </Grid>
+                </Grid>
+
+            </Grid>
+
+            <Grid Grid.Row="2" Name="Pie" Background="#bfbfbf" Opacity="0.5">
+                <StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Right">
+                    <Button Template="{StaticResource BtnNuevoDepartamento}" Margin="0,0,20,0"  Cursor="Hand"></Button>
+                    <Button Grid.Column="1" Template="{StaticResource BtnEditarDepartamento}" Margin="0,0,20,0" Cursor="Hand" ></Button>
+                    <Button Grid.Column="2" Template="{StaticResource BtnBorrarDepartamento}" Margin="0,0,20,0" Cursor="Hand"></Button>
+                </StackPanel>
+                <Button Command="{Binding ComandoAnimarPanel}" HorizontalAlignment="Left" Grid.Column="2" Template="{StaticResource Usuario}" Margin="0,0,20,0" Cursor="Hand"></Button>
+            </Grid>
+
+        </Grid>
+
+      
+
+        <Rectangle x:Name="RectangleBloqueo" Fill="Gray" Opacity="0.7" Visibility="{Binding RectangleVisible}" d:IsHidden="True"/>
+
+        <Grid Height="Auto" x:Name="UserPanel" HorizontalAlignment="Left" Background="White" Opacity="1" RenderTransformOrigin="0.5,0.5" d:LayoutOverrides="HorizontalAlignment" Margin="-500,0,0,0" Width="500">
+            <Grid.RenderTransform>
+                <CompositeTransform />
+            </Grid.RenderTransform>
+
+            <Grid x:Name="PadrePanel" Grid.Row="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="15*"/>
+                    <RowDefinition Height="95*"/>
+                    <RowDefinition Height="18*"/>
+                </Grid.RowDefinitions>
+                <Grid Name="EncabezadoPanel" Background="Blue"/>
+                <Grid Margin="15" Grid.Row="1" Name="CuerpoPanel">
+                    <Grid Name="Lista5" Margin="10" Grid.Row="1">
+                        <Grid Name="SubGridUsuario">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="10*"/>
+                                <RowDefinition Height="100*"/>
+                            </Grid.RowDefinitions>
+
+                            <Grid Name="GridHeaderUsuario">
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100*"/>
+                                    <ColumnDefinition Width="100"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Rectangle Fill="#bfbfbf" Grid.ColumnSpan="2" StrokeThickness="1" Stroke="Black"/>
+                                <TextBlock Text="Usuarios" HorizontalAlignment="Left" FontFamily="century gothic" FontSize="18" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" Margin="8,0,0,0"></TextBlock>
+
+                                <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                                    <Button Template="{StaticResource BtnNuevoDepartamento}" Command="{Binding ComandoModalUsuarios}" CommandParameter="Add" HorizontalAlignment="Right" Cursor="Hand" Margin="3,0,5,0"></Button>
+                                    <Button Template="{StaticResource BtnEditarDepartamento}" Command="{Binding ComandoMostrarEditarUsuarios}" CommandParameter="Edit" HorizontalAlignment="Right"  Cursor="Hand" Margin="3,0,5,0"></Button>
+                                    <Button Template="{StaticResource BtnBorrarDepartamento}" Command="{Binding ComandoBorrarUsuarios}" HorizontalAlignment="Right" Cursor="Hand" Margin="3,0,5,0"></Button>
+                                </StackPanel>
+
+                            </Grid>
+
+                            <ListBox ItemsSource="{Binding Usuarios}" SelectedItem="{Binding UsuariosSeleccionado,Mode=TwoWay}"  Grid.Row="1"  >
+                                <ListBox.ItemTemplate>
+                                    <DataTemplate>
+                                        <tm:CategoriaTemplate></tm:CategoriaTemplate>
+                                    </DataTemplate>
+                                </ListBox.ItemTemplate>
+                                <i:Interaction.Triggers>
+                                    <i:EventTrigger EventName="SelectionChanged">
+                                        <i:InvokeCommandAction Command="{Binding ComandoSelectedItemChanged}"/>
+                                    </i:EventTrigger>
+                                </i:Interaction.Triggers>
+                            </ListBox>
+                        </Grid>
+                    </Grid>
+                </Grid>
+                <Grid x:Name="PiePanel" Grid.Row="2" Background="#bfbfbf" Opacity="0.5">
+                    <Button Command="{Binding ComandoAnimarPanel}" HorizontalAlignment="Right" Grid.Column="2" Template="{StaticResource Usuario}" Margin="0,0,20,0" Cursor="Hand"></Button>
+                </Grid>
+            </Grid>
+        </Grid>
+
+        <Grid x:Name="grid"   MinHeight="50" Width="350" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="10" Background="{Binding ColorError, Converter={StaticResource Convertidor}}" RenderTransformOrigin="0.5,0.5" Opacity="0">
+            <Grid.RenderTransform>
+                <CompositeTransform/>
+            </Grid.RenderTransform>
+            <TextBlock Margin="5" Foreground="White" TextWrapping="Wrap" Text="{Binding MensajeError}" FontSize="15" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Grid>
+
+
+
+    </Grid>
+</UserControl>

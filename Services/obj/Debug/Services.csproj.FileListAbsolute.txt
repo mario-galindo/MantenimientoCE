@@ -1,0 +1,146 @@
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\UTEK\ControlDeEstudioBackend\Services\bin\Services.dll.config
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\UTEK\ControlDeEstudioBackend\Services\bin\Services.dll
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\UTEK\ControlDeEstudioBackend\Services\bin\Services.pdb
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\UTEK\ControlDeEstudioBackend\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\UTEK\ControlDeEstudioBackend\Services\obj\Debug\Services.dll
+C:\Users\Javier\Documents\Visual Studio 2013\Projects\UTEK\ControlDeEstudioBackend\Services\obj\Debug\Services.pdb
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\Services\bin\Services.dll.config
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\Services\bin\Services.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\Services\bin\Services.pdb
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\Services\obj\Debug\Services.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\Services\obj\Debug\Services.pdb
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\Services\bin\Domain.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\Services\bin\Infrastructure.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\Services\bin\EntityFramework.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\Services\bin\Domain.pdb
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\Services\bin\Infrastructure.pdb
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\Services\bin\EntityFramework.xml
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\Services\bin\EntityFramework.SqlServer.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend\ControlDeEstudioBackend\Services\bin\EntityFramework.SqlServer.xml
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\Services\bin\Services.dll.config
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\Services\bin\Services.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\Services\bin\Services.pdb
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\Services\bin\Domain.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\Services\bin\EntityFramework.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\Services\bin\EntityFramework.SqlServer.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\Services\bin\Infrastructure.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\Services\bin\Domain.pdb
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\Services\bin\Infrastructure.pdb
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\Services\bin\EntityFramework.xml
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\Services\bin\EntityFramework.SqlServer.xml
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\Services\obj\Debug\Services.dll
+C:\Users\GALINDO'PC\Desktop\ControlDeEstudioBackend_V2\ControlDeEstudioBackend\Services\obj\Debug\Services.pdb
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\Services\bin\Services.dll.config
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\Services\bin\Services.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\Services\bin\Services.pdb
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\Services\bin\Domain.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\Services\bin\EntityFramework.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\Services\bin\EntityFramework.SqlServer.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\Services\bin\Infrastructure.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\Services\bin\Domain.pdb
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\Services\bin\Infrastructure.pdb
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\Services\bin\EntityFramework.xml
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\Services\bin\EntityFramework.SqlServer.xml
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\Services\obj\Debug\Services.dll
+C:\Users\Ingrid\Documents\CaracolKnits\CONTROL DE ESTUDIO\ControlDeEstudioBackend_V2 MARIO\ControlDeEstudioBackend\Services\obj\Debug\Services.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\Services\bin\Services.dll.config
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\Services\bin\Services.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\Services\bin\Services.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\Services\bin\Domain.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.SqlServer.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\Services\bin\Infrastructure.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\Services\bin\Domain.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\Services\bin\Infrastructure.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.SqlServer.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\Services\bin\Services.dll.config
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\Services\bin\Services.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\Services\bin\Services.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\Services\bin\Domain.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.SqlServer.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\Services\bin\Infrastructure.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\Services\bin\Domain.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\Services\bin\Infrastructure.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.SqlServer.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\Services\bin\Services.dll.config
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\Services\bin\Services.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\Services\bin\Services.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\Services\bin\Domain.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.SqlServer.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\Services\bin\Infrastructure.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\Services\bin\Domain.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\Services\bin\Infrastructure.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.SqlServer.xml
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.dll
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.pdb
+C:\Users\ijpadilla\Documents\Sprint MVVM WCF CodeFirst-20161010T134338Z\Sprint MVVM WCF CodeFirst\COPIA CONTROL ESTUDIO INGRID\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\Services\bin\Services.dll.config
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\Services\bin\Services.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\Services\bin\Services.pdb
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\Services\bin\Domain.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.SqlServer.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\Services\bin\Infrastructure.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\Services\bin\Domain.pdb
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\Services\bin\Infrastructure.pdb
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.xml
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.SqlServer.xml
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.dll
+C:\Users\japena\Desktop\ControlEstudio Ingrid Nuevo\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.pdb
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\Services.dll.config
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\Services.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\Services.pdb
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\Domain.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.SqlServer.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\Infrastructure.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\Domain.pdb
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\Infrastructure.pdb
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.xml
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.SqlServer.xml
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.dll
+C:\Users\Javier\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.pdb
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\Services.dll.config
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\Services.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\Services.pdb
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\Domain.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.SqlServer.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\Infrastructure.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\Domain.pdb
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\Infrastructure.pdb
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.xml
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.SqlServer.xml
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.dll
+C:\Users\japena\Desktop\CE 12_10_2016\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.pdb
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\Services\bin\Services.dll.config
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\Services\bin\Services.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\Services\bin\Services.pdb
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\Services\bin\Domain.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.SqlServer.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\Services\bin\Infrastructure.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\Services\bin\Domain.pdb
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\Services\bin\Infrastructure.pdb
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.xml
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\Services\bin\EntityFramework.SqlServer.xml
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.dll
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.pdb
+C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache

@@ -1,0 +1,47 @@
+﻿<controls:ChildWindow x:Class="ControlDeEstudio.Modales.AgregarCategoria"
+           xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+           xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+           xmlns:controls="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls"
+           Width="600" Height="220" 
+           Title="AgregarCategoria"
+            DataContext="{Binding Path=CategoriaViewModel,Source={StaticResource ResourceKey=viewModelLocator}}">
+    
+    <Grid x:Name="LayoutRoot" Margin="2">
+        <Grid.RowDefinitions>
+            <RowDefinition />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Grid  Margin="10,10,4,20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="5"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="5"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="5"/>
+                <RowDefinition Height="30"/>
+                <RowDefinition Height="5"/>
+
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="190"/>
+                <ColumnDefinition Width="344"/>
+                <ColumnDefinition Width="56"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="1" Text="Categoria Id:" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="15,6,0,5" FontSize="13" FontFamily="Eras Light ITC"/>
+            <TextBox Grid.Row="1" Grid.Column="1"  MaxLength="10" Text="{Binding PropCategoria.CategoriaId, Mode=TwoWay}" Width="400" Height="25" VerticalAlignment="Center" HorizontalAlignment="Left"  BorderBrush="Blue" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" BorderThickness="0,0,0,1" Grid.ColumnSpan="2" Margin="0,3,0,2" />
+
+            <TextBlock Grid.Row="3" Text="Nombre" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="15,6,0,5" FontSize="13" FontFamily="Eras Light ITC"/>
+            <TextBox Grid.Row="3" Grid.Column="1" MaxLength="10" Text="{Binding PropCategoria.Nombre, Mode=TwoWay}"  Width="400" Height="25" VerticalAlignment="Center" HorizontalAlignment="Left" BorderBrush="Blue" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" BorderThickness="0,0,0,1" Grid.ColumnSpan="2" Margin="0,3,0,2" />
+
+            <TextBlock Grid.Row="5" Text="Estado" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="15,6,0,5" FontSize="13" FontFamily="Eras Light ITC"/>
+            <TextBox Grid.Row="5" MaxLength="50" Grid.Column="1" Text="{Binding PropCategoria.Estado, Mode=TwoWay}" Width="400" Height="25" VerticalAlignment="Center" HorizontalAlignment="Left" BorderBrush="Blue" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" BorderThickness="0,0,0,1" Grid.ColumnSpan="2" Margin="0,3,0,2" />
+
+
+
+        </Grid>
+        <Button x:Name="CancelButton" Content="Cancel" Click="CancelButton_Click" Width="75" Height="23" HorizontalAlignment="Right" Margin="0,12,0,0" Grid.Row="1" />
+        <Button x:Name="OKButton"  Click="OKButton_Click" Content="OK" Command="{Binding ComandoOk}" Width="75" Height="23" HorizontalAlignment="Right" Margin="0,12,79,0" Grid.Row="1" />
+    </Grid>
+</controls:ChildWindow>
