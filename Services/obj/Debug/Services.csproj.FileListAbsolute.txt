@@ -144,3 +144,17 @@ C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\Se
 C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.dll
 C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.pdb
 C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Services\bin\Services.dll.config
+C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Services\bin\Services.dll
+C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Services\bin\Services.pdb
+C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Services\bin\Domain.dll
+C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Services\bin\EntityFramework.dll
+C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Services\bin\EntityFramework.SqlServer.dll
+C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Services\bin\Infrastructure.dll
+C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Services\bin\Domain.pdb
+C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Services\bin\Infrastructure.pdb
+C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Services\bin\EntityFramework.xml
+C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Services\bin\EntityFramework.SqlServer.xml
+C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Services\obj\Debug\Services.dll
+C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Services\obj\Debug\Services.pdb
