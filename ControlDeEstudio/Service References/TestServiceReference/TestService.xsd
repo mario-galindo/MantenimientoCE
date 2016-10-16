@@ -43,6 +43,7 @@
   <xs:complexType name="SubtemaDTO">
     <xs:sequence>
       <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Error" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Estado" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Orden" type="xs:int" />
       <xs:element minOccurs="0" name="Referencias" nillable="true" type="tns:ArrayOfReferenciaDTO" />
@@ -61,6 +62,7 @@
     <xs:sequence>
       <xs:element minOccurs="0" name="Autor" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Descripcion" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Error" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Fuente" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="ReferenciaId" type="xs:int" />
       <xs:element minOccurs="0" name="SubtemaId" nillable="true" type="xs:string" />

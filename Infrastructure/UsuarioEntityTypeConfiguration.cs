@@ -13,7 +13,7 @@ namespace Infrastructure
         public UsuarioEntityTypeConfiguration()
         {
             HasKey(t => t.UsuarioId);
-            ToTable("Usuarios", "Training");
+            ToTable("Usuarios", "dbo");
             Property(t => t.UsuarioId).HasColumnName("UsuarioId").IsRequired().IsUnicode(false).HasMaxLength(50);
             Property(t => t.Nombre).HasColumnName("Nombre").IsRequired().IsUnicode(false).HasMaxLength(50);
             Property(t => t.Area).HasColumnName("Area").IsRequired().IsUnicode(false).HasMaxLength(50);

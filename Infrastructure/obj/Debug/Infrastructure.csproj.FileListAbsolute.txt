@@ -139,3 +139,15 @@ C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Infrastructure\bin\Debug\EntityFrame
 C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
 C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.dll
 C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.pdb
+C:\Users\Javier\Desktop\MantenimientoCE\Infrastructure\bin\Debug\Infrastructure.dll.config
+C:\Users\Javier\Desktop\MantenimientoCE\Infrastructure\bin\Debug\Infrastructure.dll
+C:\Users\Javier\Desktop\MantenimientoCE\Infrastructure\bin\Debug\Infrastructure.pdb
+C:\Users\Javier\Desktop\MantenimientoCE\Infrastructure\bin\Debug\Domain.dll
+C:\Users\Javier\Desktop\MantenimientoCE\Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\Javier\Desktop\MantenimientoCE\Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Javier\Desktop\MantenimientoCE\Infrastructure\bin\Debug\Domain.pdb
+C:\Users\Javier\Desktop\MantenimientoCE\Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\Javier\Desktop\MantenimientoCE\Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Javier\Desktop\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Desktop\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.dll
+C:\Users\Javier\Desktop\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.pdb

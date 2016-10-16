@@ -21,41 +21,41 @@ namespace Services.Servicios
         List<CategoriaDTO> ObtenerCategorias();
 
         [OperationContract]
-        string AgregarCategoria(CategoriaDTO categoriaDTO);
+        CategoriaDTO AgregarCategoria(CategoriaDTO categoriaDTO);
 
         [OperationContract]
-         string EliminarCategoria(string Id);
+         void EliminarCategoria(string Id);
         [OperationContract]
-        string ModificarCategoria(CategoriaDTO dto);
+        CategoriaDTO ModificarCategoria(CategoriaDTO dto);
 
         [OperationContract]
-        void GuardarTema(TemasDTO temaDTO);
+        TemasDTO GuardarTema(TemasDTO temaDTO);
 
         [OperationContract]
         void EliminarTema(string Id);
 
         [OperationContract]
-        void EditarTema(TemasDTO temaDTO);
+        TemasDTO EditarTema(TemasDTO temaDTO);
 
         [OperationContract]
-        void GuardarSubtema(SubtemaDTO temaDTO);
+        SubtemaDTO GuardarSubtema(SubtemaDTO temaDTO);
 
         [OperationContract]
         void EliminarSubtema(string Id);
 
         [OperationContract]
-        void EditarSubtema(SubtemaDTO temaDTO);
+        SubtemaDTO EditarSubtema(SubtemaDTO temaDTO);
 
         [OperationContract]
-        int GuardarReferencia(ReferenciaDTO referenciaDTO);
+        ReferenciaDTO GuardarReferencia(ReferenciaDTO referenciaDTO);
 
         [OperationContract]
-        int GuardarReferencia2(ReferenciaDTO referenciaDTO);
+        ReferenciaDTO GuardarReferencia2(ReferenciaDTO referenciaDTO);
         [OperationContract]
         void EliminarReferencia(int Id);
 
         [OperationContract]
-        void EditarReferencia(ReferenciaDTO referenciaDTO);
+        ReferenciaDTO EditarReferencia(ReferenciaDTO referenciaDTO);
 
      
     }

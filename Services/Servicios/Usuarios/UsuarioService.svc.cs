@@ -20,31 +20,51 @@ namespace SubtemasService.Servicios
         }
 
         #region Usuarios
-        public void GuardarUsuario(UsuariosDTO usuarioDto)
+        public UsuariosDTO GuardarUsuario(UsuariosDTO usuarioDto)
         {
             using (var contexto = new UnitOfWork())
             {
-                var Usuario = new Usuarios()
+                var buscarUsuario = contexto.Usuarios.FirstOrDefault(x => x.UsuarioId == usuarioDto.UsuarioId);
+
+                if (buscarUsuario == null)
                 {
-                    Area = usuarioDto.Area,
-                    Nombre = usuarioDto.Nombre,
-                    UsuarioId = usuarioDto.UsuarioId,
-                };
-                contexto.Usuarios.Add(Usuario);
-                contexto.SaveChanges();
+                    var Usuario = new Usuarios()
+                    {
+                        Area = usuarioDto.Area,
+                        Nombre = usuarioDto.Nombre,
+                        UsuarioId = usuarioDto.UsuarioId,
+                    };
+                    contexto.Usuarios.Add(Usuario);
+                    contexto.SaveChanges();
+                    return null;
+                }
+
+                else
+                {
+                    return new UsuariosDTO() { Error = "El id ya existe" };
+                }
             }
         }
 
-        public void EditarUsuario(UsuariosDTO usuarioDto)
+        public UsuariosDTO EditarUsuario(UsuariosDTO usuarioDto)
         {
+
             using (var contexto = new UnitOfWork())
             {
-                var entidadSubtema = contexto.Usuarios.FirstOrDefault(q => q.UsuarioId == usuarioDto.UsuarioId);
+                var entidadUsuario = contexto.Usuarios.FirstOrDefault(q => q.UsuarioId == usuarioDto.UsuarioId);
+                if (entidadUsuario != null)
+                {
+                    entidadUsuario.Nombre = usuarioDto.Nombre;
+                    entidadUsuario.Area = usuarioDto.Area;
 
-                entidadSubtema.Nombre = usuarioDto.Nombre;
-                entidadSubtema.Area = usuarioDto.Area;
-
-                contexto.SaveChanges();
+                    contexto.SaveChanges();
+                    return null;
+                }
+                else
+                {
+                    return new UsuariosDTO() { Error = "Error al editar el usuario" };
+                }
+               
             }
         }
 

@@ -38,7 +38,7 @@
                         <DoubleAnimation Duration="0" To="500" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="UserPanel" d:IsOptimized="True"/>
                     </Storyboard>
                 </VisualState>
-                <VisualState x:Name="Normal">
+                <VisualState x:Name="OcultarMensaje">
                     <Storyboard>
                         <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="grid">
                             <DiscreteObjectKeyFrame KeyTime="0">

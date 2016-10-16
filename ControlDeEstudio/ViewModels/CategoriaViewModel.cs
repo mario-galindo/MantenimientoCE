@@ -9,7 +9,7 @@ using System.Windows.Data;
 
 namespace ControlDeEstudio.ViewModels
 {
-    public class CategoriaViewModel:BaseINPC
+    public class CategoriaViewModel : BaseINPC
     {
 
         private readonly TestServiceReference.TestServiceClient proxy;
@@ -337,7 +337,7 @@ namespace ControlDeEstudio.ViewModels
 
         #region Propiedades Panel
 
-  
+
 
         private string _rectangleVisible;
         public string RectangleVisible
@@ -388,7 +388,7 @@ namespace ControlDeEstudio.ViewModels
 
         private void InicializarRespuestaServicio()
         {
-            proxy.EliminarCategoriaCompleted += Proxy_EliminarCategoriaCompleted;
+            proxy.EliminarCategoriaCompleted += proxy_EliminarCategoriaCompleted;
             proxy.AgregarCategoriaCompleted += Proxy_AgregarCategoriaCompleted;
             proxy.ObtenerCategoriasCompleted += Proxy_ObtenerCategoriasCompleted;
             proxy.ModificarCategoriaCompleted += Proxy_ModificarCategoriaCompleted;
@@ -396,14 +396,21 @@ namespace ControlDeEstudio.ViewModels
             proxy.EditarTemaCompleted += Proxy_EditarTemaCompleted;
             proxy.EditarSubtemaCompleted += Proxy_EditarSubtemaCompleted;
             proxy.EliminarSubtemaCompleted += Proxy_EliminarSubtemaCompleted;
-            //proxy.GuardarReferenciaCompleted += Proxy_GuardarReferenciaCompleted;
-            proxy.GuardarReferencia2Completed += Proxy_GuardarReferencia2Completed;
+            proxy.GuardarReferenciaCompleted += proxy_GuardarReferenciaCompleted;
+            //proxy.GuardarReferencia2Completed += Proxy_GuardarReferencia2Completed;
             proxy.EliminarReferenciaCompleted += Proxy_EliminarReferenciaCompleted;
             proxy.EditarReferenciaCompleted += Proxy_EditarReferenciaCompleted;
-            proxy.GuardarTemaCompleted += Proxy_GuardarTemaCompleted;
+            proxy.GuardarTemaCompleted += proxy_GuardarTemaCompleted;
             proxy.EliminarTemaCompleted += Proxy_EliminarTemaCompleted;
             proxyUsuario.ObtenerUsuariosCompleted += Proxy_ObtenerUsuariosCompleted;
+           
         }
+
+        
+
+        
+
+        
 
         public void InicializarPropiedades()
         {
@@ -446,21 +453,6 @@ namespace ControlDeEstudio.ViewModels
             }
         }
 
-        private double _aa;
-        public double aa
-        {
-            get { return _aa; }
-
-            set
-            {
-                if (_aa != value)
-                {
-                    _aa = value;
-                    RaisePropertyChanged("aa");
-                }
-            }
-        }
-
         public DispatcherTimer TimerProperty { get; set; }
 
         private Visibility _gridError;
@@ -488,15 +480,12 @@ namespace ControlDeEstudio.ViewModels
             TimerProperty = new DispatcherTimer { Interval = TimeSpan.FromSeconds(5) };
             TimerProperty.Start();
             TimerProperty.Tick += TimerProperty_Tick;
-                      
-          
 
-           
         }
 
         private void TimerProperty_Tick(object sender, EventArgs e)
         {
-            VisualStateName = "Normal";
+            VisualStateName = "OcultarMensaje";
             TimerProperty.Stop();
         }
 
@@ -536,14 +525,13 @@ namespace ControlDeEstudio.ViewModels
         #region Categorias
 
         public void AgregarCategoria()
-        { 
-            proxy.AgregarCategoriaAsync(PropCategoria);            
+        {
+            proxy.AgregarCategoriaAsync(PropCategoria);
         }
         private void Proxy_AgregarCategoriaCompleted(object sender, TestServiceReference.AgregarCategoriaCompletedEventArgs e)
         {
-            if (e.Result != string.Empty)
+            if (e.Result == null)
             {
-                //ListarCategorias();
                 MostrarMensaje("Categoria agregada exitosamente", "Exito");
 
                 var CategoriaNueva = new TestServiceReference.CategoriaDTO()
@@ -557,8 +545,8 @@ namespace ControlDeEstudio.ViewModels
                 Categorias.Add(CategoriaNueva);
             }
             else
-            { 
-                MostrarMensaje("Error al agregar categoria", "Error");
+            {
+                MostrarMensaje(e.Result.Error, "Error");
             }
         }
 
@@ -566,24 +554,24 @@ namespace ControlDeEstudio.ViewModels
         {
             if (CategoriaSeleccionada == null)
             {
-                MostrarMensaje("Selecciona una Categoria", "Advertencia"); 
+                MostrarMensaje("Selecciona una Categoria", "Advertencia");
             }
             else
             {
                 proxy.ModificarCategoriaAsync(PropCategoria);
             }
-                     
+
         }
         private void Proxy_ModificarCategoriaCompleted(object sender, TestServiceReference.ModificarCategoriaCompletedEventArgs e)
         {
-            if (e.Result != string.Empty)
+            if (e.Result == null)
             {
                 MostrarMensaje("Se ha modificado exitosamente", "Exito");
                 ListarCategorias();
             }
             else
             {
-                MostrarMensaje("Error al modificar categoria", "Error");
+                MostrarMensaje(e.Result.Error, "Error");
             }
         }
 
@@ -598,21 +586,19 @@ namespace ControlDeEstudio.ViewModels
             {
                 proxy.EliminarCategoriaAsync(CategoriaSeleccionada.CategoriaId);
             }
-         
-            
+
+
         }
 
-        private void Proxy_EliminarCategoriaCompleted(object sender, TestServiceReference.EliminarCategoriaCompletedEventArgs e)
+        void proxy_EliminarCategoriaCompleted(object sender, System.ComponentModel.AsyncCompletedEventArgs e)
         {
-           
-                if (e.Result != string.Empty)
-                { 
-                    MostrarMensaje("Se elimino la categoria", "Exito");
-                    ListarCategorias();
-                }
-          
-        }
 
+            if (e.Error == null)
+            {
+                MostrarMensaje("Se elimino la categoria", "Exito");
+                ListarCategorias();
+            }
+        }
         public void CargarCategoriaporID(string Id)
         {
             var cate = Categorias.FirstOrDefault(c => c.CategoriaId == Id);
@@ -662,7 +648,31 @@ namespace ControlDeEstudio.ViewModels
         #endregion
 
         #region Temas
+        public void proxy_GuardarTemaCompleted(object sender, TestServiceReference.GuardarTemaCompletedEventArgs e)
+        {
 
+            if (e.Result == null)
+            {
+                MostrarMensaje("Tema Guardado", "Exito");
+
+                var temaNuevo = new TestServiceReference.TemasDTO()
+                {
+                    CategoriaId = TemaDTO.CategoriaId,
+                    Error = TemaDTO.Error,
+                    Estado = TemaDTO.Estado,
+                    Nombre = TemaDTO.Nombre,
+                    Orden = TemaDTO.Orden,
+                    SubTemas = new ObservableCollection<TestServiceReference.SubtemaDTO>(),
+                    TemaId = TemaDTO.TemaId
+                };
+
+                CategoriaSeleccionada.Temas.Add(temaNuevo);
+            }
+            else
+            {
+                MostrarMensaje("Error al guardar el Tema", "Error");
+            }
+        }
         public void MostrarModalTema()
         {
             if (CategoriaSeleccionada == null)
@@ -686,30 +696,6 @@ namespace ControlDeEstudio.ViewModels
             proxy.GuardarTemaAsync(TemaDTO);
         }
 
-        private void Proxy_GuardarTemaCompleted(object sender, System.ComponentModel.AsyncCompletedEventArgs e)
-        {
-            if (e.Error == null)
-            {
-                MostrarMensaje("Tema Guardado","Exito");
-
-                var temaNuevo = new TestServiceReference.TemasDTO()
-                {
-                    CategoriaId = TemaDTO.CategoriaId,
-                    Error = TemaDTO.Error,
-                    Estado = TemaDTO.Estado,
-                    Nombre = TemaDTO.Nombre,
-                    Orden = TemaDTO.Orden,
-                    SubTemas = new ObservableCollection<TestServiceReference.SubtemaDTO>(),
-                    TemaId = TemaDTO.TemaId
-                };
-
-                CategoriaSeleccionada.Temas.Add(temaNuevo);
-            }
-            else
-            {
-                MostrarMensaje("Error al guardar el Tema", "Error");
-            }
-        }
         public void BorrarTema()
         {
             if (TemaSeleccionado == null)
@@ -719,7 +705,7 @@ namespace ControlDeEstudio.ViewModels
             else
             {
                 proxy.EliminarTemaAsync(TemaSeleccionado.TemaId);
-                
+
             }
         }
 
@@ -728,7 +714,7 @@ namespace ControlDeEstudio.ViewModels
             if (e.Error == null)
             {
                 MostrarMensaje("Se elimino el tema", "Exito");
-               
+
                 var index = CategoriaSeleccionada.Temas.IndexOf(TemaSeleccionado);
                 CategoriaSeleccionada.Temas.RemoveAt(index);
             }
@@ -750,16 +736,15 @@ namespace ControlDeEstudio.ViewModels
                 TemaDTO.TemaId = TemaSeleccionado.TemaId;
                 proxy.EditarTemaAsync(TemaDTO);
             }
-            
+
 
         }
 
-        private void Proxy_EditarTemaCompleted(object sender, System.ComponentModel.AsyncCompletedEventArgs e)
+        private void Proxy_EditarTemaCompleted(object sender, TestServiceReference.EditarTemaCompletedEventArgs e)
         {
-            if (e.Error == null)
+            if (e.Result == null)
             {
                 MostrarMensaje("Tema editado", "Exito");
-                //ListarCategorias();
                 foreach (var tema in CategoriaSeleccionada.Temas)
                 {
                     if (tema.TemaId == TemaDTO.TemaId)
@@ -772,7 +757,7 @@ namespace ControlDeEstudio.ViewModels
             }
             else
             {
-                MostrarMensaje("Error al editar el Tema", "Error");
+                MostrarMensaje(e.Result.Error, "Error");
             }
         }
 
@@ -794,7 +779,7 @@ namespace ControlDeEstudio.ViewModels
                 modalTema.Height = 400;
                 modalTema.Show();
             }
-            
+
         }
 
         #endregion
@@ -804,7 +789,7 @@ namespace ControlDeEstudio.ViewModels
         {
             if (TemaSeleccionado == null)
             {
-                
+
                 MostrarMensaje("Debe seleccionar un tema", "Advertencia");
             }
             else
@@ -823,27 +808,27 @@ namespace ControlDeEstudio.ViewModels
             proxy.GuardarSubtemaAsync(SubtemaDTO);
         }
 
-        private void Proxy_GuardarSubtemaCompleted(object sender, System.ComponentModel.AsyncCompletedEventArgs e)
+        private void Proxy_GuardarSubtemaCompleted(object sender, TestServiceReference.GuardarSubtemaCompletedEventArgs e)
         {
-            if (e.Error == null)
+            if (e.Result == null)
             {
                 MostrarMensaje("Subtema Guardado", "Exito");
 
                 var SubtemaNuevo = new TestServiceReference.SubtemaDTO()
                 {
-                   Descripcion = SubtemaDTO.Descripcion,
-                   Estado = SubtemaDTO.Estado,
-                   Orden = SubtemaDTO.Orden,
-                   TemaId = SubtemaDTO.TemaId,
-                   SubtemaId = SubtemaDTO.SubtemaId,
-                   Referencias = new ObservableCollection<TestServiceReference.ReferenciaDTO>()
+                    Descripcion = SubtemaDTO.Descripcion,
+                    Estado = SubtemaDTO.Estado,
+                    Orden = SubtemaDTO.Orden,
+                    TemaId = SubtemaDTO.TemaId,
+                    SubtemaId = SubtemaDTO.SubtemaId,
+                    Referencias = new ObservableCollection<TestServiceReference.ReferenciaDTO>()
                 };
 
                 TemaSeleccionado.SubTemas.Add(SubtemaNuevo);
             }
             else
             {
-                MostrarMensaje("Error al guardar el Subtema", "Error");
+                MostrarMensaje(e.Result.Error, "Error");
             }
         }
         public void BorrarSubtema()
@@ -856,7 +841,7 @@ namespace ControlDeEstudio.ViewModels
             else
             {
                 proxy.EliminarSubtemaAsync(SubtemaSeleccionado.SubtemaId);
-                
+
             }
         }
 
@@ -864,7 +849,7 @@ namespace ControlDeEstudio.ViewModels
         {
             if (e.Error == null)
             {
-                
+
                 MostrarMensaje("Subtema Eliminado", "Exito");
 
                 var index = TemaSeleccionado.SubTemas.IndexOf(SubtemaSeleccionado);
@@ -887,12 +872,12 @@ namespace ControlDeEstudio.ViewModels
                 SubtemaDTO.SubtemaId = SubtemaSeleccionado.SubtemaId;
                 proxy.EditarSubtemaAsync(SubtemaDTO);
             }
-           
+
         }
 
-        private void Proxy_EditarSubtemaCompleted(object sender, System.ComponentModel.AsyncCompletedEventArgs e)
+        private void Proxy_EditarSubtemaCompleted(object sender, TestServiceReference.EditarSubtemaCompletedEventArgs e)
         {
-            if (e.Error == null)
+            if (e.Result == null)
             {
                 MostrarMensaje("Subtema editado", "Exito");
 
@@ -903,13 +888,13 @@ namespace ControlDeEstudio.ViewModels
                         subtema.Descripcion = SubtemaDTO.Descripcion;
                         subtema.TemaId = SubtemaDTO.TemaId;
                         subtema.Orden = SubtemaDTO.Orden;
-                        subtema.Estado = SubtemaDTO.Estado;   
+                        subtema.Estado = SubtemaDTO.Estado;
                     }
                 }
             }
             else
             {
-                MostrarMensaje("Error al editar el Subtema", "Error");
+                MostrarMensaje(e.Result.Error, "Error");
             }
         }
         public void MostrarSubtemaEditar()
@@ -933,7 +918,7 @@ namespace ControlDeEstudio.ViewModels
                 modalSubtema.Height = 400;
                 modalSubtema.Show();
             }
-          
+
         }
         #endregion
 
@@ -956,13 +941,36 @@ namespace ControlDeEstudio.ViewModels
         public void GuardarReferencia()
         {
             ReferenciaDto.SubtemaId = SubtemaSeleccionado.SubtemaId;
-            proxy.GuardarReferencia2Async(ReferenciaDto);
+            proxy.GuardarReferenciaAsync(ReferenciaDto);
             //proxy.GuardarReferenciaAsync(ReferenciaDto);
         }
 
-        private void Proxy_GuardarReferencia2Completed(object sender, TestServiceReference.GuardarReferencia2CompletedEventArgs e)
+        //private void Proxy_GuardarReferencia2Completed(object sender, TestServiceReference.GuardarReferencia2CompletedEventArgs e)
+        //{
+        //    if (e.Error == null)
+        //    {
+        //        MostrarMensaje("Referencia Guardada", "Exito");
+
+        //        var referenciaNueva = new TestServiceReference.ReferenciaDTO()
+        //        {
+        //            Autor = ReferenciaDto.Autor,
+        //            Descripcion = ReferenciaDto.Descripcion,
+        //            Fuente = ReferenciaDto.Fuente,
+        //            SubtemaId = ReferenciaDto.SubtemaId,
+        //            ReferenciaId = e.Result
+
+        //        };
+
+        //        SubtemaSeleccionado.Referencias.Add(referenciaNueva);
+        //    }
+        //    else
+        //    {
+        //        MostrarMensaje("No se ha podido guardar la referencia", "Error");
+        //    }
+        //}
+        void proxy_GuardarReferenciaCompleted(object sender, TestServiceReference.GuardarReferenciaCompletedEventArgs e)
         {
-            if (e.Error == null)
+            if (e.Result.Error == null)
             {
                 MostrarMensaje("Referencia Guardada", "Exito");
 
@@ -972,7 +980,7 @@ namespace ControlDeEstudio.ViewModels
                     Descripcion = ReferenciaDto.Descripcion,
                     Fuente = ReferenciaDto.Fuente,
                     SubtemaId = ReferenciaDto.SubtemaId,
-                    ReferenciaId = e.Result
+                    ReferenciaId = ReferenciaDto.ReferenciaId
 
                 };
 
@@ -980,10 +988,9 @@ namespace ControlDeEstudio.ViewModels
             }
             else
             {
-                MostrarMensaje("No se ha podido guardar la referencia", "Error");
+                MostrarMensaje(e.Result.Error, "Error");
             }
         }
-
         public void BorrarReferencia()
         {
             if (ReferenciaSeleccionada == null)
@@ -993,7 +1000,7 @@ namespace ControlDeEstudio.ViewModels
             else
             {
                 proxy.EliminarReferenciaAsync(ReferenciaSeleccionada.ReferenciaId);
-                
+
             }
         }
 
@@ -1024,12 +1031,12 @@ namespace ControlDeEstudio.ViewModels
                 ReferenciaDto.ReferenciaId = ReferenciaSeleccionada.ReferenciaId;
                 proxy.EditarReferenciaAsync(ReferenciaDto);
             }
-         
+
         }
 
-        private void Proxy_EditarReferenciaCompleted(object sender, System.ComponentModel.AsyncCompletedEventArgs e)
+        private void Proxy_EditarReferenciaCompleted(object sender, TestServiceReference.EditarReferenciaCompletedEventArgs e)
         {
-            if (e.Error == null)
+            if (e.Result == null)
             {
                 MostrarMensaje("Referencia Editada", "Exito");
 
@@ -1047,7 +1054,7 @@ namespace ControlDeEstudio.ViewModels
             }
             else
             {
-                MostrarMensaje("No se ha podido editar la referencia","Error");
+                MostrarMensaje(e.Result.Error, "Error");
             }
         }
 
@@ -1069,7 +1076,7 @@ namespace ControlDeEstudio.ViewModels
                 modalReferencia.Height = 400;
                 modalReferencia.Show();
             }
-            
+
         }
 
         #endregion
@@ -1082,12 +1089,16 @@ namespace ControlDeEstudio.ViewModels
             proxyUsuario.GuardarUsuarioCompleted += Proxy_GuardarUsuarioCompleted;
         }
 
-        private void Proxy_GuardarUsuarioCompleted(object sender, System.ComponentModel.AsyncCompletedEventArgs e)
+        private void Proxy_GuardarUsuarioCompleted(object sender, UsuariosServiceReference.GuardarUsuarioCompletedEventArgs e)
         {
-            if (e.Error == null)
+            if (e.Result == null)
             {
                 ListarUsuarios();
                 MostrarMensaje("Usuario Agregado Exitosamente", "Exito");
+            }
+            else
+            {
+                MostrarMensaje(e.Result.Error, "Error");
             }
         }
 
@@ -1109,26 +1120,30 @@ namespace ControlDeEstudio.ViewModels
             if (e.Error == null)
             {
                 ListarUsuarios();
-                MostrarMensaje("Usuario Eliminado","Exito");
+                MostrarMensaje("Usuario Eliminado", "Exito");
             }
         }
 
         public void EditarUsuario()
         {
-            UsuariosDto.Nombre = UsuariosSeleccionado.Nombre;
-            UsuariosDto.Area = UsuariosSeleccionado.Area;
-            UsuariosDto.UsuarioId = UsuariosSeleccionado.UsuarioId;
+            UsuariosSeleccionado.Nombre =UsuariosDto.Nombre ;
+            UsuariosSeleccionado.Area = UsuariosDto.Area ;
+            UsuariosSeleccionado.UsuarioId = UsuariosDto.UsuarioId;
 
             proxyUsuario.EditarUsuarioAsync(UsuariosDto);
             proxyUsuario.EditarUsuarioCompleted += Proxy_EditarUsuarioCompleted;
         }
 
-        private void Proxy_EditarUsuarioCompleted(object sender, System.ComponentModel.AsyncCompletedEventArgs e)
+        private void Proxy_EditarUsuarioCompleted(object sender, UsuariosServiceReference.EditarUsuarioCompletedEventArgs e)
         {
-            if (e.Error == null)
+            if (e.Result== null)
             {
                 ListarUsuarios();
-                MostrarMensaje("Usuario Editado Exitosamente","Exito");
+                MostrarMensaje("Usuario Editado Exitosamente", "Exito");
+            }
+            else
+            {
+                MostrarMensaje(e.Result.Error, "Error");
             }
         }
 
@@ -1183,30 +1198,16 @@ namespace ControlDeEstudio.ViewModels
 
         private void AnimarPanel()
         {
-            if (VisualStateName == null) VisualStateName = "Normal2";
+            if (VisualStateName != "MostrarShiftState") VisualStateName = "Normal2";
             if (VisualStateName == "Normal2")
             {
                 MoverEstado("MostrarShiftState");
-                RectanguloVisible();
+
             }
             else
             {
                 MoverEstado("Normal2");
-                RectanguloVisible();
-            }
-        }
 
-        private void RectanguloVisible()
-        {
-
-            if (RectangleVisible == null) RectangleVisible = "Collapsed";
-            if (RectangleVisible == "Collapsed")
-            {
-                RectangleVisible = "Visible";
-            }
-            else
-            {
-                RectangleVisible = "Collapsed";
             }
         }
 
@@ -1215,7 +1216,7 @@ namespace ControlDeEstudio.ViewModels
 
 
         public void InicializarComandos()
-        {            
+        {
             // Cateogorias
             ComandoChildWindows = new RelayCommand<string>(ModalCategoria);
             ComandoEliminar = new RelayCommand(EliminarCategoria);
@@ -1270,7 +1271,7 @@ namespace ControlDeEstudio.ViewModels
         }
         #endregion
 
-        #region Comandos 
+        #region Comandos
         public RelayCommand<string> ComandoChildWindows { get; set; }
         public RelayCommand ComandoOk { get; set; }
         public RelayCommand ComandoEliminar { get; set; }

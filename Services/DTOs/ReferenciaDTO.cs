@@ -19,5 +19,7 @@ namespace Services.DTOs
         public string SubtemaId { get; set; }
         [DataMember]
         public string Autor { get; set; }
+        [DataMember]
+        public string Error { get; set; }
     }
 }

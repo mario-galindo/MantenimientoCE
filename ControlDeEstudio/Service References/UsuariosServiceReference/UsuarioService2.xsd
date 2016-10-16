@@ -20,19 +20,23 @@
   </xs:element>
   <xs:element name="GuardarUsuarioResponse">
     <xs:complexType>
-      <xs:sequence />
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="GuardarUsuarioResult" nillable="true" type="q2:UsuariosDTO" />
+      </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="EditarUsuario">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="usuarioDto" nillable="true" type="q2:UsuariosDTO" />
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="usuarioDto" nillable="true" type="q3:UsuariosDTO" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="EditarUsuarioResponse">
     <xs:complexType>
-      <xs:sequence />
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="EditarUsuarioResult" nillable="true" type="q4:UsuariosDTO" />
+      </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="EliminarUsuario">
@@ -55,7 +59,7 @@
   <xs:element name="ObtenerUsuariosResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="ObtenerUsuariosResult" nillable="true" type="q3:ArrayOfUsuariosDTO" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="ObtenerUsuariosResult" nillable="true" type="q5:ArrayOfUsuariosDTO" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>

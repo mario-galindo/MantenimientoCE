@@ -158,3 +158,17 @@ C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Services\bin\EntityFramework.SqlServ
 C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
 C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Services\obj\Debug\Services.dll
 C:\Users\GALINDO'PC\Desktop\MantenimientoCE\Services\obj\Debug\Services.pdb
+C:\Users\Javier\Desktop\MantenimientoCE\Services\bin\Services.dll.config
+C:\Users\Javier\Desktop\MantenimientoCE\Services\bin\Services.dll
+C:\Users\Javier\Desktop\MantenimientoCE\Services\bin\Services.pdb
+C:\Users\Javier\Desktop\MantenimientoCE\Services\bin\Domain.dll
+C:\Users\Javier\Desktop\MantenimientoCE\Services\bin\EntityFramework.dll
+C:\Users\Javier\Desktop\MantenimientoCE\Services\bin\EntityFramework.SqlServer.dll
+C:\Users\Javier\Desktop\MantenimientoCE\Services\bin\Infrastructure.dll
+C:\Users\Javier\Desktop\MantenimientoCE\Services\bin\Domain.pdb
+C:\Users\Javier\Desktop\MantenimientoCE\Services\bin\Infrastructure.pdb
+C:\Users\Javier\Desktop\MantenimientoCE\Services\bin\EntityFramework.xml
+C:\Users\Javier\Desktop\MantenimientoCE\Services\bin\EntityFramework.SqlServer.xml
+C:\Users\Javier\Desktop\MantenimientoCE\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Desktop\MantenimientoCE\Services\obj\Debug\Services.dll
+C:\Users\Javier\Desktop\MantenimientoCE\Services\obj\Debug\Services.pdb

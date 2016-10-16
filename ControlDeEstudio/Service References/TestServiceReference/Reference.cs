@@ -232,6 +232,8 @@ namespace ControlDeEstudio.TestServiceReference {
         
         private string DescripcionField;
         
+        private string ErrorField;
+        
         private string EstadoField;
         
         private int OrdenField;
@@ -251,6 +253,19 @@ namespace ControlDeEstudio.TestServiceReference {
                 if ((object.ReferenceEquals(this.DescripcionField, value) != true)) {
                     this.DescripcionField = value;
                     this.RaisePropertyChanged("Descripcion");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Error {
+            get {
+                return this.ErrorField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ErrorField, value) != true)) {
+                    this.ErrorField = value;
+                    this.RaisePropertyChanged("Error");
                 }
             }
         }
@@ -339,6 +354,8 @@ namespace ControlDeEstudio.TestServiceReference {
         
         private string DescripcionField;
         
+        private string ErrorField;
+        
         private string FuenteField;
         
         private int ReferenciaIdField;
@@ -367,6 +384,19 @@ namespace ControlDeEstudio.TestServiceReference {
                 if ((object.ReferenceEquals(this.DescripcionField, value) != true)) {
                     this.DescripcionField = value;
                     this.RaisePropertyChanged("Descripcion");
+                }
+            }
+        }
+        
+        [System.Runtime.Serialization.DataMemberAttribute()]
+        public string Error {
+            get {
+                return this.ErrorField;
+            }
+            set {
+                if ((object.ReferenceEquals(this.ErrorField, value) != true)) {
+                    this.ErrorField = value;
+                    this.RaisePropertyChanged("Error");
                 }
             }
         }
@@ -437,22 +467,22 @@ namespace ControlDeEstudio.TestServiceReference {
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITestService/AgregarCategoria", ReplyAction="http://tempuri.org/ITestService/AgregarCategoriaResponse")]
         System.IAsyncResult BeginAgregarCategoria(ControlDeEstudio.TestServiceReference.CategoriaDTO categoriaDTO, System.AsyncCallback callback, object asyncState);
         
-        string EndAgregarCategoria(System.IAsyncResult result);
+        ControlDeEstudio.TestServiceReference.CategoriaDTO EndAgregarCategoria(System.IAsyncResult result);
         
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITestService/EliminarCategoria", ReplyAction="http://tempuri.org/ITestService/EliminarCategoriaResponse")]
         System.IAsyncResult BeginEliminarCategoria(string Id, System.AsyncCallback callback, object asyncState);
         
-        string EndEliminarCategoria(System.IAsyncResult result);
+        void EndEliminarCategoria(System.IAsyncResult result);
         
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITestService/ModificarCategoria", ReplyAction="http://tempuri.org/ITestService/ModificarCategoriaResponse")]
         System.IAsyncResult BeginModificarCategoria(ControlDeEstudio.TestServiceReference.CategoriaDTO dto, System.AsyncCallback callback, object asyncState);
         
-        string EndModificarCategoria(System.IAsyncResult result);
+        ControlDeEstudio.TestServiceReference.CategoriaDTO EndModificarCategoria(System.IAsyncResult result);
         
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITestService/GuardarTema", ReplyAction="http://tempuri.org/ITestService/GuardarTemaResponse")]
         System.IAsyncResult BeginGuardarTema(ControlDeEstudio.TestServiceReference.TemasDTO temaDTO, System.AsyncCallback callback, object asyncState);
         
-        void EndGuardarTema(System.IAsyncResult result);
+        ControlDeEstudio.TestServiceReference.TemasDTO EndGuardarTema(System.IAsyncResult result);
         
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITestService/EliminarTema", ReplyAction="http://tempuri.org/ITestService/EliminarTemaResponse")]
         System.IAsyncResult BeginEliminarTema(string Id, System.AsyncCallback callback, object asyncState);
@@ -462,12 +492,12 @@ namespace ControlDeEstudio.TestServiceReference {
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITestService/EditarTema", ReplyAction="http://tempuri.org/ITestService/EditarTemaResponse")]
         System.IAsyncResult BeginEditarTema(ControlDeEstudio.TestServiceReference.TemasDTO temaDTO, System.AsyncCallback callback, object asyncState);
         
-        void EndEditarTema(System.IAsyncResult result);
+        ControlDeEstudio.TestServiceReference.TemasDTO EndEditarTema(System.IAsyncResult result);
         
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITestService/GuardarSubtema", ReplyAction="http://tempuri.org/ITestService/GuardarSubtemaResponse")]
         System.IAsyncResult BeginGuardarSubtema(ControlDeEstudio.TestServiceReference.SubtemaDTO temaDTO, System.AsyncCallback callback, object asyncState);
         
-        void EndGuardarSubtema(System.IAsyncResult result);
+        ControlDeEstudio.TestServiceReference.SubtemaDTO EndGuardarSubtema(System.IAsyncResult result);
         
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITestService/EliminarSubtema", ReplyAction="http://tempuri.org/ITestService/EliminarSubtemaResponse")]
         System.IAsyncResult BeginEliminarSubtema(string Id, System.AsyncCallback callback, object asyncState);
@@ -477,17 +507,17 @@ namespace ControlDeEstudio.TestServiceReference {
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITestService/EditarSubtema", ReplyAction="http://tempuri.org/ITestService/EditarSubtemaResponse")]
         System.IAsyncResult BeginEditarSubtema(ControlDeEstudio.TestServiceReference.SubtemaDTO temaDTO, System.AsyncCallback callback, object asyncState);
         
-        void EndEditarSubtema(System.IAsyncResult result);
+        ControlDeEstudio.TestServiceReference.SubtemaDTO EndEditarSubtema(System.IAsyncResult result);
         
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITestService/GuardarReferencia", ReplyAction="http://tempuri.org/ITestService/GuardarReferenciaResponse")]
         System.IAsyncResult BeginGuardarReferencia(ControlDeEstudio.TestServiceReference.ReferenciaDTO referenciaDTO, System.AsyncCallback callback, object asyncState);
         
-        int EndGuardarReferencia(System.IAsyncResult result);
+        ControlDeEstudio.TestServiceReference.ReferenciaDTO EndGuardarReferencia(System.IAsyncResult result);
         
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITestService/GuardarReferencia2", ReplyAction="http://tempuri.org/ITestService/GuardarReferencia2Response")]
         System.IAsyncResult BeginGuardarReferencia2(ControlDeEstudio.TestServiceReference.ReferenciaDTO referenciaDTO, System.AsyncCallback callback, object asyncState);
         
-        int EndGuardarReferencia2(System.IAsyncResult result);
+        ControlDeEstudio.TestServiceReference.ReferenciaDTO EndGuardarReferencia2(System.IAsyncResult result);
         
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITestService/EliminarReferencia", ReplyAction="http://tempuri.org/ITestService/EliminarReferenciaResponse")]
         System.IAsyncResult BeginEliminarReferencia(int Id, System.AsyncCallback callback, object asyncState);
@@ -497,7 +527,7 @@ namespace ControlDeEstudio.TestServiceReference {
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITestService/EditarReferencia", ReplyAction="http://tempuri.org/ITestService/EditarReferenciaResponse")]
         System.IAsyncResult BeginEditarReferencia(ControlDeEstudio.TestServiceReference.ReferenciaDTO referenciaDTO, System.AsyncCallback callback, object asyncState);
         
-        void EndEditarReferencia(System.IAsyncResult result);
+        ControlDeEstudio.TestServiceReference.ReferenciaDTO EndEditarReferencia(System.IAsyncResult result);
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
@@ -534,29 +564,10 @@ namespace ControlDeEstudio.TestServiceReference {
             this.results = results;
         }
         
-        public string Result {
+        public ControlDeEstudio.TestServiceReference.CategoriaDTO Result {
             get {
                 base.RaiseExceptionIfNecessary();
-                return ((string)(this.results[0]));
-            }
-        }
-    }
-    
-    [System.Diagnostics.DebuggerStepThroughAttribute()]
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-    public partial class EliminarCategoriaCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
-        
-        private object[] results;
-        
-        public EliminarCategoriaCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
-                base(exception, cancelled, userState) {
-            this.results = results;
-        }
-        
-        public string Result {
-            get {
-                base.RaiseExceptionIfNecessary();
-                return ((string)(this.results[0]));
+                return ((ControlDeEstudio.TestServiceReference.CategoriaDTO)(this.results[0]));
             }
         }
     }
@@ -572,10 +583,86 @@ namespace ControlDeEstudio.TestServiceReference {
             this.results = results;
         }
         
-        public string Result {
+        public ControlDeEstudio.TestServiceReference.CategoriaDTO Result {
             get {
                 base.RaiseExceptionIfNecessary();
-                return ((string)(this.results[0]));
+                return ((ControlDeEstudio.TestServiceReference.CategoriaDTO)(this.results[0]));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public partial class GuardarTemaCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        public GuardarTemaCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        public ControlDeEstudio.TestServiceReference.TemasDTO Result {
+            get {
+                base.RaiseExceptionIfNecessary();
+                return ((ControlDeEstudio.TestServiceReference.TemasDTO)(this.results[0]));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public partial class EditarTemaCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        public EditarTemaCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        public ControlDeEstudio.TestServiceReference.TemasDTO Result {
+            get {
+                base.RaiseExceptionIfNecessary();
+                return ((ControlDeEstudio.TestServiceReference.TemasDTO)(this.results[0]));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public partial class GuardarSubtemaCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        public GuardarSubtemaCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        public ControlDeEstudio.TestServiceReference.SubtemaDTO Result {
+            get {
+                base.RaiseExceptionIfNecessary();
+                return ((ControlDeEstudio.TestServiceReference.SubtemaDTO)(this.results[0]));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public partial class EditarSubtemaCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        public EditarSubtemaCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        public ControlDeEstudio.TestServiceReference.SubtemaDTO Result {
+            get {
+                base.RaiseExceptionIfNecessary();
+                return ((ControlDeEstudio.TestServiceReference.SubtemaDTO)(this.results[0]));
             }
         }
     }
@@ -591,10 +678,10 @@ namespace ControlDeEstudio.TestServiceReference {
             this.results = results;
         }
         
-        public int Result {
+        public ControlDeEstudio.TestServiceReference.ReferenciaDTO Result {
             get {
                 base.RaiseExceptionIfNecessary();
-                return ((int)(this.results[0]));
+                return ((ControlDeEstudio.TestServiceReference.ReferenciaDTO)(this.results[0]));
             }
         }
     }
@@ -610,10 +697,29 @@ namespace ControlDeEstudio.TestServiceReference {
             this.results = results;
         }
         
-        public int Result {
+        public ControlDeEstudio.TestServiceReference.ReferenciaDTO Result {
             get {
                 base.RaiseExceptionIfNecessary();
-                return ((int)(this.results[0]));
+                return ((ControlDeEstudio.TestServiceReference.ReferenciaDTO)(this.results[0]));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public partial class EditarReferenciaCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        public EditarReferenciaCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        public ControlDeEstudio.TestServiceReference.ReferenciaDTO Result {
+            get {
+                base.RaiseExceptionIfNecessary();
+                return ((ControlDeEstudio.TestServiceReference.ReferenciaDTO)(this.results[0]));
             }
         }
     }
@@ -771,21 +877,21 @@ namespace ControlDeEstudio.TestServiceReference {
         
         public event System.EventHandler<AgregarCategoriaCompletedEventArgs> AgregarCategoriaCompleted;
         
-        public event System.EventHandler<EliminarCategoriaCompletedEventArgs> EliminarCategoriaCompleted;
+        public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> EliminarCategoriaCompleted;
         
         public event System.EventHandler<ModificarCategoriaCompletedEventArgs> ModificarCategoriaCompleted;
         
-        public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> GuardarTemaCompleted;
+        public event System.EventHandler<GuardarTemaCompletedEventArgs> GuardarTemaCompleted;
         
         public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> EliminarTemaCompleted;
         
-        public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> EditarTemaCompleted;
+        public event System.EventHandler<EditarTemaCompletedEventArgs> EditarTemaCompleted;
         
-        public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> GuardarSubtemaCompleted;
+        public event System.EventHandler<GuardarSubtemaCompletedEventArgs> GuardarSubtemaCompleted;
         
         public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> EliminarSubtemaCompleted;
         
-        public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> EditarSubtemaCompleted;
+        public event System.EventHandler<EditarSubtemaCompletedEventArgs> EditarSubtemaCompleted;
         
         public event System.EventHandler<GuardarReferenciaCompletedEventArgs> GuardarReferenciaCompleted;
         
@@ -793,7 +899,7 @@ namespace ControlDeEstudio.TestServiceReference {
         
         public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> EliminarReferenciaCompleted;
         
-        public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> EditarReferenciaCompleted;
+        public event System.EventHandler<EditarReferenciaCompletedEventArgs> EditarReferenciaCompleted;
         
         public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> OpenCompleted;
         
@@ -892,7 +998,7 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        string ControlDeEstudio.TestServiceReference.ITestService.EndAgregarCategoria(System.IAsyncResult result) {
+        ControlDeEstudio.TestServiceReference.CategoriaDTO ControlDeEstudio.TestServiceReference.ITestService.EndAgregarCategoria(System.IAsyncResult result) {
             return base.Channel.EndAgregarCategoria(result);
         }
         
@@ -902,7 +1008,7 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         private object[] OnEndAgregarCategoria(System.IAsyncResult result) {
-            string retVal = ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndAgregarCategoria(result);
+            ControlDeEstudio.TestServiceReference.CategoriaDTO retVal = ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndAgregarCategoria(result);
             return new object[] {
                     retVal};
         }
@@ -938,8 +1044,8 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        string ControlDeEstudio.TestServiceReference.ITestService.EndEliminarCategoria(System.IAsyncResult result) {
-            return base.Channel.EndEliminarCategoria(result);
+        void ControlDeEstudio.TestServiceReference.ITestService.EndEliminarCategoria(System.IAsyncResult result) {
+            base.Channel.EndEliminarCategoria(result);
         }
         
         private System.IAsyncResult OnBeginEliminarCategoria(object[] inValues, System.AsyncCallback callback, object asyncState) {
@@ -948,15 +1054,14 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         private object[] OnEndEliminarCategoria(System.IAsyncResult result) {
-            string retVal = ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndEliminarCategoria(result);
-            return new object[] {
-                    retVal};
+            ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndEliminarCategoria(result);
+            return null;
         }
         
         private void OnEliminarCategoriaCompleted(object state) {
             if ((this.EliminarCategoriaCompleted != null)) {
                 InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
-                this.EliminarCategoriaCompleted(this, new EliminarCategoriaCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
+                this.EliminarCategoriaCompleted(this, new System.ComponentModel.AsyncCompletedEventArgs(e.Error, e.Cancelled, e.UserState));
             }
         }
         
@@ -984,7 +1089,7 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        string ControlDeEstudio.TestServiceReference.ITestService.EndModificarCategoria(System.IAsyncResult result) {
+        ControlDeEstudio.TestServiceReference.CategoriaDTO ControlDeEstudio.TestServiceReference.ITestService.EndModificarCategoria(System.IAsyncResult result) {
             return base.Channel.EndModificarCategoria(result);
         }
         
@@ -994,7 +1099,7 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         private object[] OnEndModificarCategoria(System.IAsyncResult result) {
-            string retVal = ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndModificarCategoria(result);
+            ControlDeEstudio.TestServiceReference.CategoriaDTO retVal = ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndModificarCategoria(result);
             return new object[] {
                     retVal};
         }
@@ -1030,8 +1135,8 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        void ControlDeEstudio.TestServiceReference.ITestService.EndGuardarTema(System.IAsyncResult result) {
-            base.Channel.EndGuardarTema(result);
+        ControlDeEstudio.TestServiceReference.TemasDTO ControlDeEstudio.TestServiceReference.ITestService.EndGuardarTema(System.IAsyncResult result) {
+            return base.Channel.EndGuardarTema(result);
         }
         
         private System.IAsyncResult OnBeginGuardarTema(object[] inValues, System.AsyncCallback callback, object asyncState) {
@@ -1040,14 +1145,15 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         private object[] OnEndGuardarTema(System.IAsyncResult result) {
-            ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndGuardarTema(result);
-            return null;
+            ControlDeEstudio.TestServiceReference.TemasDTO retVal = ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndGuardarTema(result);
+            return new object[] {
+                    retVal};
         }
         
         private void OnGuardarTemaCompleted(object state) {
             if ((this.GuardarTemaCompleted != null)) {
                 InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
-                this.GuardarTemaCompleted(this, new System.ComponentModel.AsyncCompletedEventArgs(e.Error, e.Cancelled, e.UserState));
+                this.GuardarTemaCompleted(this, new GuardarTemaCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
             }
         }
         
@@ -1120,8 +1226,8 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        void ControlDeEstudio.TestServiceReference.ITestService.EndEditarTema(System.IAsyncResult result) {
-            base.Channel.EndEditarTema(result);
+        ControlDeEstudio.TestServiceReference.TemasDTO ControlDeEstudio.TestServiceReference.ITestService.EndEditarTema(System.IAsyncResult result) {
+            return base.Channel.EndEditarTema(result);
         }
         
         private System.IAsyncResult OnBeginEditarTema(object[] inValues, System.AsyncCallback callback, object asyncState) {
@@ -1130,14 +1236,15 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         private object[] OnEndEditarTema(System.IAsyncResult result) {
-            ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndEditarTema(result);
-            return null;
+            ControlDeEstudio.TestServiceReference.TemasDTO retVal = ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndEditarTema(result);
+            return new object[] {
+                    retVal};
         }
         
         private void OnEditarTemaCompleted(object state) {
             if ((this.EditarTemaCompleted != null)) {
                 InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
-                this.EditarTemaCompleted(this, new System.ComponentModel.AsyncCompletedEventArgs(e.Error, e.Cancelled, e.UserState));
+                this.EditarTemaCompleted(this, new EditarTemaCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
             }
         }
         
@@ -1165,8 +1272,8 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        void ControlDeEstudio.TestServiceReference.ITestService.EndGuardarSubtema(System.IAsyncResult result) {
-            base.Channel.EndGuardarSubtema(result);
+        ControlDeEstudio.TestServiceReference.SubtemaDTO ControlDeEstudio.TestServiceReference.ITestService.EndGuardarSubtema(System.IAsyncResult result) {
+            return base.Channel.EndGuardarSubtema(result);
         }
         
         private System.IAsyncResult OnBeginGuardarSubtema(object[] inValues, System.AsyncCallback callback, object asyncState) {
@@ -1175,14 +1282,15 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         private object[] OnEndGuardarSubtema(System.IAsyncResult result) {
-            ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndGuardarSubtema(result);
-            return null;
+            ControlDeEstudio.TestServiceReference.SubtemaDTO retVal = ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndGuardarSubtema(result);
+            return new object[] {
+                    retVal};
         }
         
         private void OnGuardarSubtemaCompleted(object state) {
             if ((this.GuardarSubtemaCompleted != null)) {
                 InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
-                this.GuardarSubtemaCompleted(this, new System.ComponentModel.AsyncCompletedEventArgs(e.Error, e.Cancelled, e.UserState));
+                this.GuardarSubtemaCompleted(this, new GuardarSubtemaCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
             }
         }
         
@@ -1255,8 +1363,8 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        void ControlDeEstudio.TestServiceReference.ITestService.EndEditarSubtema(System.IAsyncResult result) {
-            base.Channel.EndEditarSubtema(result);
+        ControlDeEstudio.TestServiceReference.SubtemaDTO ControlDeEstudio.TestServiceReference.ITestService.EndEditarSubtema(System.IAsyncResult result) {
+            return base.Channel.EndEditarSubtema(result);
         }
         
         private System.IAsyncResult OnBeginEditarSubtema(object[] inValues, System.AsyncCallback callback, object asyncState) {
@@ -1265,14 +1373,15 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         private object[] OnEndEditarSubtema(System.IAsyncResult result) {
-            ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndEditarSubtema(result);
-            return null;
+            ControlDeEstudio.TestServiceReference.SubtemaDTO retVal = ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndEditarSubtema(result);
+            return new object[] {
+                    retVal};
         }
         
         private void OnEditarSubtemaCompleted(object state) {
             if ((this.EditarSubtemaCompleted != null)) {
                 InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
-                this.EditarSubtemaCompleted(this, new System.ComponentModel.AsyncCompletedEventArgs(e.Error, e.Cancelled, e.UserState));
+                this.EditarSubtemaCompleted(this, new EditarSubtemaCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
             }
         }
         
@@ -1300,7 +1409,7 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        int ControlDeEstudio.TestServiceReference.ITestService.EndGuardarReferencia(System.IAsyncResult result) {
+        ControlDeEstudio.TestServiceReference.ReferenciaDTO ControlDeEstudio.TestServiceReference.ITestService.EndGuardarReferencia(System.IAsyncResult result) {
             return base.Channel.EndGuardarReferencia(result);
         }
         
@@ -1310,7 +1419,7 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         private object[] OnEndGuardarReferencia(System.IAsyncResult result) {
-            int retVal = ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndGuardarReferencia(result);
+            ControlDeEstudio.TestServiceReference.ReferenciaDTO retVal = ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndGuardarReferencia(result);
             return new object[] {
                     retVal};
         }
@@ -1346,7 +1455,7 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        int ControlDeEstudio.TestServiceReference.ITestService.EndGuardarReferencia2(System.IAsyncResult result) {
+        ControlDeEstudio.TestServiceReference.ReferenciaDTO ControlDeEstudio.TestServiceReference.ITestService.EndGuardarReferencia2(System.IAsyncResult result) {
             return base.Channel.EndGuardarReferencia2(result);
         }
         
@@ -1356,7 +1465,7 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         private object[] OnEndGuardarReferencia2(System.IAsyncResult result) {
-            int retVal = ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndGuardarReferencia2(result);
+            ControlDeEstudio.TestServiceReference.ReferenciaDTO retVal = ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndGuardarReferencia2(result);
             return new object[] {
                     retVal};
         }
@@ -1437,8 +1546,8 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        void ControlDeEstudio.TestServiceReference.ITestService.EndEditarReferencia(System.IAsyncResult result) {
-            base.Channel.EndEditarReferencia(result);
+        ControlDeEstudio.TestServiceReference.ReferenciaDTO ControlDeEstudio.TestServiceReference.ITestService.EndEditarReferencia(System.IAsyncResult result) {
+            return base.Channel.EndEditarReferencia(result);
         }
         
         private System.IAsyncResult OnBeginEditarReferencia(object[] inValues, System.AsyncCallback callback, object asyncState) {
@@ -1447,14 +1556,15 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         private object[] OnEndEditarReferencia(System.IAsyncResult result) {
-            ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndEditarReferencia(result);
-            return null;
+            ControlDeEstudio.TestServiceReference.ReferenciaDTO retVal = ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndEditarReferencia(result);
+            return new object[] {
+                    retVal};
         }
         
         private void OnEditarReferenciaCompleted(object state) {
             if ((this.EditarReferenciaCompleted != null)) {
                 InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
-                this.EditarReferenciaCompleted(this, new System.ComponentModel.AsyncCompletedEventArgs(e.Error, e.Cancelled, e.UserState));
+                this.EditarReferenciaCompleted(this, new EditarReferenciaCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
             }
         }
         
@@ -1582,9 +1692,9 @@ namespace ControlDeEstudio.TestServiceReference {
                 return _result;
             }
             
-            public string EndAgregarCategoria(System.IAsyncResult result) {
+            public ControlDeEstudio.TestServiceReference.CategoriaDTO EndAgregarCategoria(System.IAsyncResult result) {
                 object[] _args = new object[0];
-                string _result = ((string)(base.EndInvoke("AgregarCategoria", _args, result)));
+                ControlDeEstudio.TestServiceReference.CategoriaDTO _result = ((ControlDeEstudio.TestServiceReference.CategoriaDTO)(base.EndInvoke("AgregarCategoria", _args, result)));
                 return _result;
             }
             
@@ -1595,10 +1705,9 @@ namespace ControlDeEstudio.TestServiceReference {
                 return _result;
             }
             
-            public string EndEliminarCategoria(System.IAsyncResult result) {
+            public void EndEliminarCategoria(System.IAsyncResult result) {
                 object[] _args = new object[0];
-                string _result = ((string)(base.EndInvoke("EliminarCategoria", _args, result)));
-                return _result;
+                base.EndInvoke("EliminarCategoria", _args, result);
             }
             
             public System.IAsyncResult BeginModificarCategoria(ControlDeEstudio.TestServiceReference.CategoriaDTO dto, System.AsyncCallback callback, object asyncState) {
@@ -1608,9 +1717,9 @@ namespace ControlDeEstudio.TestServiceReference {
                 return _result;
             }
             
-            public string EndModificarCategoria(System.IAsyncResult result) {
+            public ControlDeEstudio.TestServiceReference.CategoriaDTO EndModificarCategoria(System.IAsyncResult result) {
                 object[] _args = new object[0];
-                string _result = ((string)(base.EndInvoke("ModificarCategoria", _args, result)));
+                ControlDeEstudio.TestServiceReference.CategoriaDTO _result = ((ControlDeEstudio.TestServiceReference.CategoriaDTO)(base.EndInvoke("ModificarCategoria", _args, result)));
                 return _result;
             }
             
@@ -1621,9 +1730,10 @@ namespace ControlDeEstudio.TestServiceReference {
                 return _result;
             }
             
-            public void EndGuardarTema(System.IAsyncResult result) {
+            public ControlDeEstudio.TestServiceReference.TemasDTO EndGuardarTema(System.IAsyncResult result) {
                 object[] _args = new object[0];
-                base.EndInvoke("GuardarTema", _args, result);
+                ControlDeEstudio.TestServiceReference.TemasDTO _result = ((ControlDeEstudio.TestServiceReference.TemasDTO)(base.EndInvoke("GuardarTema", _args, result)));
+                return _result;
             }
             
             public System.IAsyncResult BeginEliminarTema(string Id, System.AsyncCallback callback, object asyncState) {
@@ -1645,9 +1755,10 @@ namespace ControlDeEstudio.TestServiceReference {
                 return _result;
             }
             
-            public void EndEditarTema(System.IAsyncResult result) {
+            public ControlDeEstudio.TestServiceReference.TemasDTO EndEditarTema(System.IAsyncResult result) {
                 object[] _args = new object[0];
-                base.EndInvoke("EditarTema", _args, result);
+                ControlDeEstudio.TestServiceReference.TemasDTO _result = ((ControlDeEstudio.TestServiceReference.TemasDTO)(base.EndInvoke("EditarTema", _args, result)));
+                return _result;
             }
             
             public System.IAsyncResult BeginGuardarSubtema(ControlDeEstudio.TestServiceReference.SubtemaDTO temaDTO, System.AsyncCallback callback, object asyncState) {
@@ -1657,9 +1768,10 @@ namespace ControlDeEstudio.TestServiceReference {
                 return _result;
             }
             
-            public void EndGuardarSubtema(System.IAsyncResult result) {
+            public ControlDeEstudio.TestServiceReference.SubtemaDTO EndGuardarSubtema(System.IAsyncResult result) {
                 object[] _args = new object[0];
-                base.EndInvoke("GuardarSubtema", _args, result);
+                ControlDeEstudio.TestServiceReference.SubtemaDTO _result = ((ControlDeEstudio.TestServiceReference.SubtemaDTO)(base.EndInvoke("GuardarSubtema", _args, result)));
+                return _result;
             }
             
             public System.IAsyncResult BeginEliminarSubtema(string Id, System.AsyncCallback callback, object asyncState) {
@@ -1681,9 +1793,10 @@ namespace ControlDeEstudio.TestServiceReference {
                 return _result;
             }
             
-            public void EndEditarSubtema(System.IAsyncResult result) {
+            public ControlDeEstudio.TestServiceReference.SubtemaDTO EndEditarSubtema(System.IAsyncResult result) {
                 object[] _args = new object[0];
-                base.EndInvoke("EditarSubtema", _args, result);
+                ControlDeEstudio.TestServiceReference.SubtemaDTO _result = ((ControlDeEstudio.TestServiceReference.SubtemaDTO)(base.EndInvoke("EditarSubtema", _args, result)));
+                return _result;
             }
             
             public System.IAsyncResult BeginGuardarReferencia(ControlDeEstudio.TestServiceReference.ReferenciaDTO referenciaDTO, System.AsyncCallback callback, object asyncState) {
@@ -1693,9 +1806,9 @@ namespace ControlDeEstudio.TestServiceReference {
                 return _result;
             }
             
-            public int EndGuardarReferencia(System.IAsyncResult result) {
+            public ControlDeEstudio.TestServiceReference.ReferenciaDTO EndGuardarReferencia(System.IAsyncResult result) {
                 object[] _args = new object[0];
-                int _result = ((int)(base.EndInvoke("GuardarReferencia", _args, result)));
+                ControlDeEstudio.TestServiceReference.ReferenciaDTO _result = ((ControlDeEstudio.TestServiceReference.ReferenciaDTO)(base.EndInvoke("GuardarReferencia", _args, result)));
                 return _result;
             }
             
@@ -1706,9 +1819,9 @@ namespace ControlDeEstudio.TestServiceReference {
                 return _result;
             }
             
-            public int EndGuardarReferencia2(System.IAsyncResult result) {
+            public ControlDeEstudio.TestServiceReference.ReferenciaDTO EndGuardarReferencia2(System.IAsyncResult result) {
                 object[] _args = new object[0];
-                int _result = ((int)(base.EndInvoke("GuardarReferencia2", _args, result)));
+                ControlDeEstudio.TestServiceReference.ReferenciaDTO _result = ((ControlDeEstudio.TestServiceReference.ReferenciaDTO)(base.EndInvoke("GuardarReferencia2", _args, result)));
                 return _result;
             }
             
@@ -1731,9 +1844,10 @@ namespace ControlDeEstudio.TestServiceReference {
                 return _result;
             }
             
-            public void EndEditarReferencia(System.IAsyncResult result) {
+            public ControlDeEstudio.TestServiceReference.ReferenciaDTO EndEditarReferencia(System.IAsyncResult result) {
                 object[] _args = new object[0];
-                base.EndInvoke("EditarReferencia", _args, result);
+                ControlDeEstudio.TestServiceReference.ReferenciaDTO _result = ((ControlDeEstudio.TestServiceReference.ReferenciaDTO)(base.EndInvoke("EditarReferencia", _args, result)));
+                return _result;
             }
         }
     }

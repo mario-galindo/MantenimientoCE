@@ -19,6 +19,8 @@ namespace Services.DTOs
         public int Orden { get; set; }
         [DataMember]
         public string Estado { get; set; }
+        [DataMember]
+        public string Error { get; set; }
 
         [DataMember]
         public List<ReferenciaDTO> Referencias { get; set; }

@@ -33,7 +33,7 @@
   <xs:element name="AgregarCategoriaResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="AgregarCategoriaResult" nillable="true" type="xs:string" />
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="AgregarCategoriaResult" nillable="true" type="q3:CategoriaDTO" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -46,35 +46,35 @@
   </xs:element>
   <xs:element name="EliminarCategoriaResponse">
     <xs:complexType>
-      <xs:sequence>
-        <xs:element minOccurs="0" name="EliminarCategoriaResult" nillable="true" type="xs:string" />
-      </xs:sequence>
+      <xs:sequence />
     </xs:complexType>
   </xs:element>
   <xs:element name="ModificarCategoria">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="dto" nillable="true" type="q3:CategoriaDTO" />
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="dto" nillable="true" type="q4:CategoriaDTO" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="ModificarCategoriaResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="ModificarCategoriaResult" nillable="true" type="xs:string" />
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="ModificarCategoriaResult" nillable="true" type="q5:CategoriaDTO" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="GuardarTema">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="temaDTO" nillable="true" type="q4:TemasDTO" />
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="temaDTO" nillable="true" type="q6:TemasDTO" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="GuardarTemaResponse">
     <xs:complexType>
-      <xs:sequence />
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="GuardarTemaResult" nillable="true" type="q7:TemasDTO" />
+      </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="EliminarTema">
@@ -92,25 +92,29 @@
   <xs:element name="EditarTema">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="temaDTO" nillable="true" type="q5:TemasDTO" />
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="temaDTO" nillable="true" type="q8:TemasDTO" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="EditarTemaResponse">
     <xs:complexType>
-      <xs:sequence />
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="EditarTemaResult" nillable="true" type="q9:TemasDTO" />
+      </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="GuardarSubtema">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="temaDTO" nillable="true" type="q6:SubtemaDTO" />
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="temaDTO" nillable="true" type="q10:SubtemaDTO" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="GuardarSubtemaResponse">
     <xs:complexType>
-      <xs:sequence />
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="GuardarSubtemaResult" nillable="true" type="q11:SubtemaDTO" />
+      </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="EliminarSubtema">
@@ -128,40 +132,42 @@
   <xs:element name="EditarSubtema">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="temaDTO" nillable="true" type="q7:SubtemaDTO" />
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="temaDTO" nillable="true" type="q12:SubtemaDTO" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="EditarSubtemaResponse">
     <xs:complexType>
-      <xs:sequence />
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="EditarSubtemaResult" nillable="true" type="q13:SubtemaDTO" />
+      </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="GuardarReferencia">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="referenciaDTO" nillable="true" type="q8:ReferenciaDTO" />
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="referenciaDTO" nillable="true" type="q14:ReferenciaDTO" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="GuardarReferenciaResponse">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="GuardarReferenciaResult" type="xs:int" />
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="GuardarReferenciaResult" nillable="true" type="q15:ReferenciaDTO" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="GuardarReferencia2">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="referenciaDTO" nillable="true" type="q9:ReferenciaDTO" />
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="referenciaDTO" nillable="true" type="q16:ReferenciaDTO" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="GuardarReferencia2Response">
     <xs:complexType>
       <xs:sequence>
-        <xs:element minOccurs="0" name="GuardarReferencia2Result" type="xs:int" />
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="GuardarReferencia2Result" nillable="true" type="q17:ReferenciaDTO" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
@@ -180,13 +186,15 @@
   <xs:element name="EditarReferencia">
     <xs:complexType>
       <xs:sequence>
-        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="referenciaDTO" nillable="true" type="q10:ReferenciaDTO" />
+        <xs:element xmlns:q18="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="referenciaDTO" nillable="true" type="q18:ReferenciaDTO" />
       </xs:sequence>
     </xs:complexType>
   </xs:element>
   <xs:element name="EditarReferenciaResponse">
     <xs:complexType>
-      <xs:sequence />
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/Services.DTOs" minOccurs="0" name="EditarReferenciaResult" nillable="true" type="q19:ReferenciaDTO" />
+      </xs:sequence>
     </xs:complexType>
   </xs:element>
 </xs:schema>

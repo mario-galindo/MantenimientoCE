@@ -14,7 +14,7 @@ namespace Infrastructure
         public SubtemaEntityTypeConfiguration()
         {
             HasKey(t => t.SubtemaId);
-            ToTable("Subtemas", "Training");
+            ToTable("Subtemas", "dbo");
 
             Property(t => t.SubtemaId).HasColumnName("SubtemaId").IsRequired().IsUnicode(false).HasMaxLength(20);
             Property(t => t.Descripcion).HasColumnName("Descripcion").IsRequired().IsUnicode(false).HasMaxLength(50);

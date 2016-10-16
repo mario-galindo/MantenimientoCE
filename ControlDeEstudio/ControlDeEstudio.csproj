@@ -210,6 +210,15 @@
     <None Include="Service References\TestServiceReference\ControlDeEstudio.TestServiceReference.CategoriaDTO.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </None>
+    <None Include="Service References\TestServiceReference\ControlDeEstudio.TestServiceReference.ReferenciaDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TestServiceReference\ControlDeEstudio.TestServiceReference.SubtemaDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\TestServiceReference\ControlDeEstudio.TestServiceReference.TemasDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
     <None Include="Service References\TestServiceReference\TestService.disco" />
     <None Include="Service References\TestServiceReference\configuration91.svcinfo" />
     <None Include="Service References\TestServiceReference\configuration.svcinfo" />

@@ -17,10 +17,10 @@ namespace SubtemasService.Servicios
         [OperationContract]
         void DoWork();
         [OperationContract]
-        void GuardarUsuario(UsuariosDTO usuarioDto);
+        UsuariosDTO GuardarUsuario(UsuariosDTO usuarioDto);
 
         [OperationContract]
-        void EditarUsuario(UsuariosDTO usuarioDto);
+        UsuariosDTO EditarUsuario(UsuariosDTO usuarioDto);
 
         [OperationContract]
         void EliminarUsuario(string Id);

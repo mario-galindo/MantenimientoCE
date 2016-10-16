@@ -95,10 +95,9 @@ namespace Services.Servicios
         }
 
 
-        public string AgregarCategoria(CategoriaDTO categoriaDTO)
+        public CategoriaDTO AgregarCategoria(CategoriaDTO categoriaDTO)
         {
 
-            string str = string.Empty;
             using (var contexto = new UnitOfWork())
             {
                 var buscarcatego = contexto.Categoria.FirstOrDefault(q => q.CategoriaId == categoriaDTO.CategoriaId);
@@ -112,16 +111,17 @@ namespace Services.Servicios
                     };
                     contexto.Categoria.Add(Tema);
                     contexto.SaveChanges();
-                    str = "agregado";
+                    return null;
                 }
-              
 
+                else
+                {
+                    return new CategoriaDTO(){Error = "El id ya existe"};
+                }
             }
-
-            return str;
         }
 
-        public string EliminarCategoria(string Id)
+        public void EliminarCategoria(string Id)
         {
             var categoria = new CategoriaDTO();
 
@@ -132,16 +132,12 @@ namespace Services.Servicios
                 if (entidadCategoria != null)
                 {
                     contexto.Categoria.Remove(entidadCategoria);
-                    contexto.SaveChanges();
-                    return "Eliminado";
+                    contexto.SaveChanges();   
                 }
-                else
-                    return "";
             }
-
         }
 
-        public string ModificarCategoria(CategoriaDTO dto)
+        public CategoriaDTO ModificarCategoria(CategoriaDTO dto)
         {
 
             using (var contexto = new UnitOfWork())
@@ -150,14 +146,17 @@ namespace Services.Servicios
 
                 if (entidadCategoria == null)
                 {
-                    return "";
+                    return new CategoriaDTO()
+                    {
+                        Error = "Error al modificar la categoria intente de nuevo"
+                    };
                 }
                 else
                 {
                     entidadCategoria.Estado = dto.Estado;
                     entidadCategoria.Nombre = dto.Nombre;
                     contexto.SaveChanges();
-                    return "Bien";
+                    return null;
                 }
 
             }
@@ -165,21 +164,29 @@ namespace Services.Servicios
         #endregion
 
         #region Temas
-        public void GuardarTema(TemasDTO temaDTO)
+        public TemasDTO GuardarTema(TemasDTO temaDTO)
         {
+
             using (var contexto = new UnitOfWork())
             {
-                Tema NuevoTema = new Tema();
-                //int LastId = contexto.Tema.Count() + 1;
+                var buscarTema = contexto.Tema.FirstOrDefault(q => q.TemaId == temaDTO.TemaId);
+                if (buscarTema == null)
+                {
+                    Tema NuevoTema = new Tema();
+                    NuevoTema.TemaId = temaDTO.TemaId;
+                    NuevoTema.Orden = temaDTO.Orden;
+                    NuevoTema.Nombre = temaDTO.Nombre;
+                    NuevoTema.CategoriaId = temaDTO.CategoriaId;
+                    NuevoTema.Estado = temaDTO.Estado;
 
-                NuevoTema.TemaId = temaDTO.TemaId;
-                NuevoTema.Orden = temaDTO.Orden;
-                NuevoTema.Nombre = temaDTO.Nombre;
-                NuevoTema.CategoriaId = temaDTO.CategoriaId;
-                NuevoTema.Estado = temaDTO.Estado;
-
-                contexto.Tema.Add(NuevoTema);
-                contexto.SaveChanges();
+                    contexto.Tema.Add(NuevoTema);
+                    contexto.SaveChanges();
+                    return null;
+                }
+                else
+                {
+                    return new TemasDTO() { Error = "Ya existe el id del tema" };
+                }
             }
         }
 
@@ -193,39 +200,67 @@ namespace Services.Servicios
             }
         }
 
-        public void EditarTema(TemasDTO temaDTO)
+        public TemasDTO EditarTema(TemasDTO temaDTO)
         {
             using (var contexto = new UnitOfWork())
             {
                 var TemaParaActualizar = contexto.Tema.FirstOrDefault(x => x.TemaId == temaDTO.TemaId);
 
-                TemaParaActualizar.Orden = temaDTO.Orden;
-                TemaParaActualizar.Nombre = temaDTO.Nombre;
-                TemaParaActualizar.Estado = temaDTO.Estado;
+                if (TemaParaActualizar != null)
+                {
+                    TemaParaActualizar.Orden = temaDTO.Orden;
+                    TemaParaActualizar.Nombre = temaDTO.Nombre;
+                    TemaParaActualizar.Estado = temaDTO.Estado;
 
-                contexto.SaveChanges();
+                    contexto.SaveChanges();
+                    return null;
+                }
+
+                else
+                {
+                    return new TemasDTO() { Error = "Error al editar el tema" };
+                }
             }
         }
         #endregion
 
         #region Subtemas
-        public void GuardarSubtema(SubtemaDTO subtemaDTO)
+        public SubtemaDTO GuardarSubtema(SubtemaDTO subtemaDTO)
         {
             using (var contexto = new UnitOfWork())
             {
-                //var llave = contexto.Subtema.Count();
-                
-                Domain.Entidades_POCO.Subtema nuevoSubtema = new Domain.Entidades_POCO.Subtema()
-                {
-                    SubtemaId = subtemaDTO.SubtemaId,
-                    TemaId = subtemaDTO.TemaId,
-                    Descripcion = subtemaDTO.Descripcion,
-                    Estado = subtemaDTO.Estado,
-                    Orden = subtemaDTO.Orden
-                };
+                var tamanio = subtemaDTO.SubtemaId.Count();
 
-                contexto.Subtema.Add(nuevoSubtema);
-                contexto.SaveChanges();
+                if (tamanio >20)
+                {
+                    return new SubtemaDTO(){
+                         Error= "La descripcion es muy grande, intente de nuevo"
+                    };
+                }
+                else
+	            {
+                    var buscarSubtema = contexto.Subtema.FirstOrDefault(x => x.SubtemaId == subtemaDTO.SubtemaId);
+                    if (buscarSubtema == null)
+                    {
+                        Domain.Entidades_POCO.Subtema nuevoSubtema = new Domain.Entidades_POCO.Subtema()
+                        {
+                            SubtemaId = subtemaDTO.SubtemaId,
+                            TemaId = subtemaDTO.TemaId,
+                            Descripcion = subtemaDTO.Descripcion,
+                            Estado = subtemaDTO.Estado,
+                            Orden = subtemaDTO.Orden
+                        };
+
+                        contexto.Subtema.Add(nuevoSubtema);
+                        contexto.SaveChanges();
+                        return null;
+                    }
+                    else
+                    {
+                        return new SubtemaDTO() { Error = "El id ya existe" };
+                    }
+                    
+	            }
             }
         }
 
@@ -239,41 +274,57 @@ namespace Services.Servicios
             }
         }
 
-        public void EditarSubtema(SubtemaDTO subtemaDTO)
+        public SubtemaDTO EditarSubtema(SubtemaDTO subtemaDTO)
         {
             using (var contexto = new UnitOfWork())
             {
                 var actualizarSubtema = contexto.Subtema.FirstOrDefault(x => x.SubtemaId == subtemaDTO.SubtemaId);
 
-                actualizarSubtema.Orden = subtemaDTO.Orden;
-                actualizarSubtema.Descripcion = subtemaDTO.Descripcion;
-                actualizarSubtema.Estado = subtemaDTO.Estado;
+                if (actualizarSubtema != null)
+                {
+                    actualizarSubtema.Orden = subtemaDTO.Orden;
+                    actualizarSubtema.Descripcion = subtemaDTO.Descripcion;
+                    actualizarSubtema.Estado = subtemaDTO.Estado;
+
+                    contexto.SaveChanges();
+                    return null;
+                }
+                else
+                {
+                    return new SubtemaDTO() { Error = "Error al editar el subtema" };
+                }
                 
-                contexto.SaveChanges();
             }
         }
         #endregion
 
         #region Referencias
-        public int GuardarReferencia(ReferenciaDTO referenciaDTO)
+        public ReferenciaDTO GuardarReferencia(ReferenciaDTO referenciaDTO)
         {
             int insertedId;
             using (var contexto = new UnitOfWork())
             {
-                Referencia NuevoReferencia = new Referencia();
+                var buscarReferencia = contexto.Referencia.FirstOrDefault(q => q.ReferenciaId == referenciaDTO.ReferenciaId);
 
-                NuevoReferencia.Autor = referenciaDTO.Autor;
-                NuevoReferencia.Descripcion = referenciaDTO.Descripcion;
-                NuevoReferencia.Fuente = referenciaDTO.Fuente;
-                NuevoReferencia.SubtemaId = referenciaDTO.SubtemaId;
+                if (buscarReferencia == null)
+                {
+                    Referencia NuevoReferencia = new Referencia();
 
-                contexto.Referencia.Add(NuevoReferencia);
-                contexto.SaveChanges();
-                insertedId = NuevoReferencia.ReferenciaId;
-                
+                    NuevoReferencia.Autor = referenciaDTO.Autor;
+                    NuevoReferencia.Descripcion = referenciaDTO.Descripcion;
+                    NuevoReferencia.Fuente = referenciaDTO.Fuente;
+                    NuevoReferencia.SubtemaId = referenciaDTO.SubtemaId;
+
+                    contexto.Referencia.Add(NuevoReferencia);
+                    contexto.SaveChanges();
+                    insertedId = NuevoReferencia.ReferenciaId;
+                    return new ReferenciaDTO() { ReferenciaId = insertedId };
+                }
+                else
+                {
+                    return new ReferenciaDTO() { Error = "El id ya existe" };
+                }   
             }
-
-            return insertedId;
         }
 
         public void EliminarReferencia(int Id)
@@ -286,39 +337,54 @@ namespace Services.Servicios
             }
         }
 
-        public void EditarReferencia(ReferenciaDTO referenciaDTO)
+        public ReferenciaDTO EditarReferencia(ReferenciaDTO referenciaDTO)
         {
             using (var contexto = new UnitOfWork())
             {
                 var ReferenciaActualizar = contexto.Referencia.FirstOrDefault(x => x.ReferenciaId == referenciaDTO.ReferenciaId);
+                if (ReferenciaActualizar != null)
+                {
+                    ReferenciaActualizar.Autor = referenciaDTO.Autor;
+                    ReferenciaActualizar.Descripcion = referenciaDTO.Descripcion;
+                    ReferenciaActualizar.Fuente = referenciaDTO.Fuente;
 
-                ReferenciaActualizar.Autor = referenciaDTO.Autor;
-                ReferenciaActualizar.Descripcion = referenciaDTO.Descripcion;
-                ReferenciaActualizar.Fuente = referenciaDTO.Fuente;
-
-                contexto.SaveChanges();
+                    contexto.SaveChanges();
+                    return null;
+                }
+                else
+                {
+                    return new ReferenciaDTO() { Error = "Error al actualizar la referencia" };
+                }
+                
             }
         }
 
-        public int GuardarReferencia2(ReferenciaDTO referenciaDTO)
+        public ReferenciaDTO GuardarReferencia2(ReferenciaDTO referenciaDTO)
         {
             int insertedId;
             using (var contexto = new UnitOfWork())
             {
-                Referencia NuevoReferencia = new Referencia();
+                var buscarReferencia = contexto.Referencia.FirstOrDefault(q => q.ReferenciaId == referenciaDTO.ReferenciaId);
 
-                NuevoReferencia.Autor = referenciaDTO.Autor;
-                NuevoReferencia.Descripcion = referenciaDTO.Descripcion;
-                NuevoReferencia.Fuente = referenciaDTO.Fuente;
-                NuevoReferencia.SubtemaId = referenciaDTO.SubtemaId;
+                if (buscarReferencia == null)
+                {
+                    Referencia NuevoReferencia = new Referencia();
 
-                contexto.Referencia.Add(NuevoReferencia);
-                contexto.SaveChanges();
-                insertedId = NuevoReferencia.ReferenciaId;
+                    NuevoReferencia.Autor = referenciaDTO.Autor;
+                    NuevoReferencia.Descripcion = referenciaDTO.Descripcion;
+                    NuevoReferencia.Fuente = referenciaDTO.Fuente;
+                    NuevoReferencia.SubtemaId = referenciaDTO.SubtemaId;
 
+                    contexto.Referencia.Add(NuevoReferencia);
+                    contexto.SaveChanges();
+                    insertedId = NuevoReferencia.ReferenciaId;
+                    return new ReferenciaDTO() { ReferenciaId = insertedId };
+                }
+                else
+                {
+                    return new ReferenciaDTO() { Error = "El id ya existe" };
+                }
             }
-
-            return insertedId;
         }
 
         #endregion

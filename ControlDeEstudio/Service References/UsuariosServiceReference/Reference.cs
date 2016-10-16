@@ -102,12 +102,12 @@ namespace ControlDeEstudio.UsuariosServiceReference {
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/IUsuarioService/GuardarUsuario", ReplyAction="http://tempuri.org/IUsuarioService/GuardarUsuarioResponse")]
         System.IAsyncResult BeginGuardarUsuario(ControlDeEstudio.UsuariosServiceReference.UsuariosDTO usuarioDto, System.AsyncCallback callback, object asyncState);
         
-        void EndGuardarUsuario(System.IAsyncResult result);
+        ControlDeEstudio.UsuariosServiceReference.UsuariosDTO EndGuardarUsuario(System.IAsyncResult result);
         
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/IUsuarioService/EditarUsuario", ReplyAction="http://tempuri.org/IUsuarioService/EditarUsuarioResponse")]
         System.IAsyncResult BeginEditarUsuario(ControlDeEstudio.UsuariosServiceReference.UsuariosDTO usuarioDto, System.AsyncCallback callback, object asyncState);
         
-        void EndEditarUsuario(System.IAsyncResult result);
+        ControlDeEstudio.UsuariosServiceReference.UsuariosDTO EndEditarUsuario(System.IAsyncResult result);
         
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/IUsuarioService/EliminarUsuario", ReplyAction="http://tempuri.org/IUsuarioService/EliminarUsuarioResponse")]
         System.IAsyncResult BeginEliminarUsuario(string Id, System.AsyncCallback callback, object asyncState);
@@ -122,6 +122,44 @@ namespace ControlDeEstudio.UsuariosServiceReference {
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     public interface IUsuarioServiceChannel : ControlDeEstudio.UsuariosServiceReference.IUsuarioService, System.ServiceModel.IClientChannel {
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public partial class GuardarUsuarioCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        public GuardarUsuarioCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        public ControlDeEstudio.UsuariosServiceReference.UsuariosDTO Result {
+            get {
+                base.RaiseExceptionIfNecessary();
+                return ((ControlDeEstudio.UsuariosServiceReference.UsuariosDTO)(this.results[0]));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public partial class EditarUsuarioCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        public EditarUsuarioCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        public ControlDeEstudio.UsuariosServiceReference.UsuariosDTO Result {
+            get {
+                base.RaiseExceptionIfNecessary();
+                return ((ControlDeEstudio.UsuariosServiceReference.UsuariosDTO)(this.results[0]));
+            }
+        }
     }
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
@@ -232,9 +270,9 @@ namespace ControlDeEstudio.UsuariosServiceReference {
         
         public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> DoWorkCompleted;
         
-        public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> GuardarUsuarioCompleted;
+        public event System.EventHandler<GuardarUsuarioCompletedEventArgs> GuardarUsuarioCompleted;
         
-        public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> EditarUsuarioCompleted;
+        public event System.EventHandler<EditarUsuarioCompletedEventArgs> EditarUsuarioCompleted;
         
         public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> EliminarUsuarioCompleted;
         
@@ -293,8 +331,8 @@ namespace ControlDeEstudio.UsuariosServiceReference {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        void ControlDeEstudio.UsuariosServiceReference.IUsuarioService.EndGuardarUsuario(System.IAsyncResult result) {
-            base.Channel.EndGuardarUsuario(result);
+        ControlDeEstudio.UsuariosServiceReference.UsuariosDTO ControlDeEstudio.UsuariosServiceReference.IUsuarioService.EndGuardarUsuario(System.IAsyncResult result) {
+            return base.Channel.EndGuardarUsuario(result);
         }
         
         private System.IAsyncResult OnBeginGuardarUsuario(object[] inValues, System.AsyncCallback callback, object asyncState) {
@@ -303,14 +341,15 @@ namespace ControlDeEstudio.UsuariosServiceReference {
         }
         
         private object[] OnEndGuardarUsuario(System.IAsyncResult result) {
-            ((ControlDeEstudio.UsuariosServiceReference.IUsuarioService)(this)).EndGuardarUsuario(result);
-            return null;
+            ControlDeEstudio.UsuariosServiceReference.UsuariosDTO retVal = ((ControlDeEstudio.UsuariosServiceReference.IUsuarioService)(this)).EndGuardarUsuario(result);
+            return new object[] {
+                    retVal};
         }
         
         private void OnGuardarUsuarioCompleted(object state) {
             if ((this.GuardarUsuarioCompleted != null)) {
                 InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
-                this.GuardarUsuarioCompleted(this, new System.ComponentModel.AsyncCompletedEventArgs(e.Error, e.Cancelled, e.UserState));
+                this.GuardarUsuarioCompleted(this, new GuardarUsuarioCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
             }
         }
         
@@ -338,8 +377,8 @@ namespace ControlDeEstudio.UsuariosServiceReference {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        void ControlDeEstudio.UsuariosServiceReference.IUsuarioService.EndEditarUsuario(System.IAsyncResult result) {
-            base.Channel.EndEditarUsuario(result);
+        ControlDeEstudio.UsuariosServiceReference.UsuariosDTO ControlDeEstudio.UsuariosServiceReference.IUsuarioService.EndEditarUsuario(System.IAsyncResult result) {
+            return base.Channel.EndEditarUsuario(result);
         }
         
         private System.IAsyncResult OnBeginEditarUsuario(object[] inValues, System.AsyncCallback callback, object asyncState) {
@@ -348,14 +387,15 @@ namespace ControlDeEstudio.UsuariosServiceReference {
         }
         
         private object[] OnEndEditarUsuario(System.IAsyncResult result) {
-            ((ControlDeEstudio.UsuariosServiceReference.IUsuarioService)(this)).EndEditarUsuario(result);
-            return null;
+            ControlDeEstudio.UsuariosServiceReference.UsuariosDTO retVal = ((ControlDeEstudio.UsuariosServiceReference.IUsuarioService)(this)).EndEditarUsuario(result);
+            return new object[] {
+                    retVal};
         }
         
         private void OnEditarUsuarioCompleted(object state) {
             if ((this.EditarUsuarioCompleted != null)) {
                 InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
-                this.EditarUsuarioCompleted(this, new System.ComponentModel.AsyncCompletedEventArgs(e.Error, e.Cancelled, e.UserState));
+                this.EditarUsuarioCompleted(this, new EditarUsuarioCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
             }
         }
         
@@ -560,9 +600,10 @@ namespace ControlDeEstudio.UsuariosServiceReference {
                 return _result;
             }
             
-            public void EndGuardarUsuario(System.IAsyncResult result) {
+            public ControlDeEstudio.UsuariosServiceReference.UsuariosDTO EndGuardarUsuario(System.IAsyncResult result) {
                 object[] _args = new object[0];
-                base.EndInvoke("GuardarUsuario", _args, result);
+                ControlDeEstudio.UsuariosServiceReference.UsuariosDTO _result = ((ControlDeEstudio.UsuariosServiceReference.UsuariosDTO)(base.EndInvoke("GuardarUsuario", _args, result)));
+                return _result;
             }
             
             public System.IAsyncResult BeginEditarUsuario(ControlDeEstudio.UsuariosServiceReference.UsuariosDTO usuarioDto, System.AsyncCallback callback, object asyncState) {
@@ -572,9 +613,10 @@ namespace ControlDeEstudio.UsuariosServiceReference {
                 return _result;
             }
             
-            public void EndEditarUsuario(System.IAsyncResult result) {
+            public ControlDeEstudio.UsuariosServiceReference.UsuariosDTO EndEditarUsuario(System.IAsyncResult result) {
                 object[] _args = new object[0];
-                base.EndInvoke("EditarUsuario", _args, result);
+                ControlDeEstudio.UsuariosServiceReference.UsuariosDTO _result = ((ControlDeEstudio.UsuariosServiceReference.UsuariosDTO)(base.EndInvoke("EditarUsuario", _args, result)));
+                return _result;
             }
             
             public System.IAsyncResult BeginEliminarUsuario(string Id, System.AsyncCallback callback, object asyncState) {
