@@ -47,8 +47,10 @@ namespace Services.Servicios
         void EditarSubtema(SubtemaDTO temaDTO);
 
         [OperationContract]
-        void GuardarReferencia(ReferenciaDTO referenciaDTO);
+        int GuardarReferencia(ReferenciaDTO referenciaDTO);
 
+        [OperationContract]
+        int GuardarReferencia2(ReferenciaDTO referenciaDTO);
         [OperationContract]
         void EliminarReferencia(int Id);
 

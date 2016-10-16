@@ -833,6 +833,9 @@ C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\Co
 C:\Users\japena\Desktop\CE 13_10_2016 Conversor\ControlDeEstudioBackendULTIMO\ControlDeEstudio\obj\Debug\ControlDeEstudio.csprojResolveAssemblyReference.cache
 C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\Bin\Debug\ControlDeEstudio.dll
 C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\Bin\Debug\ControlDeEstudio.pdb
+C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\Bin\Debug\AppManifest.xaml
+C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\Bin\Debug\ControlDeEstudio.xap
+C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\Bin\Debug\ControlDeEstudioTestPage.html
 C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.dll
 C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\Bin\Debug\GalaSoft.MvvmLight.Extras.dll
 C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\Bin\Debug\System.Windows.Controls.Data.dll
@@ -1021,7 +1024,4 @@ C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\obj\Debug\Views\Con
 C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\obj\Debug\ControlDeEstudio.g.resources
 C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\obj\Debug\ControlDeEstudio.dll
 C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\obj\Debug\ControlDeEstudio.pdb
-C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\Bin\Debug\AppManifest.xaml
-C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\Bin\Debug\ControlDeEstudio.xap
-C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\Bin\Debug\ControlDeEstudioTestPage.html
 C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\obj\Debug\XapCacheFile.xml

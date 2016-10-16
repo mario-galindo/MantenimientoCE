@@ -79,6 +79,12 @@
   <wsdl:message name="ITestService_GuardarReferencia_OutputMessage">
     <wsdl:part name="parameters" element="tns:GuardarReferenciaResponse" />
   </wsdl:message>
+  <wsdl:message name="ITestService_GuardarReferencia2_InputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarReferencia2" />
+  </wsdl:message>
+  <wsdl:message name="ITestService_GuardarReferencia2_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GuardarReferencia2Response" />
+  </wsdl:message>
   <wsdl:message name="ITestService_EliminarReferencia_InputMessage">
     <wsdl:part name="parameters" element="tns:EliminarReferencia" />
   </wsdl:message>
@@ -139,6 +145,10 @@
     <wsdl:operation name="GuardarReferencia">
       <wsdl:input wsaw:Action="http://tempuri.org/ITestService/GuardarReferencia" message="tns:ITestService_GuardarReferencia_InputMessage" />
       <wsdl:output wsaw:Action="http://tempuri.org/ITestService/GuardarReferenciaResponse" message="tns:ITestService_GuardarReferencia_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GuardarReferencia2">
+      <wsdl:input wsaw:Action="http://tempuri.org/ITestService/GuardarReferencia2" message="tns:ITestService_GuardarReferencia2_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/ITestService/GuardarReferencia2Response" message="tns:ITestService_GuardarReferencia2_OutputMessage" />
     </wsdl:operation>
     <wsdl:operation name="EliminarReferencia">
       <wsdl:input wsaw:Action="http://tempuri.org/ITestService/EliminarReferencia" message="tns:ITestService_EliminarReferencia_InputMessage" />
@@ -252,6 +262,15 @@
     </wsdl:operation>
     <wsdl:operation name="GuardarReferencia">
       <soap:operation soapAction="http://tempuri.org/ITestService/GuardarReferencia" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GuardarReferencia2">
+      <soap:operation soapAction="http://tempuri.org/ITestService/GuardarReferencia2" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>

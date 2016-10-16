@@ -396,13 +396,15 @@ namespace ControlDeEstudio.ViewModels
             proxy.EditarTemaCompleted += Proxy_EditarTemaCompleted;
             proxy.EditarSubtemaCompleted += Proxy_EditarSubtemaCompleted;
             proxy.EliminarSubtemaCompleted += Proxy_EliminarSubtemaCompleted;
-            proxy.GuardarReferenciaCompleted += Proxy_GuardarReferenciaCompleted;
+            //proxy.GuardarReferenciaCompleted += Proxy_GuardarReferenciaCompleted;
+            proxy.GuardarReferencia2Completed += Proxy_GuardarReferencia2Completed;
             proxy.EliminarReferenciaCompleted += Proxy_EliminarReferenciaCompleted;
             proxy.EditarReferenciaCompleted += Proxy_EditarReferenciaCompleted;
             proxy.GuardarTemaCompleted += Proxy_GuardarTemaCompleted;
             proxy.EliminarTemaCompleted += Proxy_EliminarTemaCompleted;
             proxyUsuario.ObtenerUsuariosCompleted += Proxy_ObtenerUsuariosCompleted;
         }
+
         public void InicializarPropiedades()
         {
             PropCategoria = new TestServiceReference.CategoriaDTO();
@@ -541,8 +543,18 @@ namespace ControlDeEstudio.ViewModels
         {
             if (e.Result != string.Empty)
             {
-                ListarCategorias();
+                //ListarCategorias();
                 MostrarMensaje("Categoria agregada exitosamente", "Exito");
+
+                var CategoriaNueva = new TestServiceReference.CategoriaDTO()
+                {
+                    CategoriaId = PropCategoria.CategoriaId,
+                    Nombre = PropCategoria.Nombre,
+                    Estado = PropCategoria.Estado,
+                    Temas = new ObservableCollection<TestServiceReference.TemasDTO>()
+                };
+
+                Categorias.Add(CategoriaNueva);
             }
             else
             { 
@@ -616,7 +628,7 @@ namespace ControlDeEstudio.ViewModels
         {
             Categorias = e.Result;
             PaginadoCategorias = new PagedCollectionView(Categorias);
-            PaginadoTemas = null;
+            //PaginadoTemas = null;
 
         }
 
@@ -687,7 +699,7 @@ namespace ControlDeEstudio.ViewModels
                     Estado = TemaDTO.Estado,
                     Nombre = TemaDTO.Nombre,
                     Orden = TemaDTO.Orden,
-                    SubTemas = TemaDTO.SubTemas,
+                    SubTemas = new ObservableCollection<TestServiceReference.SubtemaDTO>(),
                     TemaId = TemaDTO.TemaId
                 };
 
@@ -785,10 +797,6 @@ namespace ControlDeEstudio.ViewModels
             
         }
 
-
-
-   
-
         #endregion
 
         #region Subtemas
@@ -810,7 +818,8 @@ namespace ControlDeEstudio.ViewModels
         }
         public void GuardarSubtema()
         {
-            SubtemaDTO.TemaId= TemaSeleccionado.TemaId;
+            SubtemaDTO.SubtemaId = "SUB" + GenerarID(SubtemaDTO.Descripcion);
+            SubtemaDTO.TemaId = TemaSeleccionado.TemaId;
             proxy.GuardarSubtemaAsync(SubtemaDTO);
         }
 
@@ -819,7 +828,18 @@ namespace ControlDeEstudio.ViewModels
             if (e.Error == null)
             {
                 MostrarMensaje("Subtema Guardado", "Exito");
-                ListarCategorias();
+
+                var SubtemaNuevo = new TestServiceReference.SubtemaDTO()
+                {
+                   Descripcion = SubtemaDTO.Descripcion,
+                   Estado = SubtemaDTO.Estado,
+                   Orden = SubtemaDTO.Orden,
+                   TemaId = SubtemaDTO.TemaId,
+                   SubtemaId = SubtemaDTO.SubtemaId,
+                   Referencias = new ObservableCollection<TestServiceReference.ReferenciaDTO>()
+                };
+
+                TemaSeleccionado.SubTemas.Add(SubtemaNuevo);
             }
             else
             {
@@ -846,7 +866,9 @@ namespace ControlDeEstudio.ViewModels
             {
                 
                 MostrarMensaje("Subtema Eliminado", "Exito");
-                ListarCategorias();
+
+                var index = TemaSeleccionado.SubTemas.IndexOf(SubtemaSeleccionado);
+                TemaSeleccionado.SubTemas.RemoveAt(index);
             }
             else
             {
@@ -873,7 +895,17 @@ namespace ControlDeEstudio.ViewModels
             if (e.Error == null)
             {
                 MostrarMensaje("Subtema editado", "Exito");
-                ListarCategorias();
+
+                foreach (var subtema in TemaSeleccionado.SubTemas)
+                {
+                    if (subtema.SubtemaId == SubtemaDTO.SubtemaId)
+                    {
+                        subtema.Descripcion = SubtemaDTO.Descripcion;
+                        subtema.TemaId = SubtemaDTO.TemaId;
+                        subtema.Orden = SubtemaDTO.Orden;
+                        subtema.Estado = SubtemaDTO.Estado;   
+                    }
+                }
             }
             else
             {
@@ -924,9 +956,32 @@ namespace ControlDeEstudio.ViewModels
         public void GuardarReferencia()
         {
             ReferenciaDto.SubtemaId = SubtemaSeleccionado.SubtemaId;
-            proxy.GuardarReferenciaAsync(ReferenciaDto);
-            ListarCategorias();
+            proxy.GuardarReferencia2Async(ReferenciaDto);
+            //proxy.GuardarReferenciaAsync(ReferenciaDto);
+        }
 
+        private void Proxy_GuardarReferencia2Completed(object sender, TestServiceReference.GuardarReferencia2CompletedEventArgs e)
+        {
+            if (e.Error == null)
+            {
+                MostrarMensaje("Referencia Guardada", "Exito");
+
+                var referenciaNueva = new TestServiceReference.ReferenciaDTO()
+                {
+                    Autor = ReferenciaDto.Autor,
+                    Descripcion = ReferenciaDto.Descripcion,
+                    Fuente = ReferenciaDto.Fuente,
+                    SubtemaId = ReferenciaDto.SubtemaId,
+                    ReferenciaId = e.Result
+
+                };
+
+                SubtemaSeleccionado.Referencias.Add(referenciaNueva);
+            }
+            else
+            {
+                MostrarMensaje("No se ha podido guardar la referencia", "Error");
+            }
         }
 
         public void BorrarReferencia()
@@ -938,8 +993,7 @@ namespace ControlDeEstudio.ViewModels
             else
             {
                 proxy.EliminarReferenciaAsync(ReferenciaSeleccionada.ReferenciaId);
-                ListarCategorias();
-
+                
             }
         }
 
@@ -947,24 +1001,14 @@ namespace ControlDeEstudio.ViewModels
         {
             if (e.Error == null)
             {
-                ListarCategorias();
                 MostrarMensaje("Referencia Eliminada", "Exito");
+
+                var index = SubtemaSeleccionado.Referencias.IndexOf(ReferenciaSeleccionada);
+                SubtemaSeleccionado.Referencias.RemoveAt(index);
             }
             else
             {
                 MostrarMensaje("No se ha podido eliminar la referencia", "Error");
-            }
-        }
-
-        private void Proxy_GuardarReferenciaCompleted(object sender, System.ComponentModel.AsyncCompletedEventArgs e)
-        {
-            if (e.Error == null)
-            {
-                MostrarMensaje("Referencia Guardada", "Exito");
-            }
-            else
-            {
-                MostrarMensaje("No se ha podido guardar la referencia", "Error");
             }
         }
 
@@ -987,8 +1031,19 @@ namespace ControlDeEstudio.ViewModels
         {
             if (e.Error == null)
             {
-                ListarCategorias();
                 MostrarMensaje("Referencia Editada", "Exito");
+
+                foreach (var referencia in SubtemaSeleccionado.Referencias)
+                {
+                    if (referencia.ReferenciaId == ReferenciaDto.ReferenciaId)
+                    {
+                        referencia.ReferenciaId = ReferenciaDto.ReferenciaId;
+                        referencia.Fuente = ReferenciaDto.Fuente;
+                        referencia.Descripcion = ReferenciaDto.Descripcion;
+                        referencia.SubtemaId = ReferenciaDto.SubtemaId;
+                        referencia.Autor = ReferenciaDto.Autor;
+                    }
+                }
             }
             else
             {

@@ -482,7 +482,12 @@ namespace ControlDeEstudio.TestServiceReference {
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITestService/GuardarReferencia", ReplyAction="http://tempuri.org/ITestService/GuardarReferenciaResponse")]
         System.IAsyncResult BeginGuardarReferencia(ControlDeEstudio.TestServiceReference.ReferenciaDTO referenciaDTO, System.AsyncCallback callback, object asyncState);
         
-        void EndGuardarReferencia(System.IAsyncResult result);
+        int EndGuardarReferencia(System.IAsyncResult result);
+        
+        [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITestService/GuardarReferencia2", ReplyAction="http://tempuri.org/ITestService/GuardarReferencia2Response")]
+        System.IAsyncResult BeginGuardarReferencia2(ControlDeEstudio.TestServiceReference.ReferenciaDTO referenciaDTO, System.AsyncCallback callback, object asyncState);
+        
+        int EndGuardarReferencia2(System.IAsyncResult result);
         
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITestService/EliminarReferencia", ReplyAction="http://tempuri.org/ITestService/EliminarReferenciaResponse")]
         System.IAsyncResult BeginEliminarReferencia(int Id, System.AsyncCallback callback, object asyncState);
@@ -577,6 +582,44 @@ namespace ControlDeEstudio.TestServiceReference {
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public partial class GuardarReferenciaCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        public GuardarReferenciaCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        public int Result {
+            get {
+                base.RaiseExceptionIfNecessary();
+                return ((int)(this.results[0]));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public partial class GuardarReferencia2CompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        public GuardarReferencia2CompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        public int Result {
+            get {
+                base.RaiseExceptionIfNecessary();
+                return ((int)(this.results[0]));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
     public partial class TestServiceClient : System.ServiceModel.ClientBase<ControlDeEstudio.TestServiceReference.ITestService>, ControlDeEstudio.TestServiceReference.ITestService {
         
         private BeginOperationDelegate onBeginDoWorkDelegate;
@@ -650,6 +693,12 @@ namespace ControlDeEstudio.TestServiceReference {
         private EndOperationDelegate onEndGuardarReferenciaDelegate;
         
         private System.Threading.SendOrPostCallback onGuardarReferenciaCompletedDelegate;
+        
+        private BeginOperationDelegate onBeginGuardarReferencia2Delegate;
+        
+        private EndOperationDelegate onEndGuardarReferencia2Delegate;
+        
+        private System.Threading.SendOrPostCallback onGuardarReferencia2CompletedDelegate;
         
         private BeginOperationDelegate onBeginEliminarReferenciaDelegate;
         
@@ -738,7 +787,9 @@ namespace ControlDeEstudio.TestServiceReference {
         
         public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> EditarSubtemaCompleted;
         
-        public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> GuardarReferenciaCompleted;
+        public event System.EventHandler<GuardarReferenciaCompletedEventArgs> GuardarReferenciaCompleted;
+        
+        public event System.EventHandler<GuardarReferencia2CompletedEventArgs> GuardarReferencia2Completed;
         
         public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> EliminarReferenciaCompleted;
         
@@ -1249,8 +1300,8 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        void ControlDeEstudio.TestServiceReference.ITestService.EndGuardarReferencia(System.IAsyncResult result) {
-            base.Channel.EndGuardarReferencia(result);
+        int ControlDeEstudio.TestServiceReference.ITestService.EndGuardarReferencia(System.IAsyncResult result) {
+            return base.Channel.EndGuardarReferencia(result);
         }
         
         private System.IAsyncResult OnBeginGuardarReferencia(object[] inValues, System.AsyncCallback callback, object asyncState) {
@@ -1259,14 +1310,15 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         private object[] OnEndGuardarReferencia(System.IAsyncResult result) {
-            ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndGuardarReferencia(result);
-            return null;
+            int retVal = ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndGuardarReferencia(result);
+            return new object[] {
+                    retVal};
         }
         
         private void OnGuardarReferenciaCompleted(object state) {
             if ((this.GuardarReferenciaCompleted != null)) {
                 InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
-                this.GuardarReferenciaCompleted(this, new System.ComponentModel.AsyncCompletedEventArgs(e.Error, e.Cancelled, e.UserState));
+                this.GuardarReferenciaCompleted(this, new GuardarReferenciaCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
             }
         }
         
@@ -1286,6 +1338,52 @@ namespace ControlDeEstudio.TestServiceReference {
             }
             base.InvokeAsync(this.onBeginGuardarReferenciaDelegate, new object[] {
                         referenciaDTO}, this.onEndGuardarReferenciaDelegate, this.onGuardarReferenciaCompletedDelegate, userState);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        System.IAsyncResult ControlDeEstudio.TestServiceReference.ITestService.BeginGuardarReferencia2(ControlDeEstudio.TestServiceReference.ReferenciaDTO referenciaDTO, System.AsyncCallback callback, object asyncState) {
+            return base.Channel.BeginGuardarReferencia2(referenciaDTO, callback, asyncState);
+        }
+        
+        [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
+        int ControlDeEstudio.TestServiceReference.ITestService.EndGuardarReferencia2(System.IAsyncResult result) {
+            return base.Channel.EndGuardarReferencia2(result);
+        }
+        
+        private System.IAsyncResult OnBeginGuardarReferencia2(object[] inValues, System.AsyncCallback callback, object asyncState) {
+            ControlDeEstudio.TestServiceReference.ReferenciaDTO referenciaDTO = ((ControlDeEstudio.TestServiceReference.ReferenciaDTO)(inValues[0]));
+            return ((ControlDeEstudio.TestServiceReference.ITestService)(this)).BeginGuardarReferencia2(referenciaDTO, callback, asyncState);
+        }
+        
+        private object[] OnEndGuardarReferencia2(System.IAsyncResult result) {
+            int retVal = ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndGuardarReferencia2(result);
+            return new object[] {
+                    retVal};
+        }
+        
+        private void OnGuardarReferencia2Completed(object state) {
+            if ((this.GuardarReferencia2Completed != null)) {
+                InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
+                this.GuardarReferencia2Completed(this, new GuardarReferencia2CompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
+            }
+        }
+        
+        public void GuardarReferencia2Async(ControlDeEstudio.TestServiceReference.ReferenciaDTO referenciaDTO) {
+            this.GuardarReferencia2Async(referenciaDTO, null);
+        }
+        
+        public void GuardarReferencia2Async(ControlDeEstudio.TestServiceReference.ReferenciaDTO referenciaDTO, object userState) {
+            if ((this.onBeginGuardarReferencia2Delegate == null)) {
+                this.onBeginGuardarReferencia2Delegate = new BeginOperationDelegate(this.OnBeginGuardarReferencia2);
+            }
+            if ((this.onEndGuardarReferencia2Delegate == null)) {
+                this.onEndGuardarReferencia2Delegate = new EndOperationDelegate(this.OnEndGuardarReferencia2);
+            }
+            if ((this.onGuardarReferencia2CompletedDelegate == null)) {
+                this.onGuardarReferencia2CompletedDelegate = new System.Threading.SendOrPostCallback(this.OnGuardarReferencia2Completed);
+            }
+            base.InvokeAsync(this.onBeginGuardarReferencia2Delegate, new object[] {
+                        referenciaDTO}, this.onEndGuardarReferencia2Delegate, this.onGuardarReferencia2CompletedDelegate, userState);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -1595,9 +1693,23 @@ namespace ControlDeEstudio.TestServiceReference {
                 return _result;
             }
             
-            public void EndGuardarReferencia(System.IAsyncResult result) {
+            public int EndGuardarReferencia(System.IAsyncResult result) {
                 object[] _args = new object[0];
-                base.EndInvoke("GuardarReferencia", _args, result);
+                int _result = ((int)(base.EndInvoke("GuardarReferencia", _args, result)));
+                return _result;
+            }
+            
+            public System.IAsyncResult BeginGuardarReferencia2(ControlDeEstudio.TestServiceReference.ReferenciaDTO referenciaDTO, System.AsyncCallback callback, object asyncState) {
+                object[] _args = new object[1];
+                _args[0] = referenciaDTO;
+                System.IAsyncResult _result = base.BeginInvoke("GuardarReferencia2", _args, callback, asyncState);
+                return _result;
+            }
+            
+            public int EndGuardarReferencia2(System.IAsyncResult result) {
+                object[] _args = new object[0];
+                int _result = ((int)(base.EndInvoke("GuardarReferencia2", _args, result)));
+                return _result;
             }
             
             public System.IAsyncResult BeginEliminarReferencia(int Id, System.AsyncCallback callback, object asyncState) {

@@ -213,11 +213,11 @@ namespace Services.Servicios
         {
             using (var contexto = new UnitOfWork())
             {
-                var llave = contexto.Subtema.Count();
+                //var llave = contexto.Subtema.Count();
                 
                 Domain.Entidades_POCO.Subtema nuevoSubtema = new Domain.Entidades_POCO.Subtema()
                 {
-                    SubtemaId = "Sub"+llave.ToString(),
+                    SubtemaId = subtemaDTO.SubtemaId,
                     TemaId = subtemaDTO.TemaId,
                     Descripcion = subtemaDTO.Descripcion,
                     Estado = subtemaDTO.Estado,
@@ -255,8 +255,9 @@ namespace Services.Servicios
         #endregion
 
         #region Referencias
-        public void GuardarReferencia(ReferenciaDTO referenciaDTO)
+        public int GuardarReferencia(ReferenciaDTO referenciaDTO)
         {
+            int insertedId;
             using (var contexto = new UnitOfWork())
             {
                 Referencia NuevoReferencia = new Referencia();
@@ -268,7 +269,11 @@ namespace Services.Servicios
 
                 contexto.Referencia.Add(NuevoReferencia);
                 contexto.SaveChanges();
+                insertedId = NuevoReferencia.ReferenciaId;
+                
             }
+
+            return insertedId;
         }
 
         public void EliminarReferencia(int Id)
@@ -293,6 +298,27 @@ namespace Services.Servicios
 
                 contexto.SaveChanges();
             }
+        }
+
+        public int GuardarReferencia2(ReferenciaDTO referenciaDTO)
+        {
+            int insertedId;
+            using (var contexto = new UnitOfWork())
+            {
+                Referencia NuevoReferencia = new Referencia();
+
+                NuevoReferencia.Autor = referenciaDTO.Autor;
+                NuevoReferencia.Descripcion = referenciaDTO.Descripcion;
+                NuevoReferencia.Fuente = referenciaDTO.Fuente;
+                NuevoReferencia.SubtemaId = referenciaDTO.SubtemaId;
+
+                contexto.Referencia.Add(NuevoReferencia);
+                contexto.SaveChanges();
+                insertedId = NuevoReferencia.ReferenciaId;
+
+            }
+
+            return insertedId;
         }
 
         #endregion
