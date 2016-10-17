@@ -17,6 +17,7 @@
     <UserControl.Resources>
         <ruta:CambioDeColorMensaje x:Key="Convertidor"/>
 
+        
         <Style x:Key="ToggleStyle" TargetType="ToggleButton">
             <Setter Property="Background" Value="#FF1F3B53"/>
             <Setter Property="Foreground" Value="#FF000000"/>
@@ -86,7 +87,7 @@
 
                                 </VisualStateGroup>
                             </VisualStateManager.VisualStateGroups>
-                            <Border x:Name="Background" CornerRadius="13" Background="#FF62BD15">
+                            <Border x:Name="Background" CornerRadius="13" Background="#20BA89">
                                 <Grid  Margin="1" Opacity="0">
                                     <Border x:Name="BackgroundAnimation" Background="#FF448DCA" Opacity="0"/>
                                     <Rectangle x:Name="BackgroundGradient" RadiusX="12" RadiusY="12">
@@ -184,7 +185,7 @@
                 <RowDefinition Height="10*"/>
             </Grid.RowDefinitions>
 
-            <Grid Name="Encabezado" Background="#66b3ff">
+            <Grid Name="Encabezado" Background="#005783" Margin="1,0,-1,0">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="10*" MinWidth="200"></ColumnDefinition>
                     <ColumnDefinition Width="40*" MinWidth="800"></ColumnDefinition>
@@ -195,7 +196,7 @@
                 </Grid>
 
                 <!--<Button Width="100" Height="50" HorizontalAlignment="Center" Cursor="Hand" Template="{StaticResource BtnIrRegistroHoras}"></Button>-->
-                <TextBlock FontFamily="century gothic" FontWeight="Bold" Grid.ColumnSpan="2" Text="MANTENIMIENTO DE CONTROL DE ESTUDIO" Foreground="White" FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
+                <TextBlock FontFamily="century gothic"  Grid.ColumnSpan="2" Text="MANTENIMIENTO DE CONTROL DE ESTUDIO" Foreground="White" FontSize="25" HorizontalAlignment="Center" VerticalAlignment="Center"></TextBlock>
             </Grid>
 
             <Grid Margin="15" Grid.Row="1" Name="Cuerpo">
@@ -220,11 +221,11 @@
                                 <ColumnDefinition Width="180"/>
                             </Grid.ColumnDefinitions>
 
-                            <Rectangle Fill="#bfbfbf" Grid.ColumnSpan="2" StrokeThickness="1" Stroke="Black"/>
+                            <Rectangle Fill="#bfbfbf" Grid.ColumnSpan="2" StrokeThickness="0" Stroke="Gray"/>
                             <TextBlock Text="Categoria" HorizontalAlignment="Left" FontFamily="century gothic" FontSize="18" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" Margin="8,0,0,0"></TextBlock>
 
                             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
-                                <ToggleButton Margin="0,0,5,0" IsChecked="{Binding IsCategoryFilterActive, Mode=TwoWay}" Height="25" Content="Activo"  Background="Gray"  HorizontalAlignment="Right" Width="75" Style="{StaticResource ToggleStyle}" Grid.ColumnSpan="2" />
+                                <ToggleButton Margin="0,0,5,0" IsChecked="{Binding IsCategoryFilterActive, Mode=TwoWay}" Height="25" Content="Activo"  Background="Gray" Foreground="White" FontFamily="century gothic" HorizontalAlignment="Right" Width="75" Style="{StaticResource ToggleStyle}" Grid.ColumnSpan="2" />
                                 <Button Template="{StaticResource BtnNuevoDepartamento}" Command="{Binding ComandoChildWindows}" CommandParameter="Add" HorizontalAlignment="Right" Cursor="Hand" Margin="3,0,5,0"></Button>
                                 <Button Template="{StaticResource BtnEditarDepartamento}" Command="{Binding ComandoChildWindows}" CommandParameter="Edit" HorizontalAlignment="Right"  Cursor="Hand" Margin="3,0,5,0"></Button>
                                 <Button Template="{StaticResource BtnBorrarDepartamento}" Command="{Binding ComandoEliminar}" HorizontalAlignment="Right" Cursor="Hand" Margin="3,0,5,0"></Button>
@@ -278,7 +279,7 @@
                                 <ColumnDefinition Width="100"/>
                             </Grid.ColumnDefinitions>
 
-                            <Rectangle Fill="#bfbfbf" Grid.ColumnSpan="2" StrokeThickness="1" Stroke="Black"/>
+                            <Rectangle Fill="#bfbfbf" Grid.ColumnSpan="2" StrokeThickness="0" Stroke="Black"/>
                             <TextBlock Text="Tema" HorizontalAlignment="Left" FontFamily="century gothic" FontSize="18" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" Margin="8,0,0,0"></TextBlock>
 
                             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
@@ -334,7 +335,7 @@
                                 <ColumnDefinition Width="100"/>
                             </Grid.ColumnDefinitions>
 
-                            <Rectangle Fill="#bfbfbf" Grid.ColumnSpan="2" StrokeThickness="1" Stroke="Black"/>
+                            <Rectangle Fill="#bfbfbf" Grid.ColumnSpan="2" StrokeThickness="0" Stroke="Black"/>
                             <TextBlock Text="Subtema" HorizontalAlignment="Left" FontFamily="century gothic" FontSize="18" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" Margin="8,0,0,0"></TextBlock>
 
                             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
@@ -393,7 +394,7 @@
                                 <ColumnDefinition Width="100"/>
                             </Grid.ColumnDefinitions>
 
-                            <Rectangle Fill="#bfbfbf" Grid.ColumnSpan="2" StrokeThickness="1" Stroke="Black"/>
+                            <Rectangle Fill="#bfbfbf" Grid.ColumnSpan="2" StrokeThickness="0" Stroke="Black"/>
                             <TextBlock Text="Referencias" HorizontalAlignment="Left" FontFamily="century gothic" FontSize="18" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" Margin="8,0,0,0"></TextBlock>
 
                             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
@@ -460,7 +461,7 @@
                     <RowDefinition Height="95*"/>
                     <RowDefinition Height="10*"/>
                 </Grid.RowDefinitions>
-                <Grid Name="EncabezadoPanel" Background="#66b3ff"/>
+                <Grid Name="EncabezadoPanel" Background="#005783"/>
                 <Grid Margin="15" Grid.Row="1" Name="CuerpoPanel">
                     <Grid Name="Lista5" Margin="10" Grid.Row="1">
                         <Grid Name="SubGridUsuario">
@@ -475,8 +476,8 @@
                                     <ColumnDefinition Width="100"/>
                                 </Grid.ColumnDefinitions>
 
-                                <Rectangle Fill="#bfbfbf" Grid.ColumnSpan="2" StrokeThickness="1" Stroke="Black"/>
-                                <TextBlock Text="Usuarios" HorizontalAlignment="Left" FontFamily="century gothic" FontSize="18" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" Margin="8,0,0,0"></TextBlock>
+                                <Rectangle Fill="#bfbfbf" Grid.ColumnSpan="2" StrokeThickness="0" Stroke="Black"/>
+                                <TextBlock Text="Usuarios" HorizontalAlignment="Left" FontFamily="century gothic" FontSize="18" VerticalAlignment="Center" Foreground="White" FontWeight="Bold"  Margin="8,0,0,0"></TextBlock>
 
                                 <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
                                     <Button Template="{StaticResource BtnNuevoDepartamento}" Command="{Binding ComandoModalUsuarios}" CommandParameter="Add" HorizontalAlignment="Right" Cursor="Hand" Margin="3,0,5,0"></Button>

@@ -42,9 +42,9 @@
 
         </Grid>
 
-        <Button VerticalAlignment="Bottom" x:Name="CancelButton" Content="Cancel" Click="CancelButton_Click" Width="75" Height="22" HorizontalAlignment="Right"  Margin="0,0,19,0" Cursor="Hand" />
-        <Button VerticalAlignment="Bottom" x:Name="GuardarButton" Content="Guardar" Click="OKButton_Click" Command="{Binding ComandoGuardarTema}" Width="92" HorizontalAlignment="Right" Margin="0,0,107,0"  Cursor="Hand"/>
-        <Button VerticalAlignment="Bottom" x:Name="ActualizarButton" Content="Actualizar" Click="OKButton_Click" Command="{Binding ComandoEditarTema}" Width="92" HorizontalAlignment="Right" Margin="0,0,212,0"  Cursor="Hand"/>
+        <Button VerticalAlignment="Bottom" Style="{StaticResource estiloboton}" x:Name="CancelButton" Content="Cancel" Click="CancelButton_Click" Width="75" Height="19" HorizontalAlignment="Right"  Margin="0,0,19,0" Cursor="Hand" />
+        <Button VerticalAlignment="Bottom" Style="{StaticResource estiloboton}" x:Name="GuardarButton" Content="Guardar" Click="OKButton_Click" Command="{Binding ComandoGuardarTema}" Width="92" HorizontalAlignment="Right" Margin="0,0,107,0"  Cursor="Hand" Height="19"/>
+        <Button VerticalAlignment="Bottom" Style="{StaticResource estiloboton}" x:Name="ActualizarButton" Content="Actualizar" Click="OKButton_Click" Command="{Binding ComandoEditarTema}" Width="92" HorizontalAlignment="Right" Margin="0,0,212,0"  Cursor="Hand" Height="19"/>
 
     </Grid>
 </controls:ChildWindow>

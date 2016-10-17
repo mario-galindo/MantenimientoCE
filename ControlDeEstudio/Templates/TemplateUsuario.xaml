@@ -25,8 +25,8 @@
                 </Grid>
             </Viewbox>
             <StackPanel Orientation="Vertical">
-                <TextBlock Foreground="Gray" Text="{Binding Nombre}" FontSize="18" TextWrapping="Wrap" VerticalAlignment="Center" FontFamily="century gothic" FontWeight="Bold"></TextBlock>
-                <TextBlock Foreground="Orange" FontSize="18" VerticalAlignment="Center" Text="{Binding Estado}" FontFamily="century gothic" FontWeight="Bold"></TextBlock>
+                <TextBlock Foreground="Gray" Text="{Binding Nombre}" FontSize="18" TextWrapping="Wrap" VerticalAlignment="Center" FontFamily="century gothic" ></TextBlock>
+                <TextBlock Foreground="Orange" FontSize="18" VerticalAlignment="Center" Text="{Binding Estado}" FontFamily="century gothic" ></TextBlock>
             </StackPanel>
         </StackPanel>
     </Grid>

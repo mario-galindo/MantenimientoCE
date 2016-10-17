@@ -12,7 +12,7 @@
             <Viewbox Margin="5">
                 <Grid>
                     <Grid Name="backgroundGrid" Width="48" Height="48" Visibility="Collapsed" />
-                    <Path Data="M9.3490017,28.468994L9.3490017,29.864014 15.674991,29.864014 15.674991,28.468994z M0.93100026,28.468994L0.93100026,29.864014 5.7679766,29.864014 5.7679766,28.468994z M29.948981,27.528992L22.943,28.709991 23.173987,30.085999 30.181006,28.904999z M26.392981,6.3619995L19.386998,7.5429993 19.617986,8.9190063 26.625007,7.7390137z M0.93100026,5.1350098L0.93100026,6.5299988 5.7679766,6.5299988 5.7679766,5.1350098z M27.039985,4.8779907L31.154,30.622009 22.527989,32 18.414983,6.2569885z M0,2.605011L6.6969927,2.605011 6.6969927,32 0,32z M9.3490017,2.4689941L9.3490017,3.8640137 15.674991,3.8640137 15.674991,2.4689941z M8.5119952,0L16.511998,0 16.511998,32 8.5119952,32z" Stretch="Uniform" Fill="#FF4472A2" Width="48" Height="48" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5">
+                    <Path Data="M9.3490017,28.468994L9.3490017,29.864014 15.674991,29.864014 15.674991,28.468994z M0.93100026,28.468994L0.93100026,29.864014 5.7679766,29.864014 5.7679766,28.468994z M29.948981,27.528992L22.943,28.709991 23.173987,30.085999 30.181006,28.904999z M26.392981,6.3619995L19.386998,7.5429993 19.617986,8.9190063 26.625007,7.7390137z M0.93100026,5.1350098L0.93100026,6.5299988 5.7679766,6.5299988 5.7679766,5.1350098z M27.039985,4.8779907L31.154,30.622009 22.527989,32 18.414983,6.2569885z M0,2.605011L6.6969927,2.605011 6.6969927,32 0,32z M9.3490017,2.4689941L9.3490017,3.8640137 15.674991,3.8640137 15.674991,2.4689941z M8.5119952,0L16.511998,0 16.511998,32 8.5119952,32z" Stretch="Uniform" Fill="#7791A1" Width="35" Height="35" Margin="10,0,0,0" RenderTransformOrigin="0.5,0.5">
                         <Path.RenderTransform>
                             <TransformGroup>
                                 <TransformGroup.Children>
@@ -25,8 +25,8 @@
                 </Grid>
             </Viewbox>
             <StackPanel Orientation="Vertical">
-                <TextBlock Foreground="Gray" Text="{Binding Nombre}" FontSize="18" TextWrapping="Wrap" VerticalAlignment="Center" FontFamily="century gothic" FontWeight="Bold"></TextBlock>
-                <TextBlock Foreground="Orange" FontSize="18" VerticalAlignment="Center" Text="{Binding Estado}" FontFamily="century gothic" FontWeight="Bold"></TextBlock>
+                <TextBlock Foreground="#707070" Text="{Binding Nombre}" FontSize="18" TextWrapping="Wrap" VerticalAlignment="Center" FontFamily="century gothic" ></TextBlock>
+                <TextBlock Foreground="Orange" FontSize="13" VerticalAlignment="Center" Text="{Binding Estado}" FontFamily="century gothic" ></TextBlock>
             </StackPanel>
         </StackPanel>
     </Grid>

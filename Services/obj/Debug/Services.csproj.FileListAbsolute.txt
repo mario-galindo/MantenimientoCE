@@ -228,3 +228,17 @@ C:\Users\mgalindo\Desktop\MantenimientoCE\Services\bin\EntityFramework.SqlServer
 C:\Users\mgalindo\Desktop\MantenimientoCE\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
 C:\Users\mgalindo\Desktop\MantenimientoCE\Services\obj\Debug\Services.dll
 C:\Users\mgalindo\Desktop\MantenimientoCE\Services\obj\Debug\Services.pdb
+C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\bin\Services.dll.config
+C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\bin\Services.dll
+C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\bin\Services.pdb
+C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\bin\Domain.dll
+C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\bin\EntityFramework.dll
+C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\bin\EntityFramework.SqlServer.dll
+C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\bin\Infrastructure.dll
+C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\bin\Domain.pdb
+C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\bin\Infrastructure.pdb
+C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\bin\EntityFramework.xml
+C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\bin\EntityFramework.SqlServer.xml
+C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\obj\Debug\Services.dll
+C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\obj\Debug\Services.pdb

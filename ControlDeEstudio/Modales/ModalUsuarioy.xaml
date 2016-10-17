@@ -38,8 +38,8 @@
 
         </Grid>
 
-        <Button VerticalAlignment="Bottom" x:Name="CancelButton" Content="Cancel" Click="CancelButton_Click" Width="75" Height="23" HorizontalAlignment="Right" Margin="0,12,0,0" Cursor="Hand" Grid.Row="1"/>
-        <Button VerticalAlignment="Bottom" x:Name="GuardarButton" Content="Guardar" Click="OKButton_Click" Command="{Binding ComandoGuardarUsuarios}" Width="75" Height="23" HorizontalAlignment="Right" Margin="0,12,80,0" Cursor="Hand" Grid.Row="1"/>
-        <Button VerticalAlignment="Bottom" x:Name="ActualizarButton" Content="Actualizar" Click="OKButton_Click" Command="{Binding ComandoEditarUsuarios}" Width="75" Height="23" HorizontalAlignment="Right" Margin="0,0,160,0" Cursor="Hand" Grid.Row="1"/>
+        <Button VerticalAlignment="Bottom" Style="{StaticResource estiloboton}" x:Name="CancelButton" Content="Cancel" Click="CancelButton_Click" Width="75" Height="23" HorizontalAlignment="Right" Margin="0,12,0,0" Cursor="Hand" Grid.Row="1"/>
+        <Button VerticalAlignment="Bottom" Style="{StaticResource estiloboton}" x:Name="GuardarButton" Content="Guardar" Click="OKButton_Click" Command="{Binding ComandoGuardarUsuarios}" Width="75" Height="23" HorizontalAlignment="Right" Margin="0,12,80,0" Cursor="Hand" Grid.Row="1"/>
+        <Button VerticalAlignment="Bottom" Style="{StaticResource estiloboton}" x:Name="ActualizarButton" Content="Actualizar" Click="OKButton_Click" Command="{Binding ComandoEditarUsuarios}" Width="75" Height="23" HorizontalAlignment="Right" Margin="0,0,160,0" Cursor="Hand" Grid.Row="1"/>
     </Grid>
 </controls:ChildWindow>

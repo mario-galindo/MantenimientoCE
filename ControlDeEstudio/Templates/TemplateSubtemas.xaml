@@ -11,7 +11,7 @@
             <Viewbox Margin="5">
                 <Grid>
                     <Grid Name="backgroundGrid" Width="48" Height="48" Visibility="Collapsed" />
-                    <Path Data="M0,4.3129759L6.8699952,4.3129759 6.8699952,6.312974 2,6.312974 2,26.425989 7.8420411,19.821991 14,26.747947 14,15.312963 16,15.312963 16,32.006975 7.8459473,22.834989 0,31.705949z M15.124022,0L20.815002,5.7439723 19.393007,7.1519659 16,3.7263764 16,13.002982 14,13.002982 14,3.9765157 10.846036,7.1599655 9.4260407,5.7519724 14,1.1346722 14,1.0029819 14.130454,1.0029819z" Stretch="Uniform" Fill="#FF4472A2" Width="48" Height="48" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5">
+                    <Path Data="M0,4.3129759L6.8699952,4.3129759 6.8699952,6.312974 2,6.312974 2,26.425989 7.8420411,19.821991 14,26.747947 14,15.312963 16,15.312963 16,32.006975 7.8459473,22.834989 0,31.705949z M15.124022,0L20.815002,5.7439723 19.393007,7.1519659 16,3.7263764 16,13.002982 14,13.002982 14,3.9765157 10.846036,7.1599655 9.4260407,5.7519724 14,1.1346722 14,1.0029819 14.130454,1.0029819z" Stretch="Uniform" Fill="#7791A1" Width="35" Height="35" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5">
                         <Path.RenderTransform>
                             <TransformGroup>
                                 <TransformGroup.Children>
@@ -24,8 +24,8 @@
                 </Grid>
             </Viewbox>
             <StackPanel Orientation="Vertical">
-                <TextBlock Foreground="Gray" Text="{Binding Descripcion}" FontSize="18" TextWrapping="Wrap" VerticalAlignment="Center" FontFamily="century gothic" FontWeight="Bold"></TextBlock>
-                <TextBlock Foreground="Orange" FontSize="18" VerticalAlignment="Center" Text="{Binding Estado}" FontFamily="century gothic" FontWeight="Bold"></TextBlock>
+                <TextBlock Foreground="#707070"  Text="{Binding Descripcion}" FontSize="18" TextWrapping="Wrap" VerticalAlignment="Center" FontFamily="century gothic"></TextBlock>
+                <TextBlock Foreground="Orange" FontSize="13" VerticalAlignment="Center" Text="{Binding Estado}" FontFamily="century gothic" ></TextBlock>
             </StackPanel>
         </StackPanel>
     </Grid>
