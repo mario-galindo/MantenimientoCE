@@ -472,7 +472,7 @@ namespace ControlDeEstudio.TestServiceReference {
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITestService/EliminarCategoria", ReplyAction="http://tempuri.org/ITestService/EliminarCategoriaResponse")]
         System.IAsyncResult BeginEliminarCategoria(string Id, System.AsyncCallback callback, object asyncState);
         
-        void EndEliminarCategoria(System.IAsyncResult result);
+        ControlDeEstudio.TestServiceReference.CategoriaDTO EndEliminarCategoria(System.IAsyncResult result);
         
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITestService/ModificarCategoria", ReplyAction="http://tempuri.org/ITestService/ModificarCategoriaResponse")]
         System.IAsyncResult BeginModificarCategoria(ControlDeEstudio.TestServiceReference.CategoriaDTO dto, System.AsyncCallback callback, object asyncState);
@@ -560,6 +560,25 @@ namespace ControlDeEstudio.TestServiceReference {
         private object[] results;
         
         public AgregarCategoriaCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        public ControlDeEstudio.TestServiceReference.CategoriaDTO Result {
+            get {
+                base.RaiseExceptionIfNecessary();
+                return ((ControlDeEstudio.TestServiceReference.CategoriaDTO)(this.results[0]));
+            }
+        }
+    }
+    
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
+    public partial class EliminarCategoriaCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        public EliminarCategoriaCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
                 base(exception, cancelled, userState) {
             this.results = results;
         }
@@ -877,7 +896,7 @@ namespace ControlDeEstudio.TestServiceReference {
         
         public event System.EventHandler<AgregarCategoriaCompletedEventArgs> AgregarCategoriaCompleted;
         
-        public event System.EventHandler<System.ComponentModel.AsyncCompletedEventArgs> EliminarCategoriaCompleted;
+        public event System.EventHandler<EliminarCategoriaCompletedEventArgs> EliminarCategoriaCompleted;
         
         public event System.EventHandler<ModificarCategoriaCompletedEventArgs> ModificarCategoriaCompleted;
         
@@ -1046,8 +1065,8 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        void ControlDeEstudio.TestServiceReference.ITestService.EndEliminarCategoria(System.IAsyncResult result) {
-            base.Channel.EndEliminarCategoria(result);
+        ControlDeEstudio.TestServiceReference.CategoriaDTO ControlDeEstudio.TestServiceReference.ITestService.EndEliminarCategoria(System.IAsyncResult result) {
+            return base.Channel.EndEliminarCategoria(result);
         }
         
         private System.IAsyncResult OnBeginEliminarCategoria(object[] inValues, System.AsyncCallback callback, object asyncState) {
@@ -1056,14 +1075,15 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         private object[] OnEndEliminarCategoria(System.IAsyncResult result) {
-            ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndEliminarCategoria(result);
-            return null;
+            ControlDeEstudio.TestServiceReference.CategoriaDTO retVal = ((ControlDeEstudio.TestServiceReference.ITestService)(this)).EndEliminarCategoria(result);
+            return new object[] {
+                    retVal};
         }
         
         private void OnEliminarCategoriaCompleted(object state) {
             if ((this.EliminarCategoriaCompleted != null)) {
                 InvokeAsyncCompletedEventArgs e = ((InvokeAsyncCompletedEventArgs)(state));
-                this.EliminarCategoriaCompleted(this, new System.ComponentModel.AsyncCompletedEventArgs(e.Error, e.Cancelled, e.UserState));
+                this.EliminarCategoriaCompleted(this, new EliminarCategoriaCompletedEventArgs(e.Results, e.Error, e.Cancelled, e.UserState));
             }
         }
         
@@ -1708,9 +1728,10 @@ namespace ControlDeEstudio.TestServiceReference {
                 return _result;
             }
             
-            public void EndEliminarCategoria(System.IAsyncResult result) {
+            public ControlDeEstudio.TestServiceReference.CategoriaDTO EndEliminarCategoria(System.IAsyncResult result) {
                 object[] _args = new object[0];
-                base.EndInvoke("EliminarCategoria", _args, result);
+                ControlDeEstudio.TestServiceReference.CategoriaDTO _result = ((ControlDeEstudio.TestServiceReference.CategoriaDTO)(base.EndInvoke("EliminarCategoria", _args, result)));
+                return _result;
             }
             
             public System.IAsyncResult BeginModificarCategoria(ControlDeEstudio.TestServiceReference.CategoriaDTO dto, System.AsyncCallback callback, object asyncState) {

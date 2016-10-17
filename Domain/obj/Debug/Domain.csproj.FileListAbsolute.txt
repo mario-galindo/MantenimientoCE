@@ -64,3 +64,7 @@ C:\Users\mgalindo\Desktop\MantenimientoCE\Domain\bin\Debug\Domain.pdb
 C:\Users\mgalindo\Desktop\MantenimientoCE\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
 C:\Users\mgalindo\Desktop\MantenimientoCE\Domain\obj\Debug\Domain.dll
 C:\Users\mgalindo\Desktop\MantenimientoCE\Domain\obj\Debug\Domain.pdb
+C:\Users\japena\Source\Repos\CEGit\Domain\bin\Debug\Domain.dll
+C:\Users\japena\Source\Repos\CEGit\Domain\bin\Debug\Domain.pdb
+C:\Users\japena\Source\Repos\CEGit\Domain\obj\Debug\Domain.dll
+C:\Users\japena\Source\Repos\CEGit\Domain\obj\Debug\Domain.pdb
