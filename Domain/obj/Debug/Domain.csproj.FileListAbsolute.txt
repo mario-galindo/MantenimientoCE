@@ -59,3 +59,8 @@ C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Domain\bin\
 C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Domain\bin\Debug\Domain.pdb
 C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Domain\obj\Debug\Domain.dll
 C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Domain\obj\Debug\Domain.pdb
+C:\Users\mgalindo\Desktop\MantenimientoCE\Domain\bin\Debug\Domain.dll
+C:\Users\mgalindo\Desktop\MantenimientoCE\Domain\bin\Debug\Domain.pdb
+C:\Users\mgalindo\Desktop\MantenimientoCE\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\mgalindo\Desktop\MantenimientoCE\Domain\obj\Debug\Domain.dll
+C:\Users\mgalindo\Desktop\MantenimientoCE\Domain\obj\Debug\Domain.pdb
