@@ -24,7 +24,7 @@ namespace Services.Servicios
         CategoriaDTO AgregarCategoria(CategoriaDTO categoriaDTO);
 
         [OperationContract]
-         CategoriaDTO EliminarCategoria(string Id);
+         void EliminarCategoria(string Id);
         [OperationContract]
         CategoriaDTO ModificarCategoria(CategoriaDTO dto);
 

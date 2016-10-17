@@ -387,7 +387,6 @@ namespace ControlDeEstudio.ViewModels
         #endregion
 
         #region Otros
-        
         public string VisualStateName
         {
             get { return _visualStateName; }
@@ -600,17 +599,13 @@ namespace ControlDeEstudio.ViewModels
 
         }
 
-        void proxy_EliminarCategoriaCompleted(object sender, TestServiceReference.EliminarCategoriaCompletedEventArgs e)
+        void proxy_EliminarCategoriaCompleted(object sender, System.ComponentModel.AsyncCompletedEventArgs e)
         {
 
-            if (e.Result == null)
+            if (e.Error == null)
             {
                 MostrarMensaje("Se elimino la categoria", "Exito");
                 ListarCategorias();
-            }
-            else
-            {
-                MostrarMensaje(e.Result.Error,"Error");
             }
         }
         public void CargarCategoriaporID(string Id)
