@@ -134,7 +134,7 @@ namespace Services.Servicios
             }
         }
 
-        public void EliminarCategoria(string Id)
+        public CategoriaDTO EliminarCategoria(string Id)
         {
             var categoria = new CategoriaDTO();
 
@@ -144,10 +144,23 @@ namespace Services.Servicios
 
                 if (entidadCategoria != null)
                 {
-                    contexto.Categoria.Remove(entidadCategoria);
-                    contexto.SaveChanges();   
+                    try
+                    {
+                        contexto.Categoria.Remove(entidadCategoria);
+                        contexto.SaveChanges();
+                        return null;
+                    }
+                    catch (Exception)
+                    {
+                        return new CategoriaDTO() { Error = "Debe borrar los temas relacionados a esta categoria" };
+                    }
+                }
+                else
+                {
+                    return new CategoriaDTO() { Error = "No se pudo eliminar la categoria" };
                 }
             }
+
         }
 
         public CategoriaDTO ModificarCategoria(CategoriaDTO dto)
@@ -312,7 +325,12 @@ namespace Services.Servicios
         #endregion
 
         #region Referencias
-        public ReferenciaDTO GuardarReferencia(ReferenciaDTO referenciaDTO)
+        public bool CheckURLValid(string source)
+         {
+            Uri uriResult;
+            return Uri.TryCreate(source, UriKind.Absolute, out uriResult) && (uriResult.Scheme == Uri.UriSchemeHttp || uriResult.Scheme == Uri.UriSchemeHttps);
+        }
+    public ReferenciaDTO GuardarReferencia(ReferenciaDTO referenciaDTO)
         {
             int insertedId;
             using (var contexto = new UnitOfWork())
@@ -321,17 +339,25 @@ namespace Services.Servicios
 
                 if (buscarReferencia == null)
                 {
-                    Referencia NuevoReferencia = new Referencia();
+                    if (CheckURLValid(referenciaDTO.Fuente))
+                    {
+                        Referencia NuevoReferencia = new Referencia();
 
-                    NuevoReferencia.Autor = referenciaDTO.Autor;
-                    NuevoReferencia.Descripcion = referenciaDTO.Descripcion;
-                    NuevoReferencia.Fuente = referenciaDTO.Fuente;
-                    NuevoReferencia.SubtemaId = referenciaDTO.SubtemaId;
+                        NuevoReferencia.Autor = referenciaDTO.Autor;
+                        NuevoReferencia.Descripcion = referenciaDTO.Descripcion;
+                        NuevoReferencia.Fuente = referenciaDTO.Fuente;
+                        NuevoReferencia.SubtemaId = referenciaDTO.SubtemaId;
 
-                    contexto.Referencia.Add(NuevoReferencia);
-                    contexto.SaveChanges();
-                    insertedId = NuevoReferencia.ReferenciaId;
-                    return new ReferenciaDTO() { ReferenciaId = insertedId };
+                        contexto.Referencia.Add(NuevoReferencia);
+                        contexto.SaveChanges();
+                        insertedId = NuevoReferencia.ReferenciaId;
+                        return new ReferenciaDTO() { ReferenciaId = insertedId };
+                    }
+                    else
+                    {
+                        return new ReferenciaDTO() { Error = "URL no valida" };
+                    }
+                   
                 }
                 else
                 {
@@ -368,7 +394,6 @@ namespace Services.Servicios
                 {
                     return new ReferenciaDTO() { Error = "Error al actualizar la referencia" };
                 }
-                
             }
         }
 

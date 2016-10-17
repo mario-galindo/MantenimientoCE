@@ -69,3 +69,7 @@ C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Domain\b
 C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
 C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Domain\obj\Debug\Domain.dll
 C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Domain\obj\Debug\Domain.pdb
+C:\Users\japena\Source\Repos\CEGit\Domain\bin\Debug\Domain.dll
+C:\Users\japena\Source\Repos\CEGit\Domain\bin\Debug\Domain.pdb
+C:\Users\japena\Source\Repos\CEGit\Domain\obj\Debug\Domain.dll
+C:\Users\japena\Source\Repos\CEGit\Domain\obj\Debug\Domain.pdb

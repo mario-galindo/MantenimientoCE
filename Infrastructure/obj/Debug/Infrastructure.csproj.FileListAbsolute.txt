@@ -211,3 +211,15 @@ C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastr
 C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
 C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.dll
 C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.pdb
+C:\Users\japena\Source\Repos\CEGit\Infrastructure\bin\Debug\Infrastructure.dll.config
+C:\Users\japena\Source\Repos\CEGit\Infrastructure\bin\Debug\Infrastructure.dll
+C:\Users\japena\Source\Repos\CEGit\Infrastructure\bin\Debug\Infrastructure.pdb
+C:\Users\japena\Source\Repos\CEGit\Infrastructure\bin\Debug\Domain.dll
+C:\Users\japena\Source\Repos\CEGit\Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\japena\Source\Repos\CEGit\Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\japena\Source\Repos\CEGit\Infrastructure\bin\Debug\Domain.pdb
+C:\Users\japena\Source\Repos\CEGit\Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\japena\Source\Repos\CEGit\Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\japena\Source\Repos\CEGit\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\japena\Source\Repos\CEGit\Infrastructure\obj\Debug\Infrastructure.dll
+C:\Users\japena\Source\Repos\CEGit\Infrastructure\obj\Debug\Infrastructure.pdb

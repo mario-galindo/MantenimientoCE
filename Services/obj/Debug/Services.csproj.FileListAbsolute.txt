@@ -256,3 +256,17 @@ C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services
 C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
 C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\obj\Debug\Services.dll
 C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\obj\Debug\Services.pdb
+C:\Users\japena\Source\Repos\CEGit\Services\bin\Services.dll.config
+C:\Users\japena\Source\Repos\CEGit\Services\bin\Services.dll
+C:\Users\japena\Source\Repos\CEGit\Services\bin\Services.pdb
+C:\Users\japena\Source\Repos\CEGit\Services\bin\Domain.dll
+C:\Users\japena\Source\Repos\CEGit\Services\bin\EntityFramework.dll
+C:\Users\japena\Source\Repos\CEGit\Services\bin\EntityFramework.SqlServer.dll
+C:\Users\japena\Source\Repos\CEGit\Services\bin\Infrastructure.dll
+C:\Users\japena\Source\Repos\CEGit\Services\bin\Domain.pdb
+C:\Users\japena\Source\Repos\CEGit\Services\bin\Infrastructure.pdb
+C:\Users\japena\Source\Repos\CEGit\Services\bin\EntityFramework.xml
+C:\Users\japena\Source\Repos\CEGit\Services\bin\EntityFramework.SqlServer.xml
+C:\Users\japena\Source\Repos\CEGit\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\japena\Source\Repos\CEGit\Services\obj\Debug\Services.dll
+C:\Users\japena\Source\Repos\CEGit\Services\obj\Debug\Services.pdb
