@@ -242,3 +242,17 @@ C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\bin\EntityFramework.Sql
 C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
 C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\obj\Debug\Services.dll
 C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\obj\Debug\Services.pdb
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\Services.dll.config
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\Services.dll
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\Services.pdb
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\Domain.dll
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\EntityFramework.dll
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\EntityFramework.SqlServer.dll
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\Infrastructure.dll
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\Domain.pdb
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\Infrastructure.pdb
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\EntityFramework.xml
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\EntityFramework.SqlServer.xml
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\obj\Debug\Services.dll
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\obj\Debug\Services.pdb

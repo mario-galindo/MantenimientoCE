@@ -623,7 +623,6 @@ namespace ControlDeEstudio.ViewModels
         {
             Categorias = e.Result;
             PaginadoCategorias = new PagedCollectionView(Categorias);
-            //PaginadoTemas = null;
 
         }
 
@@ -693,6 +692,10 @@ namespace ControlDeEstudio.ViewModels
                 Modales.ModalTema modalTema = new Modales.ModalTema();
                 modalTema.ActualizarButton.IsEnabled = false;
                 modalTema.GuardarButton.IsEnabled = true;
+
+                var nuevoTema = new TestServiceReference.TemasDTO();
+                TemaDTO = nuevoTema;
+
                 modalTema.Show();
 
             }
@@ -806,6 +809,10 @@ namespace ControlDeEstudio.ViewModels
                 Modales.ModalSubtema modalSubtema = new Modales.ModalSubtema();
                 modalSubtema.GuardarButton.IsEnabled = true;
                 modalSubtema.ActualizarButton.IsEnabled = false;
+
+                var NuevoSubTema = new TestServiceReference.SubtemaDTO();
+                SubtemaDTO = NuevoSubTema;
+
                 modalSubtema.Show();
 
             }
@@ -944,6 +951,10 @@ namespace ControlDeEstudio.ViewModels
 
                 modalRefereancia.GuardarButton.IsEnabled = true;
                 modalRefereancia.ActualizarButton.IsEnabled = false;
+                
+                var nuevaReferencia = new TestServiceReference.ReferenciaDTO();
+                ReferenciaDto = nuevaReferencia;
+
                 modalRefereancia.Show();
             }
         }
@@ -1139,6 +1150,10 @@ namespace ControlDeEstudio.ViewModels
 
             modalUsuario.ActualizarButton.IsEnabled = false;
             modalUsuario.GuardarButton.IsEnabled = true;
+
+            var nuevoUsuario = new UsuariosServiceReference.UsuariosDTO();
+            UsuariosDto = nuevoUsuario;
+
             modalUsuario.Show();
         }
 
