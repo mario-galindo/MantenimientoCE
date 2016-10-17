@@ -14,7 +14,7 @@ namespace Infrastructure
         public ReferenciaEntityTypeConfiguration()
         {
             HasKey(t => t.ReferenciaId);
-            ToTable("Referencias", "dbo");
+            ToTable("Referencias", "Training");
 
             Property(t => t.ReferenciaId).HasColumnName("ReferenciaId").IsRequired().HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
             Property(t => t.Fuente).HasColumnName("Fuente").IsRequired().IsUnicode(false).HasMaxLength(100);

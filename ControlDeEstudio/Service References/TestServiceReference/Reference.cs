@@ -460,7 +460,7 @@ namespace ControlDeEstudio.TestServiceReference {
         void EndDoWork(System.IAsyncResult result);
         
         [System.ServiceModel.OperationContractAttribute(AsyncPattern=true, Action="http://tempuri.org/ITestService/ObtenerCategorias", ReplyAction="http://tempuri.org/ITestService/ObtenerCategoriasResponse")]
-        System.IAsyncResult BeginObtenerCategorias(System.AsyncCallback callback, object asyncState);
+        System.IAsyncResult BeginObtenerCategorias(bool CategoryFilter, System.AsyncCallback callback, object asyncState);
         
         System.Collections.ObjectModel.ObservableCollection<ControlDeEstudio.TestServiceReference.CategoriaDTO> EndObtenerCategorias(System.IAsyncResult result);
         
@@ -949,8 +949,8 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
-        System.IAsyncResult ControlDeEstudio.TestServiceReference.ITestService.BeginObtenerCategorias(System.AsyncCallback callback, object asyncState) {
-            return base.Channel.BeginObtenerCategorias(callback, asyncState);
+        System.IAsyncResult ControlDeEstudio.TestServiceReference.ITestService.BeginObtenerCategorias(bool CategoryFilter, System.AsyncCallback callback, object asyncState) {
+            return base.Channel.BeginObtenerCategorias(CategoryFilter, callback, asyncState);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -959,7 +959,8 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         private System.IAsyncResult OnBeginObtenerCategorias(object[] inValues, System.AsyncCallback callback, object asyncState) {
-            return ((ControlDeEstudio.TestServiceReference.ITestService)(this)).BeginObtenerCategorias(callback, asyncState);
+            bool CategoryFilter = ((bool)(inValues[0]));
+            return ((ControlDeEstudio.TestServiceReference.ITestService)(this)).BeginObtenerCategorias(CategoryFilter, callback, asyncState);
         }
         
         private object[] OnEndObtenerCategorias(System.IAsyncResult result) {
@@ -975,11 +976,11 @@ namespace ControlDeEstudio.TestServiceReference {
             }
         }
         
-        public void ObtenerCategoriasAsync() {
-            this.ObtenerCategoriasAsync(null);
+        public void ObtenerCategoriasAsync(bool CategoryFilter) {
+            this.ObtenerCategoriasAsync(CategoryFilter, null);
         }
         
-        public void ObtenerCategoriasAsync(object userState) {
+        public void ObtenerCategoriasAsync(bool CategoryFilter, object userState) {
             if ((this.onBeginObtenerCategoriasDelegate == null)) {
                 this.onBeginObtenerCategoriasDelegate = new BeginOperationDelegate(this.OnBeginObtenerCategorias);
             }
@@ -989,7 +990,8 @@ namespace ControlDeEstudio.TestServiceReference {
             if ((this.onObtenerCategoriasCompletedDelegate == null)) {
                 this.onObtenerCategoriasCompletedDelegate = new System.Threading.SendOrPostCallback(this.OnObtenerCategoriasCompleted);
             }
-            base.InvokeAsync(this.onBeginObtenerCategoriasDelegate, null, this.onEndObtenerCategoriasDelegate, this.onObtenerCategoriasCompletedDelegate, userState);
+            base.InvokeAsync(this.onBeginObtenerCategoriasDelegate, new object[] {
+                        CategoryFilter}, this.onEndObtenerCategoriasDelegate, this.onObtenerCategoriasCompletedDelegate, userState);
         }
         
         [System.ComponentModel.EditorBrowsableAttribute(System.ComponentModel.EditorBrowsableState.Advanced)]
@@ -1673,8 +1675,9 @@ namespace ControlDeEstudio.TestServiceReference {
                 base.EndInvoke("DoWork", _args, result);
             }
             
-            public System.IAsyncResult BeginObtenerCategorias(System.AsyncCallback callback, object asyncState) {
-                object[] _args = new object[0];
+            public System.IAsyncResult BeginObtenerCategorias(bool CategoryFilter, System.AsyncCallback callback, object asyncState) {
+                object[] _args = new object[1];
+                _args[0] = CategoryFilter;
                 System.IAsyncResult _result = base.BeginInvoke("ObtenerCategorias", _args, callback, asyncState);
                 return _result;
             }

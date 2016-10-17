@@ -201,6 +201,23 @@ namespace ControlDeEstudio.ViewModels
                 RaisePropertyChanged("IsAdd");
             }
         }
+
+        private bool _iscategoryActive;
+        public bool IsCategoryFilterActive
+        {
+            get
+            {
+                return _iscategoryActive;
+            }
+
+            set
+            {
+                if (_iscategoryActive == value) return;
+                _iscategoryActive = value;
+                RaisePropertyChanged("IsActive");
+                ListarCategorias();
+            }
+        }
         #endregion
 
         #region Propiedades Temas
@@ -607,7 +624,7 @@ namespace ControlDeEstudio.ViewModels
 
         public void ListarCategorias()
         {
-            proxy.ObtenerCategoriasAsync();
+            proxy.ObtenerCategoriasAsync(IsCategoryFilterActive);
         }
 
         private void Proxy_ObtenerCategoriasCompleted(object sender, TestServiceReference.ObtenerCategoriasCompletedEventArgs e)

@@ -18,7 +18,7 @@ namespace Services.Servicios
         void DoWork();
 
         [OperationContract]
-        List<CategoriaDTO> ObtenerCategorias();
+        List<CategoriaDTO> ObtenerCategorias(bool CategoryFilter);
 
         [OperationContract]
         CategoriaDTO AgregarCategoria(CategoriaDTO categoriaDTO);

@@ -51,3 +51,7 @@ C:\Users\Javier\Desktop\MantenimientoCE\Domain\bin\Debug\Domain.pdb
 C:\Users\Javier\Desktop\MantenimientoCE\Domain\obj\Debug\Domain.dll
 C:\Users\Javier\Desktop\MantenimientoCE\Domain\obj\Debug\Domain.pdb
 C:\Users\Javier\Desktop\MantenimientoCE\Domain\obj\Debug\Domain.csprojResolveAssemblyReference.cache
+C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Domain\bin\Debug\Domain.dll
+C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Domain\bin\Debug\Domain.pdb
+C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Domain\obj\Debug\Domain.dll
+C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Domain\obj\Debug\Domain.pdb

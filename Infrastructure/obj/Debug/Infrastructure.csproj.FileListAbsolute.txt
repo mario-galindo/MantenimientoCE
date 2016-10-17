@@ -151,3 +151,27 @@ C:\Users\Javier\Desktop\MantenimientoCE\Infrastructure\bin\Debug\EntityFramework
 C:\Users\Javier\Desktop\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
 C:\Users\Javier\Desktop\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.dll
 C:\Users\Javier\Desktop\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.pdb
+C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Infrastructure\bin\Debug\Infrastructure.dll.config
+C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Infrastructure\bin\Debug\Infrastructure.dll
+C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Infrastructure\bin\Debug\Infrastructure.pdb
+C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Infrastructure\bin\Debug\Domain.dll
+C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Infrastructure\bin\Debug\Domain.pdb
+C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.dll
+C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.pdb
+C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Infrastructure\bin\Debug\Infrastructure.dll.config
+C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Infrastructure\bin\Debug\Infrastructure.dll
+C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Infrastructure\bin\Debug\Infrastructure.pdb
+C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Infrastructure\bin\Debug\Domain.dll
+C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Infrastructure\bin\Debug\Domain.pdb
+C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.dll
+C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.pdb

@@ -20,23 +20,36 @@ namespace Services.Servicios
         }
 
         #region Categorias
-        public List<CategoriaDTO> ObtenerCategorias()
+        public List<CategoriaDTO> ObtenerCategorias(bool CategoryFilter)
         {
-
             var categoriaDto = new List<CategoriaDTO>();
-
+            var newtemadto = new List<TemasDTO>();
 
             using (var contexto = new UnitOfWork())
             {
-                var categorias = contexto.Categoria.ToList();
+                List<Categoria> categorias = GetCategoriesfromReposity(CategoryFilter, contexto);
+
                 foreach (var item in categorias)
                 {
                     categoriaDto.Add(MaterializarCategoria(item));
                 }
+            }
+            return categoriaDto;
+        }
 
+        private static List<Categoria> GetCategoriesfromReposity(bool CategoryFilter, UnitOfWork contexto)
+        {
+            List<Categoria> categorias;
+            if (CategoryFilter == true)
+            {
+                categorias = contexto.Categoria.Where(c => c.Estado == "ACTIVO" || c.Estado == "ACTIVE").ToList();
+            }
+            else
+            {
+                categorias = contexto.Categoria.ToList();
             }
 
-            return categoriaDto;
+            return categorias;
         }
 
         private static CategoriaDTO MaterializarCategoria(Categoria Categoria)

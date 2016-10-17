@@ -4,6 +4,7 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
+             xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
     xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
     mc:Ignorable="d"
     d:DesignHeight="768" d:DesignWidth="1024"
@@ -15,6 +16,105 @@
 
     <UserControl.Resources>
         <ruta:CambioDeColorMensaje x:Key="Convertidor"/>
+
+        <Style x:Key="ToggleStyle" TargetType="ToggleButton">
+            <Setter Property="Background" Value="#FF1F3B53"/>
+            <Setter Property="Foreground" Value="#FF000000"/>
+            <Setter Property="Padding" Value="3"/>
+            <Setter Property="BorderThickness" Value="1"/>
+
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="ToggleButton">
+                        <Grid>
+                            <VisualStateManager.CustomVisualStateManager>
+                                <ei:ExtendedVisualStateManager/>
+                            </VisualStateManager.CustomVisualStateManager>
+                            <VisualStateManager.VisualStateGroups>
+
+                                <VisualStateGroup x:Name="CheckStates" ei:ExtendedVisualStateManager.UseFluidLayout="True">
+
+
+                                    <VisualStateGroup.Transitions>
+                                        <VisualTransition GeneratedDuration="0:0:0.4">
+                                            <VisualTransition.GeneratedEasingFunction>
+                                                <ExponentialEase EasingMode="EaseOut"/>
+                                            </VisualTransition.GeneratedEasingFunction>
+                                        </VisualTransition>
+                                    </VisualStateGroup.Transitions>
+
+                                    <VisualState x:Name="Checked">
+
+
+
+                                        <Storyboard>
+
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.HorizontalAlignment)" Storyboard.TargetName="contentPresenter">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <HorizontalAlignment>Left</HorizontalAlignment>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.HorizontalAlignment)" Storyboard.TargetName="Square">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <HorizontalAlignment>Right</HorizontalAlignment>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+
+
+
+                                    </VisualState>
+                                    <VisualState x:Name="Unchecked">
+                                        <Storyboard>
+                                            <ColorAnimation Duration="0" To="#FF8D8D8D" Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" Storyboard.TargetName="Background" d:IsOptimized="True"/>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ContentPresenter.Content)" Storyboard.TargetName="contentPresenter">
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Inactivo"/>
+                                            </ObjectAnimationUsingKeyFrames>
+                                            <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.HorizontalAlignment)" Storyboard.TargetName="Square">
+                                                <DiscreteObjectKeyFrame KeyTime="0">
+                                                    <DiscreteObjectKeyFrame.Value>
+                                                        <HorizontalAlignment>Left</HorizontalAlignment>
+                                                    </DiscreteObjectKeyFrame.Value>
+                                                </DiscreteObjectKeyFrame>
+                                            </ObjectAnimationUsingKeyFrames>
+                                        </Storyboard>
+                                    </VisualState>
+
+                                </VisualStateGroup>
+                            </VisualStateManager.VisualStateGroups>
+                            <Border x:Name="Background" CornerRadius="13" Background="#FF62BD15">
+                                <Grid  Margin="1" Opacity="0">
+                                    <Border x:Name="BackgroundAnimation" Background="#FF448DCA" Opacity="0"/>
+                                    <Rectangle x:Name="BackgroundGradient" RadiusX="12" RadiusY="12">
+                                        <Rectangle.Fill>
+                                            <LinearGradientBrush EndPoint=".7,1" StartPoint=".7,0">
+                                                <GradientStop Color="#FFFFFFFF" Offset="0"/>
+                                                <GradientStop Color="#F9FFFFFF" Offset="0.375"/>
+                                                <GradientStop Color="#E5FFFFFF" Offset="0.625"/>
+                                                <GradientStop Color="#C6FFFFFF" Offset="1"/>
+                                            </LinearGradientBrush>
+                                        </Rectangle.Fill>
+                                    </Rectangle>
+                                </Grid>
+                            </Border>
+
+                            <ContentPresenter x:Name="contentPresenter" Grid.Column="0"  ContentTemplate="{TemplateBinding ContentTemplate}" Content="Activo"  Margin="{TemplateBinding Padding}" VerticalAlignment="Center" HorizontalAlignment="Right" OpacityMask="Black"/>
+                            <Rectangle x:Name="DisabledVisualElement" Fill="#FFFFFFFF" IsHitTestVisible="false" Opacity="0" RadiusY="15" RadiusX="12"/>
+                            <Rectangle x:Name="FocusVisualElement" IsHitTestVisible="false" Margin="1,0,1,1" Opacity="0" RadiusY="10" RadiusX="10" Stroke="#FF6DBDD1" Height="24" VerticalAlignment="Bottom" />
+                            <Rectangle x:Name="Square" IsHitTestVisible="false" Margin="2" Width="22" Opacity="100" RadiusY="25" RadiusX="28" Fill="White">
+                                <Rectangle.Effect>
+                                    <DropShadowEffect ShadowDepth="1" BlurRadius="2" Opacity="0.3"/>
+                                </Rectangle.Effect>
+                            </Rectangle>
+                        </Grid>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
     </UserControl.Resources>
 
 
@@ -108,13 +208,14 @@
                         <Grid Name="GridHeaderCategoria">
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="100*"/>
-                                <ColumnDefinition Width="100"/>
+                                <ColumnDefinition Width="180"/>
                             </Grid.ColumnDefinitions>
 
                             <Rectangle Fill="#bfbfbf" Grid.ColumnSpan="2" StrokeThickness="1" Stroke="Black"/>
                             <TextBlock Text="Categoria" HorizontalAlignment="Left" FontFamily="century gothic" FontSize="18" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" Margin="8,0,0,0"></TextBlock>
 
                             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                                <ToggleButton Margin="0,0,5,0" IsChecked="{Binding IsCategoryFilterActive, Mode=TwoWay}" Height="25" Content="Activo"  Background="Gray"  HorizontalAlignment="Right" Width="75" Style="{StaticResource ToggleStyle}" Grid.ColumnSpan="2" />
                                 <Button Template="{StaticResource BtnNuevoDepartamento}" Command="{Binding ComandoChildWindows}" CommandParameter="Add" HorizontalAlignment="Right" Cursor="Hand" Margin="3,0,5,0"></Button>
                                 <Button Template="{StaticResource BtnEditarDepartamento}" Command="{Binding ComandoChildWindows}" CommandParameter="Edit" HorizontalAlignment="Right"  Cursor="Hand" Margin="3,0,5,0"></Button>
                                 <Button Template="{StaticResource BtnBorrarDepartamento}" Command="{Binding ComandoEliminar}" HorizontalAlignment="Right" Cursor="Hand" Margin="3,0,5,0"></Button>
