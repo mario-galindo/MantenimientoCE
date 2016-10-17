@@ -26,7 +26,8 @@ namespace Services.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=GALINDO-PC;Initial Catalog=CKTEST;Integrated Security=True")]
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-AINKIBC\\JALILSQL;Initial Catalog=CKTEST;Integrated Security=T" +
+            "rue")]
         public string CadenaConexion {
             get {
                 return ((string)(this["CadenaConexion"]));

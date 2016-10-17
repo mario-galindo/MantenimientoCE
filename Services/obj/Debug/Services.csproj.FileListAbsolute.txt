@@ -200,3 +200,17 @@ C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Services\b
 C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
 C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Services\obj\Debug\Services.dll
 C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Services\obj\Debug\Services.pdb
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\Services.dll.config
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\Services.dll
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\Services.pdb
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\Domain.dll
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\EntityFramework.dll
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\EntityFramework.SqlServer.dll
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\Infrastructure.dll
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\Domain.pdb
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\Infrastructure.pdb
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\EntityFramework.xml
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\EntityFramework.SqlServer.xml
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\obj\Debug\Services.dll
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\obj\Debug\Services.pdb

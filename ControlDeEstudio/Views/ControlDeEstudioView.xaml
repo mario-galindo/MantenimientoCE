@@ -4,15 +4,15 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk"
-             xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
+    xmlns:ei="http://schemas.microsoft.com/expression/2010/interactions"
     xmlns:i="clr-namespace:System.Windows.Interactivity;assembly=System.Windows.Interactivity"
     mc:Ignorable="d"
     d:DesignHeight="768" d:DesignWidth="1024"
-               xmlns:helpers="clr-namespace:ControlDeEstudio.ClasesComunes"    
-             helpers:StateManager.VisualStateProperty="{Binding VisualStateName,Mode=TwoWay}"
-             xmlns:tm="clr-namespace:ControlDeEstudio"
-             xmlns:ruta="clr-namespace:ControlDeEstudio.ClasesComunes"
-              DataContext="{Binding Path=CategoriaViewModel,Source={StaticResource ResourceKey=viewModelLocator}}">
+    xmlns:helpers="clr-namespace:ControlDeEstudio.ClasesComunes"    
+    helpers:StateManager.VisualStateProperty="{Binding VisualStateName,Mode=TwoWay}"
+    xmlns:tm="clr-namespace:ControlDeEstudio"
+    xmlns:ruta="clr-namespace:ControlDeEstudio.ClasesComunes"
+    DataContext="{Binding Path=CategoriaViewModel,Source={StaticResource ResourceKey=viewModelLocator}}">
 
     <UserControl.Resources>
         <ruta:CambioDeColorMensaje x:Key="Convertidor"/>
@@ -120,7 +120,7 @@
 
     <Grid x:Name="LayoutRoot" Background="White">
         <VisualStateManager.VisualStateGroups>
-            <VisualStateGroup x:Name="VisualStateGroup2">
+            <VisualStateGroup x:Name="VisualStateGroup">
                 <VisualStateGroup.Transitions>
                     <VisualTransition GeneratedDuration="0:0:0.5">
                         <VisualTransition.GeneratedEasingFunction>
@@ -138,6 +138,15 @@
                         <DoubleAnimation Duration="0" To="500" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.TranslateX)" Storyboard.TargetName="UserPanel" d:IsOptimized="True"/>
                     </Storyboard>
                 </VisualState>
+            </VisualStateGroup>
+            <VisualStateGroup x:Name="VisualStateGroup2">
+                <VisualStateGroup.Transitions>
+                    <VisualTransition GeneratedDuration="0:0:0.5">
+                        <VisualTransition.GeneratedEasingFunction>
+                            <CubicEase EasingMode="EaseInOut"/>
+                        </VisualTransition.GeneratedEasingFunction>
+                    </VisualTransition>
+                </VisualStateGroup.Transitions>
                 <VisualState x:Name="OcultarMensaje">
                     <Storyboard>
                         <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(UIElement.Visibility)" Storyboard.TargetName="grid">
@@ -436,7 +445,7 @@
 
         </Grid>
 
-      
+
 
         <Rectangle x:Name="RectangleBloqueo" Fill="Gray" Opacity="0.7" Visibility="{Binding RectangleVisible}" d:IsHidden="True"/>
 
@@ -480,7 +489,7 @@
                             <ListBox ItemsSource="{Binding Usuarios}" SelectedItem="{Binding UsuariosSeleccionado,Mode=TwoWay}"  Grid.Row="1"  >
                                 <ListBox.ItemTemplate>
                                     <DataTemplate>
-                                        <tm:CategoriaTemplate></tm:CategoriaTemplate>
+                                        <tm:TemplateUsuario/>
                                     </DataTemplate>
                                 </ListBox.ItemTemplate>
                                 <i:Interaction.Triggers>

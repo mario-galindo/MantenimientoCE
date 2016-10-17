@@ -143,6 +143,9 @@
     <Compile Include="Templates\TemplateTemas.xaml.cs">
       <DependentUpon>TemplateTemas.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Templates\TemplateUsuario.xaml.cs">
+      <DependentUpon>TemplateUsuario.xaml</DependentUpon>
+    </Compile>
     <Compile Include="ViewModels\BaseINPC.cs" />
     <Compile Include="ViewModels\CategoriaViewModel.cs" />
     <Compile Include="ViewModels\ViewModelLocator.cs" />
@@ -198,6 +201,10 @@
     <Page Include="Templates\TemplateTemas.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Templates\TemplateUsuario.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
     </Page>
     <Page Include="Themes\Generic.xaml">
       <Generator>MSBuild:Compile</Generator>

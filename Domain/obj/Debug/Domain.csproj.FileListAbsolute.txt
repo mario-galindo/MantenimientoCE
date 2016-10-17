@@ -55,3 +55,7 @@ C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Domain
 C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Domain\bin\Debug\Domain.pdb
 C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Domain\obj\Debug\Domain.dll
 C:\Users\Ingrid\Documents\CaracolKnits\Ultimo Mantemiento\MantenimientoCE\Domain\obj\Debug\Domain.pdb
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Domain\bin\Debug\Domain.dll
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Domain\bin\Debug\Domain.pdb
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Domain\obj\Debug\Domain.dll
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Domain\obj\Debug\Domain.pdb

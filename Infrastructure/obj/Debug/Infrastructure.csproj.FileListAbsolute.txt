@@ -175,3 +175,15 @@ C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Infrastruc
 C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
 C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.dll
 C:\Users\Javier\Desktop\MantenimientoCE Filtro Ingrid\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.pdb
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\bin\Debug\Infrastructure.dll.config
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\bin\Debug\Infrastructure.dll
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\bin\Debug\Infrastructure.pdb
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\bin\Debug\Domain.dll
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\bin\Debug\EntityFramework.dll
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\bin\Debug\Domain.pdb
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\bin\Debug\EntityFramework.xml
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.dll
+C:\Users\Jalil\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\obj\Debug\Infrastructure.pdb

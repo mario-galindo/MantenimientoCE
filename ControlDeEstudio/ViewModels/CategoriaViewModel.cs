@@ -354,8 +354,6 @@ namespace ControlDeEstudio.ViewModels
 
         #region Propiedades Panel
 
-
-
         private string _rectangleVisible;
         public string RectangleVisible
         {
@@ -422,12 +420,6 @@ namespace ControlDeEstudio.ViewModels
             proxyUsuario.ObtenerUsuariosCompleted += Proxy_ObtenerUsuariosCompleted;
            
         }
-
-        
-
-        
-
-        
 
         public void InicializarPropiedades()
         {
@@ -699,8 +691,8 @@ namespace ControlDeEstudio.ViewModels
             else
             {
                 Modales.ModalTema modalTema = new Modales.ModalTema();
-                modalTema.Width = 600;
-                modalTema.Height = 400;
+                modalTema.ActualizarButton.IsEnabled = false;
+                modalTema.GuardarButton.IsEnabled = true;
                 modalTema.Show();
 
             }
@@ -792,8 +784,8 @@ namespace ControlDeEstudio.ViewModels
                 TemaDTO.Nombre = TemaSeleccionado.Nombre;
                 TemaDTO.Estado = TemaSeleccionado.Estado;
 
-                modalTema.Width = 600;
-                modalTema.Height = 400;
+                modalTema.ActualizarButton.IsEnabled = true;
+                modalTema.GuardarButton.IsEnabled = false;
                 modalTema.Show();
             }
 
@@ -812,8 +804,8 @@ namespace ControlDeEstudio.ViewModels
             else
             {
                 Modales.ModalSubtema modalSubtema = new Modales.ModalSubtema();
-                modalSubtema.Width = 600;
-                modalSubtema.Height = 400;
+                modalSubtema.GuardarButton.IsEnabled = true;
+                modalSubtema.ActualizarButton.IsEnabled = false;
                 modalSubtema.Show();
 
             }
@@ -931,8 +923,8 @@ namespace ControlDeEstudio.ViewModels
                 SubtemaDTO.Estado = SubtemaSeleccionado.Estado;
                 SubtemaDTO.TemaId = SubtemaSeleccionado.TemaId;
 
-                modalSubtema.Width = 600;
-                modalSubtema.Height = 400;
+                modalSubtema.GuardarButton.IsEnabled = false;
+                modalSubtema.ActualizarButton.IsEnabled = true;
                 modalSubtema.Show();
             }
 
@@ -949,8 +941,9 @@ namespace ControlDeEstudio.ViewModels
             else
             {
                 Modales.ModalReferencia modalRefereancia = new Modales.ModalReferencia();
-                modalRefereancia.Width = 600;
-                modalRefereancia.Height = 400;
+
+                modalRefereancia.GuardarButton.IsEnabled = true;
+                modalRefereancia.ActualizarButton.IsEnabled = false;
                 modalRefereancia.Show();
             }
         }
@@ -959,32 +952,8 @@ namespace ControlDeEstudio.ViewModels
         {
             ReferenciaDto.SubtemaId = SubtemaSeleccionado.SubtemaId;
             proxy.GuardarReferenciaAsync(ReferenciaDto);
-            //proxy.GuardarReferenciaAsync(ReferenciaDto);
         }
-
-        //private void Proxy_GuardarReferencia2Completed(object sender, TestServiceReference.GuardarReferencia2CompletedEventArgs e)
-        //{
-        //    if (e.Error == null)
-        //    {
-        //        MostrarMensaje("Referencia Guardada", "Exito");
-
-        //        var referenciaNueva = new TestServiceReference.ReferenciaDTO()
-        //        {
-        //            Autor = ReferenciaDto.Autor,
-        //            Descripcion = ReferenciaDto.Descripcion,
-        //            Fuente = ReferenciaDto.Fuente,
-        //            SubtemaId = ReferenciaDto.SubtemaId,
-        //            ReferenciaId = e.Result
-
-        //        };
-
-        //        SubtemaSeleccionado.Referencias.Add(referenciaNueva);
-        //    }
-        //    else
-        //    {
-        //        MostrarMensaje("No se ha podido guardar la referencia", "Error");
-        //    }
-        //}
+        
         void proxy_GuardarReferenciaCompleted(object sender, TestServiceReference.GuardarReferenciaCompletedEventArgs e)
         {
             if (e.Result.Error == null)
@@ -1087,10 +1056,10 @@ namespace ControlDeEstudio.ViewModels
 
                 ReferenciaDto.Autor = ReferenciaSeleccionada.Autor;
                 ReferenciaDto.Descripcion = ReferenciaSeleccionada.Descripcion;
-                ReferenciaDto.Fuente = ReferenciaSeleccionada.Descripcion;
+                ReferenciaDto.Fuente = ReferenciaSeleccionada.Fuente;
 
-                modalReferencia.Width = 600;
-                modalReferencia.Height = 400;
+                modalReferencia.GuardarButton.IsEnabled = false;
+                modalReferencia.ActualizarButton.IsEnabled = true;
                 modalReferencia.Show();
             }
 
@@ -1123,7 +1092,7 @@ namespace ControlDeEstudio.ViewModels
         {
             if (UsuariosSeleccionado == null)
             {
-                MessageBox.Show("Seleccione un Usuario");
+                MostrarMensaje("Seleccione un Usuario", "Advertencia");
             }
             else
             {
@@ -1167,8 +1136,9 @@ namespace ControlDeEstudio.ViewModels
         public void MostrarModalUsuario()
         {
             Modales.ModalUsuario modalUsuario = new Modales.ModalUsuario();
-            modalUsuario.Width = 600;
-            modalUsuario.Height = 400;
+
+            modalUsuario.ActualizarButton.IsEnabled = false;
+            modalUsuario.GuardarButton.IsEnabled = true;
             modalUsuario.Show();
         }
 
@@ -1177,7 +1147,7 @@ namespace ControlDeEstudio.ViewModels
 
             if (UsuariosSeleccionado == null)
             {
-                MessageBox.Show("Debe seleccionar un Usuario");
+                MostrarMensaje("Debe seleccionar un Usuario", "Advertencia");
             }
             else
             {
@@ -1187,8 +1157,8 @@ namespace ControlDeEstudio.ViewModels
                 UsuariosDto.Nombre = UsuariosSeleccionado.Nombre;
                 UsuariosDto.UsuarioId = UsuariosSeleccionado.UsuarioId;
 
-                modalUsuario.Width = 600;
-                modalUsuario.Height = 400;
+                modalUsuario.ActualizarButton.IsEnabled = true;
+                modalUsuario.GuardarButton.IsEnabled = false;
                 modalUsuario.Show();
             }
         }
@@ -1215,16 +1185,20 @@ namespace ControlDeEstudio.ViewModels
 
         private void AnimarPanel()
         {
-            if (VisualStateName != "MostrarShiftState") VisualStateName = "Normal2";
+            if (VisualStateName != "MostrarShiftState")
+            {
+                VisualStateName = "Normal2";
+                RectangleVisible = "Collapsed";
+            }
             if (VisualStateName == "Normal2")
             {
                 MoverEstado("MostrarShiftState");
-
+                RectangleVisible = "Visible";
             }
             else
             {
                 MoverEstado("Normal2");
-
+                RectangleVisible = "Collapsed";
             }
         }
 
@@ -1272,7 +1246,6 @@ namespace ControlDeEstudio.ViewModels
             ComandoEditarUsuarios = new RelayCommand(EditarUsuario);
             ComandoMostrarEditarUsuarios = new RelayCommand(MostrarUsuarioEditar);
             ComandoAnimarPanel = new RelayCommand(AnimarPanel);
-
 
         }
 
