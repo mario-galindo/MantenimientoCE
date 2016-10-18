@@ -17,7 +17,7 @@
     <UserControl.Resources>
         <ruta:CambioDeColorMensaje x:Key="Convertidor"/>
 
-
+        
         <Style x:Key="ToggleStyle" TargetType="ToggleButton">
             <Setter Property="Background" Value="#FF1F3B53"/>
             <Setter Property="Foreground" Value="#FF000000"/>
@@ -73,7 +73,7 @@
                                         <Storyboard>
                                             <ColorAnimation Duration="0" To="#FF8D8D8D" Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" Storyboard.TargetName="Background" d:IsOptimized="True"/>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ContentPresenter.Content)" Storyboard.TargetName="contentPresenter">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Todos"/>
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Inactivo"/>
                                             </ObjectAnimationUsingKeyFrames>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.HorizontalAlignment)" Storyboard.TargetName="Square">
                                                 <DiscreteObjectKeyFrame KeyTime="0">
@@ -103,7 +103,7 @@
                                 </Grid>
                             </Border>
 
-                            <ContentPresenter x:Name="contentPresenter" Grid.Column="0"  ContentTemplate="{TemplateBinding ContentTemplate}" Content="Activos" Margin="{TemplateBinding Padding}"  VerticalAlignment="Center" HorizontalAlignment="Right" OpacityMask="Black"/>
+                            <ContentPresenter x:Name="contentPresenter" Grid.Column="0"  ContentTemplate="{TemplateBinding ContentTemplate}" Content="Activo"  Margin="{TemplateBinding Padding}" VerticalAlignment="Center" HorizontalAlignment="Right" OpacityMask="Black"/>
                             <Rectangle x:Name="DisabledVisualElement" Fill="#FFFFFFFF" IsHitTestVisible="false" Opacity="0" RadiusY="15" RadiusX="12"/>
                             <Rectangle x:Name="FocusVisualElement" IsHitTestVisible="false" Margin="1,0,1,1" Opacity="0" RadiusY="10" RadiusX="10" Stroke="#FF6DBDD1" Height="24" VerticalAlignment="Bottom" />
                             <Rectangle x:Name="Square" IsHitTestVisible="false" Margin="2" Width="22" Opacity="100" RadiusY="25" RadiusX="28" Fill="White">
@@ -174,9 +174,9 @@
                     </Storyboard>
                 </VisualState>
             </VisualStateGroup>
-
+           
         </VisualStateManager.VisualStateGroups>
-
+ 
 
         <Grid Name="Padre">
             <Grid.RowDefinitions>
@@ -225,7 +225,7 @@
                             <TextBlock Text="Categoria" HorizontalAlignment="Left" FontFamily="century gothic" FontSize="18" VerticalAlignment="Center" Foreground="White" FontWeight="Bold" Margin="8,0,0,0"></TextBlock>
 
                             <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
-                                <ToggleButton Margin="0,0,5,0" IsChecked="{Binding IsCategoryFilterActive, Mode=TwoWay}" Height="25" Content="Activo"  Background="Gray" Foreground="White" FontFamily="century gothic" HorizontalAlignment="Right" Width="68" Style="{StaticResource ToggleStyle}" Grid.ColumnSpan="2" />
+                                <ToggleButton Margin="0,0,5,0" IsChecked="{Binding IsCategoryFilterActive, Mode=TwoWay}" Height="25" Content="Activo"  Background="Gray" Foreground="White" FontFamily="century gothic" HorizontalAlignment="Right" Width="75" Style="{StaticResource ToggleStyle}" Grid.ColumnSpan="2" />
                                 <Button Template="{StaticResource BtnNuevoDepartamento}" Command="{Binding ComandoChildWindows}" CommandParameter="Add" HorizontalAlignment="Right" Cursor="Hand" Margin="3,0,5,0"></Button>
                                 <Button Template="{StaticResource BtnEditarDepartamento}" Command="{Binding ComandoChildWindows}" CommandParameter="Edit" HorizontalAlignment="Right"  Cursor="Hand" Margin="3,0,5,0"></Button>
                                 <Button Template="{StaticResource BtnBorrarDepartamento}" Command="{Binding ComandoEliminar}" HorizontalAlignment="Right" Cursor="Hand" Margin="3,0,5,0"></Button>
@@ -345,7 +345,7 @@
                             </StackPanel>
 
                         </Grid>
-
+                  
                         <ListBox x:Name="listBox1" BorderThickness="1" ItemsSource="{Binding PaginadoSubtemas, Mode=TwoWay}" SelectedItem="{Binding SubtemaSeleccionado,Mode=TwoWay}" Grid.Row="1" >
                             <ListBox.ItemTemplate>
                                 <DataTemplate>
@@ -376,7 +376,7 @@
                             FontWeight="Bold"
                             FontSize="14"
                             VerticalAlignment="Bottom"/>
-
+                   
 
                     </Grid>
                 </Grid>
@@ -413,7 +413,7 @@
                                 </DataTemplate>
                             </ListBox.ItemTemplate>
 
-
+                        
                         </ListBox>
 
                         <sdk:DataPager x:Name="dataPager4"
@@ -436,14 +436,12 @@
             </Grid>
 
             <Grid Grid.Row="2" Name="Pie" Background="#bfbfbf" Opacity="0.5">
-
                 <!--<StackPanel Orientation="Horizontal" Margin="10" HorizontalAlignment="Right">
                     <Button Template="{StaticResource BtnNuevoDepartamento}" Margin="0,0,20,0"  Cursor="Hand"></Button>
                     <Button Grid.Column="1" Template="{StaticResource BtnEditarDepartamento}" Margin="0,0,20,0" Cursor="Hand" ></Button>
                     <Button Grid.Column="2" Template="{StaticResource BtnBorrarDepartamento}" Margin="0,0,20,0" Cursor="Hand"></Button>
                 </StackPanel>-->
                 <Button Command="{Binding ComandoAnimarPanel}" HorizontalAlignment="Left" Grid.Column="2" Template="{StaticResource Usuario}" Margin="0,0,20,0" Cursor="Hand"></Button>
-                <Button x:Name="button"  Cursor="Hand" Template="{StaticResource BtnRefresh}" Content="Refresh"  Command="{Binding ComandoActualizar}" HorizontalAlignment="Right" Margin="0,10,50,0"  VerticalAlignment="Top" Width="45" Height="45"/>
             </Grid>
 
         </Grid>
