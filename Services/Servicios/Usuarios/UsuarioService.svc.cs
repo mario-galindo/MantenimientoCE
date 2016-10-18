@@ -24,25 +24,33 @@ namespace SubtemasService.Servicios
         {
             using (var contexto = new UnitOfWork())
             {
-                var buscarUsuario = contexto.Usuarios.FirstOrDefault(x => x.UsuarioId == usuarioDto.UsuarioId);
-
-                if (buscarUsuario == null)
+                if(usuarioDto.UsuarioId==null)
                 {
-                    var Usuario = new Usuarios()
-                    {
-                        Area = usuarioDto.Area,
-                        Nombre = usuarioDto.Nombre,
-                        UsuarioId = usuarioDto.UsuarioId,
-                    };
-                    contexto.Usuarios.Add(Usuario);
-                    contexto.SaveChanges();
-                    return null;
+                    return new UsuariosDTO() { Error = "Campos vacios" };
                 }
-
                 else
                 {
-                    return new UsuariosDTO() { Error = "El id ya existe" };
+                    var buscarUsuario = contexto.Usuarios.FirstOrDefault(x => x.UsuarioId == usuarioDto.UsuarioId);
+
+                    if (buscarUsuario == null)
+                    {
+                        var Usuario = new Usuarios()
+                        {
+                            Area = usuarioDto.Area,
+                            Nombre = usuarioDto.Nombre,
+                            UsuarioId = usuarioDto.UsuarioId,
+                        };
+                        contexto.Usuarios.Add(Usuario);
+                        contexto.SaveChanges();
+                        return null;
+                    }
+
+                    else
+                    {
+                        return new UsuariosDTO() { Error = "El id ya existe" };
+                    }
                 }
+                
             }
         }
 
