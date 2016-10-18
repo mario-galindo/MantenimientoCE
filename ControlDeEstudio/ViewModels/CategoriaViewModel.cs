@@ -402,8 +402,8 @@ namespace ControlDeEstudio.ViewModels
             proxyUsuario = new UsuariosServiceReference.UsuarioServiceClient();
             InicializarRespuestaServicio();
             Estados = new ObservableCollection<string>();
-            Estados.Add("Activo");
-            Estados.Add("Inactivo");
+            Estados.Add("ACTIVE");
+            Estados.Add("INACTIVE");
             ListarCategorias();
             ListarUsuarios();
         }
