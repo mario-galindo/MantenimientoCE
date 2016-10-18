@@ -16,17 +16,17 @@ namespace ControlDeEstudio.ClasesComunes
 
             if (valor == "Error")
             {
-                return new SolidColorBrush(Colors.Red);
+                return new SolidColorBrush(Color.FromArgb(255, 179, 65, 40));
             }
             else if (valor == "Exito")
             {
 
-                return new SolidColorBrush(Colors.Green);
+                return new SolidColorBrush(Color.FromArgb(255, 52, 152, 87));
             }
 
             else if (valor == "Advertencia")
             {
-                return new SolidColorBrush(Colors.Orange);
+                return new SolidColorBrush(Color.FromArgb(255, 190, 153, 51));
             }                
             
             else

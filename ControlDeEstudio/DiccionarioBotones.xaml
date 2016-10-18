@@ -2,10 +2,11 @@
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" xmlns:System="clr-namespace:System;assembly=mscorlib">
     <ControlTemplate x:Key="BtnNuevoDepartamento" TargetType="Button">
-        <Grid>
+        <Grid >
             <Grid x:Name="backgroundGrid" Width="24" Height="24" Visibility="Visible" Background="#bfbfbf">
                 <Path Data="M50.5,4.7500001C25.232973,4.75 4.75,25.232973 4.7500001,50.5 4.75,75.767029 25.232973,96.25 50.5,96.25 75.767029,96.25 96.25,75.767029 96.25,50.5 96.25,25.232973 75.767029,4.75 50.5,4.7500001z M50.5,0C78.390381,0 101,22.609621 101,50.5 101,78.390381 78.390381,101 50.5,101 22.609621,101 0,78.390381 0,50.5 0,22.609621 22.609621,0 50.5,0z" Stretch="Fill" Fill="#ffffff" x:Name="Stroke" Visibility="Visible" />
-            </Grid>
+            </Grid >
+            <Ellipse Fill="#597994" Name="Fill" Visibility="Visible" Width="30" Height="30"/>
             <Path Data="M12.126984,0L19.872009,0 19.872009,12.128 32,12.128 32,19.872999 19.872009,19.872999 19.872009,31.999 12.126984,31.999 12.126984,19.872999 0,19.872999 0,12.128 12.126984,12.128z" Stretch="Uniform" Fill="#ffffff" Width="16" Height="16" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5">
                 <Path.RenderTransform>
                     <TransformGroup>
@@ -21,6 +22,7 @@
             <Grid x:Name="backgroundGrid" Width="24" Height="24" Visibility="Visible" Background="#bfbfbf">
                 <Path Data="M50.5,4.7500001C25.232973,4.75 4.75,25.232973 4.7500001,50.5 4.75,75.767029 25.232973,96.25 50.5,96.25 75.767029,96.25 96.25,75.767029 96.25,50.5 96.25,25.232973 75.767029,4.75 50.5,4.7500001z M50.5,0C78.390381,0 101,22.609621 101,50.5 101,78.390381 78.390381,101 50.5,101 22.609621,101 0,78.390381 0,50.5 0,22.609621 22.609621,0 50.5,0z" Stretch="Fill" Fill="#ffffff" x:Name="Stroke" Visibility="Visible" />
             </Grid>
+            <Ellipse Fill="#597994" Name="Fill" Visibility="Visible" Width="30" Height="30"/>
             <Path Data="M20.638062,9.6380005L6.6380615,23.638 8.3620605,25.362 22.362061,11.362z M20.5,4.5L27.5,11.5 9,30 0,32 2,23z M27,0C29.760986,0 32,2.2389832 32,5 32,6.1259766 31.628052,7.1640015 31,8L29,10 22,3 24,1C24.83606,0.37197876,25.874023,0,27,0z" Stretch="Uniform" Fill="#ffffff" Width="16" Height="16" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5">
                 <Path.RenderTransform>
                     <TransformGroup>
@@ -34,8 +36,10 @@
     <ControlTemplate x:Key="BtnBorrarDepartamento" TargetType="Button">
         <Grid>
             <Grid x:Name="backgroundGrid" Width="24" Height="24" Visibility="Visible" Background="#bfbfbf">
-                <Path Data="M50.5,4.7500001C25.232973,4.75 4.75,25.232973 4.7500001,50.5 4.75,75.767029 25.232973,96.25 50.5,96.25 75.767029,96.25 96.25,75.767029 96.25,50.5 96.25,25.232973 75.767029,4.75 50.5,4.7500001z M50.5,0C78.390381,0 101,22.609621 101,50.5 101,78.390381 78.390381,101 50.5,101 22.609621,101 0,78.390381 0,50.5 0,22.609621 22.609621,0 50.5,0z" Stretch="Fill" Fill="#ffffff" x:Name="Stroke" Visibility="Visible" />
+                
+                
             </Grid>
+            <Ellipse Fill="#597994" Name="Fill" Visibility="Visible" Width="30" Height="30"/>
             <Path Data="M16.989005,13.842001L16.989005,29.052002 20.687001,29.052002 20.687001,13.842001z M7.4209858,13.842001L7.4209858,29.052002 11.118981,29.052002 11.118981,13.842001z M2.0159897,11.217L26.091996,11.217 26.091996,32 2.0159897,32z M7.9869949,0L20.097982,0 20.097982,3.8629994 28.083999,3.8629994 28.083999,8.0010003 0,8.0010003 0,3.8629994 7.9869949,3.8629994z" Stretch="Uniform" Fill="#ffffff" Width="16" Height="16" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5">
                 <Path.RenderTransform>
                     <TransformGroup>
@@ -892,5 +896,25 @@
             </Setter.Value>
         </Setter>
     </Style>
+
+
+    <ControlTemplate x:Key="BtnRefresh" TargetType="Button">
+        <Grid>
+            <Grid Name="backgroundGrid" Width="40" Height="40" Visibility="Visible">
+                <Ellipse Fill="#093D5B" Name="Fill" Visibility="Visible" />
+            </Grid>
+            <Path Data="F1M225.713,1773.49L232.795,1776.66 231.995,1768.94 231.192,1761.23 226.002,1764.99C221.113,1758.99 213.677,1755.15 205.337,1755.15 190.61,1755.15 178.672,1767.1 178.672,1781.82 178.672,1796.55 190.61,1808.49 205.337,1808.49 211.902,1808.49 217.903,1806.11 222.543,1802.17 222.573,1802.11 222.593,1802.06 222.627,1801.99 224.257,1798.82 220.791,1798.99 220.781,1798.99 216.686,1802.68 211.271,1804.93 205.337,1804.93 192.595,1804.93 182.228,1794.56 182.228,1781.82 182.228,1769.08 192.595,1758.71 205.337,1758.71 212.481,1758.71 218.867,1761.98 223.106,1767.09L218.631,1770.33 225.713,1773.49z" Stretch="Uniform" Fill="#FFFFFFFF" Width="20" Height="20" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5">
+                <Path.RenderTransform>
+                    <TransformGroup>
+                        <TransformGroup.Children>
+                            <RotateTransform Angle="33" />
+                            <ScaleTransform ScaleX="1" ScaleY="1" />
+                        </TransformGroup.Children>
+                    </TransformGroup>
+                </Path.RenderTransform>
+            </Path>
+        </Grid>
+
+    </ControlTemplate>
 
 </ResourceDictionary>

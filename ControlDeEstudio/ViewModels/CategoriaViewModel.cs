@@ -644,7 +644,7 @@ namespace ControlDeEstudio.ViewModels
         }
 
         public void ListarCategorias()
-        {
+        {            
             proxy.ObtenerCategoriasAsync(IsCategoryFilterActive);
         }
 
@@ -652,6 +652,7 @@ namespace ControlDeEstudio.ViewModels
         {
             Categorias = e.Result;
             PaginadoCategorias = new PagedCollectionView(Categorias);
+            MostrarMensaje("Se actualizaron los datos", "Exito");
 
         }
 
@@ -1290,6 +1291,9 @@ namespace ControlDeEstudio.ViewModels
             ComandoEditarUsuarios = new RelayCommand(EditarUsuario);
             ComandoMostrarEditarUsuarios = new RelayCommand(MostrarUsuarioEditar);
             ComandoAnimarPanel = new RelayCommand(AnimarPanel);
+            ComandoActualizar = new RelayCommand(ListarCategorias);
+
+
 
         }
 
@@ -1344,6 +1348,8 @@ namespace ControlDeEstudio.ViewModels
         public RelayCommand ComandoEditarUsuarios { get; set; }
         public RelayCommand ComandoMostrarEditarUsuarios { get; set; }
         public RelayCommand ComandoAnimarPanel { get; set; }
+
+        public RelayCommand ComandoActualizar { get; set; }
         #endregion
 
     }
