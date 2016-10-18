@@ -2462,3 +2462,5 @@ C:\Users\japena\Source\Repos\CEGit\ControlDeEstudio\obj\Debug\ControlDeEstudio.g
 C:\Users\japena\Source\Repos\CEGit\ControlDeEstudio\obj\Debug\ControlDeEstudio.dll
 C:\Users\japena\Source\Repos\CEGit\ControlDeEstudio\obj\Debug\ControlDeEstudio.pdb
 C:\Users\japena\Source\Repos\CEGit\ControlDeEstudio\obj\Debug\XapCacheFile.xml
+C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\obj\Debug\Templates\TemplateUsuario.g.cs
+C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\obj\Debug\ControlDeEstudio.csprojResolveAssemblyReference.cache

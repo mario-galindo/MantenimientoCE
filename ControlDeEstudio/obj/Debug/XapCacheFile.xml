@@ -1,15 +1,15 @@
-﻿<xapCache source="C:\Users\japena\Source\Repos\CEGit\ControlDeEstudio\Bin\Debug\ControlDeEstudio.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="10/17/2016 10:57:31 AM">
-  <file source="C:\Users\japena\Source\Repos\CEGit\ControlDeEstudio\obj\Debug\ControlDeEstudio.dll" archivePath="ControlDeEstudio.dll" lastWriteTime="10/17/2016 10:57:30 AM" />
-  <file source="C:\Users\japena\Source\Repos\CEGit\packages\MvvmLightLibs.5.3.0.0\lib\SL5\GalaSoft.MvvmLight.dll" archivePath="GalaSoft.MvvmLight.dll" lastWriteTime="10/17/2016 7:48:46 AM" />
-  <file source="C:\Users\japena\Source\Repos\CEGit\packages\MvvmLightLibs.5.3.0.0\lib\SL5\GalaSoft.MvvmLight.Extras.dll" archivePath="GalaSoft.MvvmLight.Extras.dll" lastWriteTime="10/17/2016 7:48:46 AM" />
-  <file source="C:\Users\japena\Source\Repos\CEGit\ControlDeEstudio\Bin\Debug\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="10/17/2016 7:48:43 AM" />
-  <file source="C:\Users\japena\Source\Repos\CEGit\ControlDeEstudio\Bin\Debug\Microsoft.Practices.ServiceLocation.dll" archivePath="Microsoft.Practices.ServiceLocation.dll" lastWriteTime="10/17/2016 7:48:43 AM" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Controls.Data.dll" archivePath="System.Windows.Controls.Data.dll" lastWriteTime="11/18/2011 5:40:20 PM" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Controls.dll" archivePath="System.Windows.Controls.dll" lastWriteTime="11/18/2011 5:40:20 PM" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Data.dll" archivePath="System.Windows.Data.dll" lastWriteTime="11/18/2011 5:40:20 PM" />
-  <file source="C:\Users\japena\Source\Repos\CEGit\packages\MvvmLightLibs.5.3.0.0\lib\SL5\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="10/17/2016 7:48:46 AM" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Controls.Data.Input.dll" archivePath="System.Windows.Controls.Data.Input.dll" lastWriteTime="11/18/2011 5:40:20 PM" />
-  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.ComponentModel.DataAnnotations.dll" archivePath="System.ComponentModel.DataAnnotations.dll" lastWriteTime="11/18/2011 5:40:20 PM" />
-  <file source="C:\Users\japena\Source\Repos\CEGit\ControlDeEstudio\ServiceReferences.ClientConfig" archivePath="ServiceReferences.ClientConfig" lastWriteTime="10/17/2016 10:46:02 AM" />
-  <file source="C:\Users\japena\Source\Repos\CEGit\ControlDeEstudio\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="10/17/2016 9:51:27 AM" />
+﻿<xapCache source="C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\Bin\Debug\ControlDeEstudio.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="18/10/2016 00:32:35">
+  <file source="C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\obj\Debug\ControlDeEstudio.dll" archivePath="ControlDeEstudio.dll" lastWriteTime="18/10/2016 00:32:34" />
+  <file source="C:\Users\GALINDO'PC\Desktop\MantenimientoCE\packages\MvvmLightLibs.5.3.0.0\lib\SL5\GalaSoft.MvvmLight.dll" archivePath="GalaSoft.MvvmLight.dll" lastWriteTime="15/10/2016 11:21:38" />
+  <file source="C:\Users\GALINDO'PC\Desktop\MantenimientoCE\packages\MvvmLightLibs.5.3.0.0\lib\SL5\GalaSoft.MvvmLight.Extras.dll" archivePath="GalaSoft.MvvmLight.Extras.dll" lastWriteTime="15/10/2016 11:21:41" />
+  <file source="C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\Bin\Debug\Microsoft.Expression.Interactions.dll" archivePath="Microsoft.Expression.Interactions.dll" lastWriteTime="16/10/2016 21:24:35" />
+  <file source="C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\Bin\Debug\Microsoft.Practices.ServiceLocation.dll" archivePath="Microsoft.Practices.ServiceLocation.dll" lastWriteTime="15/10/2016 11:24:26" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Controls.Data.dll" archivePath="System.Windows.Controls.Data.dll" lastWriteTime="18/11/2011 17:40:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Controls.dll" archivePath="System.Windows.Controls.dll" lastWriteTime="18/11/2011 17:40:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Data.dll" archivePath="System.Windows.Data.dll" lastWriteTime="18/11/2011 17:40:20" />
+  <file source="C:\Users\GALINDO'PC\Desktop\MantenimientoCE\packages\MvvmLightLibs.5.3.0.0\lib\SL5\System.Windows.Interactivity.dll" archivePath="System.Windows.Interactivity.dll" lastWriteTime="15/10/2016 11:22:03" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.Windows.Controls.Data.Input.dll" archivePath="System.Windows.Controls.Data.Input.dll" lastWriteTime="18/11/2011 17:40:20" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Silverlight\v5.0\Libraries\Client\System.ComponentModel.DataAnnotations.dll" archivePath="System.ComponentModel.DataAnnotations.dll" lastWriteTime="18/11/2011 17:40:20" />
+  <file source="C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\ServiceReferences.ClientConfig" archivePath="ServiceReferences.ClientConfig" lastWriteTime="17/10/2016 15:34:54" />
+  <file source="C:\Users\GALINDO'PC\Desktop\MantenimientoCE\ControlDeEstudio\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="18/10/2016 00:26:29" />
 </xapCache>

@@ -36,12 +36,14 @@
             <TextBox Grid.Row="3" Grid.Column="1" MaxLength="10" Text="{Binding PropCategoria.Nombre, Mode=TwoWay}"  Width="400" Height="25" VerticalAlignment="Center" HorizontalAlignment="Left" BorderBrush="Blue" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" BorderThickness="0,0,0,1" Grid.ColumnSpan="2" Margin="0,3,0,2" />
 
             <TextBlock Grid.Row="5" Text="Estado" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="15,6,0,5" FontSize="13" FontFamily="Eras Light ITC"/>
-            <TextBox Grid.Row="5" MaxLength="50" Grid.Column="1" Text="{Binding PropCategoria.Estado, Mode=TwoWay}" Width="400" Height="25" VerticalAlignment="Center" HorizontalAlignment="Left" BorderBrush="Blue" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" BorderThickness="0,0,0,1" Grid.ColumnSpan="2" Margin="0,3,0,2" />
-
+            <!--<TextBox Grid.Row="5" MaxLength="50" Grid.Column="1" Text="{Binding PropCategoria.Estado, Mode=TwoWay}" Width="400" Height="25" VerticalAlignment="Center" HorizontalAlignment="Left" BorderBrush="Blue" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" BorderThickness="0,0,0,1" Grid.ColumnSpan="2" Margin="0,3,0,2" />-->
+            <ComboBox ItemsSource="{Binding Estados,Mode=TwoWay}" SelectedItem="{Binding PropCategoria.Estado,Mode=TwoWay}" Grid.Row="5" Grid.Column="1" Style="{StaticResource ComboBoxStyle1}" Width="200" HorizontalAlignment="Left" Height="25" FontFamily="century gothic">
+                <ComboBoxItem Content="Activo"></ComboBoxItem>
+            </ComboBox>
 
 
         </Grid>
-        <Button x:Name="CancelButton" Content="Cancel" Style="{StaticResource estiloboton}" Click="CancelButton_Click" Width="75" Height="23" HorizontalAlignment="Right" Margin="0,12,0,0" Grid.Row="1" />
-        <Button x:Name="OKButton"  Style="{StaticResource estiloboton}" Click="OKButton_Click" Content="OK" Command="{Binding ComandoOk}" Width="75" Height="23" HorizontalAlignment="Right" Margin="0,12,79,0" Grid.Row="1" />
+        <Button FontFamily="century gothic" x:Name="CancelButton" Content="Cancel" Style="{StaticResource estiloboton}" Click="CancelButton_Click" Width="75" Height="23" HorizontalAlignment="Right" Margin="0,12,0,0" Grid.Row="1" />
+        <Button FontFamily="century gothic" x:Name="OKButton"  Style="{StaticResource estiloboton}" Click="OKButton_Click" Content="OK" Command="{Binding ComandoOk}" Width="75" Height="23" HorizontalAlignment="Right" Margin="0,12,79,0" Grid.Row="1" />
     </Grid>
 </controls:ChildWindow>
