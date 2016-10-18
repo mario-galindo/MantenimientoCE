@@ -73,7 +73,7 @@
                                         <Storyboard>
                                             <ColorAnimation Duration="0" To="#FF8D8D8D" Storyboard.TargetProperty="(Border.Background).(SolidColorBrush.Color)" Storyboard.TargetName="Background" d:IsOptimized="True"/>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(ContentPresenter.Content)" Storyboard.TargetName="contentPresenter">
-                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Inactivo"/>
+                                                <DiscreteObjectKeyFrame KeyTime="0" Value="Todos"/>
                                             </ObjectAnimationUsingKeyFrames>
                                             <ObjectAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.HorizontalAlignment)" Storyboard.TargetName="Square">
                                                 <DiscreteObjectKeyFrame KeyTime="0">

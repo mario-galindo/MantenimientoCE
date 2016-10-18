@@ -1295,13 +1295,18 @@ namespace ControlDeEstudio.ViewModels
 
         public string GenerarID(string Nombre)
         {
-            int size = Nombre.Trim().Length;
-            if (size % 2 == 0)
+            if(Nombre !=null)
             {
-                size++;
-            }
+                int size = Nombre.Trim().Length;
+                if (size % 2 == 0)
+                {
+                    size++;
+                }
 
-            return Nombre + size.ToString();
+                return Nombre + size.ToString();
+            }
+            else return string.Empty;
+            
         }
         #endregion
 

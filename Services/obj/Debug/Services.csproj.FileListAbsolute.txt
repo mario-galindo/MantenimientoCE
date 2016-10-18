@@ -272,3 +272,5 @@ C:\Users\japena\Source\Repos\CEGit\Services\obj\Debug\Services.dll
 C:\Users\japena\Source\Repos\CEGit\Services\obj\Debug\Services.pdb
 C:\Users\mgalindo\Desktop\MantenimientoCE\Services\bin\AutoMapper.dll
 C:\Users\mgalindo\Desktop\MantenimientoCE\Services\bin\AutoMapper.xml
+C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\bin\AutoMapper.dll
+C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\bin\AutoMapper.xml

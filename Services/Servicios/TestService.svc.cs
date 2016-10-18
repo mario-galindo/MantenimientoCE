@@ -206,28 +206,36 @@ namespace Services.Servicios
         #region Temas
         public TemasDTO GuardarTema(TemasDTO temaDTO)
         {
-
-            using (var contexto = new UnitOfWork())
+            if (temaDTO.Nombre== null)
             {
-                var buscarTema = contexto.Tema.FirstOrDefault(q => q.TemaId == temaDTO.TemaId);
-                if (buscarTema == null)
+                return new TemasDTO() { Error = "Campos vacios" };
+            }
+            else
+            {
+                using (var contexto = new UnitOfWork())
                 {
-                    Tema NuevoTema = new Tema();
-                    NuevoTema.TemaId = temaDTO.TemaId;
-                    NuevoTema.Orden = temaDTO.Orden;
-                    NuevoTema.Nombre = temaDTO.Nombre;
-                    NuevoTema.CategoriaId = temaDTO.CategoriaId;
-                    NuevoTema.Estado = temaDTO.Estado;
 
-                    contexto.Tema.Add(NuevoTema);
-                    contexto.SaveChanges();
-                    return null;
-                }
-                else
-                {
-                    return new TemasDTO() { Error = "Ya existe el id del tema" };
+                    var buscarTema = contexto.Tema.FirstOrDefault(q => q.TemaId == temaDTO.TemaId);
+                    if (buscarTema == null)
+                    {
+                        Tema NuevoTema = new Tema();
+                        NuevoTema.TemaId = temaDTO.TemaId;
+                        NuevoTema.Orden = temaDTO.Orden;
+                        NuevoTema.Nombre = temaDTO.Nombre;
+                        NuevoTema.CategoriaId = temaDTO.CategoriaId;
+                        NuevoTema.Estado = temaDTO.Estado;
+
+                        contexto.Tema.Add(NuevoTema);
+                        contexto.SaveChanges();
+                        return null;
+                    }
+                    else
+                    {
+                        return new TemasDTO() { Error = "Ya existe el id del tema" };
+                    }
                 }
             }
+        
         }
 
         public void EliminarTema(string Id)
@@ -267,41 +275,50 @@ namespace Services.Servicios
         #region Subtemas
         public SubtemaDTO GuardarSubtema(SubtemaDTO subtemaDTO)
         {
-            using (var contexto = new UnitOfWork())
+            if(subtemaDTO.Descripcion != null)
             {
-                var tamanio = subtemaDTO.SubtemaId.Count();
-
-                if (tamanio >20)
+                using (var contexto = new UnitOfWork())
                 {
-                    return new SubtemaDTO(){
-                         Error= "La descripcion es muy grande, intente de nuevo"
-                    };
-                }
-                else
-	            {
-                    var buscarSubtema = contexto.Subtema.FirstOrDefault(x => x.SubtemaId == subtemaDTO.SubtemaId);
-                    if (buscarSubtema == null)
-                    {
-                        Domain.Entidades_POCO.Subtema nuevoSubtema = new Domain.Entidades_POCO.Subtema()
-                        {
-                            SubtemaId = subtemaDTO.SubtemaId,
-                            TemaId = subtemaDTO.TemaId,
-                            Descripcion = subtemaDTO.Descripcion,
-                            Estado = subtemaDTO.Estado,
-                            Orden = subtemaDTO.Orden
-                        };
+                    var tamanio = subtemaDTO.SubtemaId.Count();
 
-                        contexto.Subtema.Add(nuevoSubtema);
-                        contexto.SaveChanges();
-                        return null;
+                    if (tamanio > 20)
+                    {
+                        return new SubtemaDTO()
+                        {
+                            Error = "La descripcion es muy grande, intente de nuevo"
+                        };
                     }
                     else
                     {
-                        return new SubtemaDTO() { Error = "El id ya existe" };
+                        var buscarSubtema = contexto.Subtema.FirstOrDefault(x => x.SubtemaId == subtemaDTO.SubtemaId);
+                        if (buscarSubtema == null)
+                        {
+                            Domain.Entidades_POCO.Subtema nuevoSubtema = new Domain.Entidades_POCO.Subtema()
+                            {
+                                SubtemaId = subtemaDTO.SubtemaId,
+                                TemaId = subtemaDTO.TemaId,
+                                Descripcion = subtemaDTO.Descripcion,
+                                Estado = subtemaDTO.Estado,
+                                Orden = subtemaDTO.Orden
+                            };
+
+                            contexto.Subtema.Add(nuevoSubtema);
+                            contexto.SaveChanges();
+                            return null;
+                        }
+                        else
+                        {
+                            return new SubtemaDTO() { Error = "El id ya existe" };
+                        }
+
                     }
-                    
-	            }
+                }
             }
+            else
+            {
+                return new SubtemaDTO() { Error = "Campos Vacios" };
+            }
+            
         }
 
         public void EliminarSubtema(string Id)
