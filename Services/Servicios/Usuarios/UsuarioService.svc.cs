@@ -1,15 +1,11 @@
 ﻿using Domain.Entidades_POCO;
 using Infrastructure;
 using Services.DTOs;
-using System;
 using System.Collections.Generic;
-using System.Collections.ObjectModel;
 using System.Linq;
-using System.Runtime.Serialization;
-using System.ServiceModel;
-using System.Text;
 
-namespace SubtemasService.Servicios
+
+namespace Services.Servicios
 {
     // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "UsuarioService" in code, svc and config file together.
     // NOTE: In order to launch WCF Test Client for testing this service, please select UsuarioService.svc or UsuarioService.svc.cs at the Solution Explorer and start debugging.

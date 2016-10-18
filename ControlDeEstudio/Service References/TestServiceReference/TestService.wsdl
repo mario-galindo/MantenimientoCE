@@ -299,7 +299,7 @@
   </wsdl:binding>
   <wsdl:service name="TestService">
     <wsdl:port name="BasicHttpBinding_ITestService" binding="tns:BasicHttpBinding_ITestService">
-      <soap:address location="http://localhost:45634/Servicios/TestService.svc" />
+      <soap:address location="http://localhost:45634/Servicios/TestService.svc/basic" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

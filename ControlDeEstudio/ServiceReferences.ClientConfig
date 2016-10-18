@@ -13,10 +13,10 @@
             </basicHttpBinding>
         </bindings>
         <client>
-            <endpoint address="../Servicios/Usuarios/UsuarioService.svc"
+            <endpoint address="../Servicios/Usuarios/UsuarioService.svc/basic"
                 binding="basicHttpBinding" bindingConfiguration="BasicHttpBinding_IUsuarioService"
                 contract="UsuariosServiceReference.IUsuarioService" name="BasicHttpBinding_IUsuarioService" />
-            <endpoint address="../Servicios/TestService.svc" binding="basicHttpBinding"
+            <endpoint address="../Servicios/TestService.svc/basic" binding="basicHttpBinding"
                 bindingConfiguration="BasicHttpBinding_ITestService" contract="TestServiceReference.ITestService"
                 name="BasicHttpBinding_ITestService" />
         </client>

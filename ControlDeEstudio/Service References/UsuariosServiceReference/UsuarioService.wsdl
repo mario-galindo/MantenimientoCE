@@ -109,7 +109,7 @@
   </wsdl:binding>
   <wsdl:service name="UsuarioService">
     <wsdl:port name="BasicHttpBinding_IUsuarioService" binding="tns:BasicHttpBinding_IUsuarioService">
-      <soap:address location="http://localhost:45634/Servicios/Usuarios/UsuarioService.svc" />
+      <soap:address location="http://localhost:45634/Servicios/Usuarios/UsuarioService.svc/basic" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

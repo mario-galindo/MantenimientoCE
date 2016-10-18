@@ -276,3 +276,5 @@ C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\bin\AutoMapper.dll
 C:\Users\ijpadilla\Source\Repos\MantenimientoCE\Services\bin\AutoMapper.xml
 C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\AutoMapper.dll
 C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\bin\AutoMapper.xml
+C:\Users\japena\Source\Repos\CEGit\Services\bin\AutoMapper.dll
+C:\Users\japena\Source\Repos\CEGit\Services\bin\AutoMapper.xml
