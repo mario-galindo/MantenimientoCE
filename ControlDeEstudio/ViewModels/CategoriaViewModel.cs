@@ -370,6 +370,27 @@ namespace ControlDeEstudio.ViewModels
 
         #endregion
 
+        #region Propiedades Estado
+        private ObservableCollection<string> _estados;
+
+        public ObservableCollection<string> Estados
+        {
+            get
+            {
+                return _estados;
+            }
+
+            set
+            {
+                if (_estados != value)
+                {
+                    _estados = value;
+                    RaisePropertyChanged("Estados");
+                };
+            }
+        }
+        #endregion
+
         #endregion
 
         #region Constructor
@@ -380,6 +401,9 @@ namespace ControlDeEstudio.ViewModels
             proxy = new TestServiceReference.TestServiceClient();
             proxyUsuario = new UsuariosServiceReference.UsuarioServiceClient();
             InicializarRespuestaServicio();
+            Estados = new ObservableCollection<string>();
+            Estados.Add("Activo");
+            Estados.Add("Inactivo");
             ListarCategorias();
             ListarUsuarios();
         }
