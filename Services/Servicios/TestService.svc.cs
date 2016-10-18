@@ -1,4 +1,5 @@
-﻿using Domain.Entidades_POCO;
+﻿using AutoMapper;
+using Domain.Entidades_POCO;
 using Infrastructure;
 using Services.DTOs;
 using System;
@@ -14,6 +15,13 @@ namespace Services.Servicios
     // NOTE: In order to launch WCF Test Client for testing this service, please select TestService.svc or TestService.svc.cs at the Solution Explorer and start debugging.
     public class TestService : ITestService
     {
+        public TestService()
+        {
+           
+
+            Mapper.Initialize(cfg => cfg.CreateMap<CategoriaDTO, Categoria>());
+           
+        }
         public void DoWork()
         {
 
@@ -46,7 +54,7 @@ namespace Services.Servicios
             }
             else
             {
-                categorias = contexto.Categoria.ToList();
+                 categorias = contexto.Categoria.ToList();
             }
 
             return categorias;
@@ -113,24 +121,30 @@ namespace Services.Servicios
 
             using (var contexto = new UnitOfWork())
             {
-                var buscarcatego = contexto.Categoria.FirstOrDefault(q => q.CategoriaId == categoriaDTO.CategoriaId);
-                if (buscarcatego == null)
-                {
-                    var Tema = new Categoria()
-                    {
-                        CategoriaId = categoriaDTO.CategoriaId,
-                        Estado = categoriaDTO.Estado,
-                        Nombre = categoriaDTO.Nombre
-                    };
-                    contexto.Categoria.Add(Tema);
-                    contexto.SaveChanges();
-                    return null;
-                }
 
+                if (categoriaDTO.CategoriaId == null)
+                {
+                    return new CategoriaDTO() { Error = "Campos vacios" };
+                }
                 else
                 {
-                    return new CategoriaDTO(){Error = "El id ya existe"};
+                    var buscarcatego = contexto.Categoria.FirstOrDefault(q => q.CategoriaId == categoriaDTO.CategoriaId);
+
+                    if (buscarcatego == null)
+                    {
+                        var categoria = Mapper.Map<Categoria>(categoriaDTO);
+                        
+                        contexto.Categoria.Add(categoria);
+                        contexto.SaveChanges();
+                        return null;
+                    }
+
+                    else
+                    {
+                        return new CategoriaDTO() { Error = "El id ya existe" };
+                    }
                 }
+
             }
         }
 
