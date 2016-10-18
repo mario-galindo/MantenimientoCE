@@ -662,7 +662,11 @@ namespace ControlDeEstudio.ViewModels
             var modal = new Modales.AgregarCategoria();
             modal.Show();
             if (type == "Add")
+            {
+                PropCategoria.Estado = Estados.First();
                 IsAdd = true;
+            }
+              
 
             else if (type == "Edit")
             {
