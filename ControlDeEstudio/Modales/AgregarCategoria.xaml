@@ -30,10 +30,10 @@
             </Grid.ColumnDefinitions>
 
             <TextBlock Grid.Row="1" Text="Categoria Id:" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="15,6,0,5" FontSize="13" FontFamily="Eras Light ITC"/>
-            <TextBox Grid.Row="1" Grid.Column="1"  MaxLength="10" Text="{Binding PropCategoria.CategoriaId, Mode=TwoWay}" Width="400" Height="25" VerticalAlignment="Center" HorizontalAlignment="Left"  BorderBrush="Blue" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" BorderThickness="0,0,0,1" Grid.ColumnSpan="2" Margin="0,3,0,2" />
+            <TextBox Grid.Row="1" Grid.Column="1"  MaxLength="20" Text="{Binding PropCategoria.CategoriaId, Mode=TwoWay}" Width="400" Height="25" VerticalAlignment="Center" HorizontalAlignment="Left"  BorderBrush="Blue" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" BorderThickness="0,0,0,1" Grid.ColumnSpan="2" Margin="0,3,0,2" />
 
             <TextBlock Grid.Row="3" Text="Nombre" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="15,6,0,5" FontSize="13" FontFamily="Eras Light ITC"/>
-            <TextBox Grid.Row="3" Grid.Column="1" MaxLength="10" Text="{Binding PropCategoria.Nombre, Mode=TwoWay}"  Width="400" Height="25" VerticalAlignment="Center" HorizontalAlignment="Left" BorderBrush="Blue" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" BorderThickness="0,0,0,1" Grid.ColumnSpan="2" Margin="0,3,0,2" />
+            <TextBox Grid.Row="3" Grid.Column="1" MaxLength="50" Text="{Binding PropCategoria.Nombre, Mode=TwoWay}"  Width="400" Height="25" VerticalAlignment="Center" HorizontalAlignment="Left" BorderBrush="Blue" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" BorderThickness="0,0,0,1" Grid.ColumnSpan="2" Margin="0,3,0,2" />
 
             <TextBlock Grid.Row="5" Text="Estado" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="15,6,0,5" FontSize="13" FontFamily="Eras Light ITC"/>
             <!--<TextBox Grid.Row="5" MaxLength="50" Grid.Column="1" Text="{Binding PropCategoria.Estado, Mode=TwoWay}" Width="400" Height="25" VerticalAlignment="Center" HorizontalAlignment="Left" BorderBrush="Blue" RenderTransformOrigin="0.5,0.5" Background="{x:Null}" BorderThickness="0,0,0,1" Grid.ColumnSpan="2" Margin="0,3,0,2" />-->
