@@ -17,8 +17,8 @@ namespace Infrastructure
             ToTable("Referencias", "Training");
 
             Property(t => t.ReferenciaId).HasColumnName("ReferenciaId").IsRequired().HasDatabaseGeneratedOption(DatabaseGeneratedOption.Identity);
-            Property(t => t.Fuente).HasColumnName("Fuente").IsRequired().IsUnicode(false).HasMaxLength(100);
-            Property(t => t.Descripcion).HasColumnName("Descripcion").IsRequired().IsUnicode(false).HasMaxLength(100);
+            Property(t => t.Fuente).HasColumnName("Fuente").IsRequired().IsUnicode(false);
+            Property(t => t.Descripcion).HasColumnName("Descripcion").IsRequired().IsUnicode(false);
             Property(t => t.SubtemaId).HasColumnName("SubtemaId").IsRequired();
             Property(t => t.Autor).HasColumnName("Autor").IsRequired().IsUnicode(false).HasMaxLength(100);
             

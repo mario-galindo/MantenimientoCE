@@ -15,7 +15,7 @@ namespace Infrastructure
             HasKey(t => t.TemaId);
             ToTable("Tema", "Training");
             Property(t => t.TemaId).HasColumnName("TemaId").IsRequired().IsUnicode(false).HasMaxLength(20);
-            Property(t => t.Nombre).HasColumnName("Nombre").IsRequired().IsUnicode(false).HasMaxLength(20);
+            Property(t => t.Nombre).HasColumnName("Nombre").IsRequired().IsUnicode(false).HasMaxLength(50);
             Property(t => t.CategoriaId).HasColumnName("CategoriaId").IsRequired().IsUnicode(false).HasMaxLength(20);
             Property(t => t.Estado).HasColumnName("Estado").IsRequired().IsUnicode(false).HasMaxLength(20);
             Property(t => t.Orden).HasColumnName("Orden");

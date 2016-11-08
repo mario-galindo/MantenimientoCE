@@ -1310,8 +1310,9 @@ namespace ControlDeEstudio.ViewModels
                 {
                     size++;
                 }
-
-                return Nombre + size.ToString();
+                string a = Nombre.Substring(0,5);
+                string id = a+ size.ToString();
+                return id;
             }
             else return string.Empty;
             
