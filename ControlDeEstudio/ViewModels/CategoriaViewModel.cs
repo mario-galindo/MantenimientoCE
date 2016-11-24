@@ -1011,7 +1011,7 @@ namespace ControlDeEstudio.ViewModels
                     Descripcion = ReferenciaDto.Descripcion,
                     Fuente = ReferenciaDto.Fuente,
                     SubtemaId = ReferenciaDto.SubtemaId,
-                    ReferenciaId = ReferenciaDto.ReferenciaId
+                    ReferenciaId = e.Result.ReferenciaId
 
                 };
 

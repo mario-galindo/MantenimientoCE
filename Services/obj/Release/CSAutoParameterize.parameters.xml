@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="MiCadenaConexion-Web.config Connection String" description="MiCadenaConexion Connection String used in web.config by the application to access the database." defaultValue="Data Source=CK01DESATEST;Initial Catalog=CTS_LAB;Integrated Security=True" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\jburbara\\Documents\\Visual\ Studio\ 2015\\Projects\\MantenimientoCE\\Services\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MiCadenaConexion']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\mgalindo\\Desktop\\MantenimientoCE\\Services\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='MiCadenaConexion']/@connectionString" />
   </parameter>
 </parameters>

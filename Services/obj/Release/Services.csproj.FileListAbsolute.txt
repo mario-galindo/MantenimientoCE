@@ -14,3 +14,19 @@ C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services
 C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\obj\Release\Services.csprojResolveAssemblyReference.cache
 C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\obj\Release\Services.dll
 C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Services\obj\Release\Services.pdb
+C:\Users\mgalindo\Desktop\MantenimientoCE\Services\bin\Services.dll.config
+C:\Users\mgalindo\Desktop\MantenimientoCE\Services\bin\Services.dll
+C:\Users\mgalindo\Desktop\MantenimientoCE\Services\bin\Services.pdb
+C:\Users\mgalindo\Desktop\MantenimientoCE\Services\bin\AutoMapper.dll
+C:\Users\mgalindo\Desktop\MantenimientoCE\Services\bin\Domain.dll
+C:\Users\mgalindo\Desktop\MantenimientoCE\Services\bin\EntityFramework.dll
+C:\Users\mgalindo\Desktop\MantenimientoCE\Services\bin\EntityFramework.SqlServer.dll
+C:\Users\mgalindo\Desktop\MantenimientoCE\Services\bin\Infrastructure.dll
+C:\Users\mgalindo\Desktop\MantenimientoCE\Services\bin\Domain.pdb
+C:\Users\mgalindo\Desktop\MantenimientoCE\Services\bin\Infrastructure.pdb
+C:\Users\mgalindo\Desktop\MantenimientoCE\Services\bin\AutoMapper.xml
+C:\Users\mgalindo\Desktop\MantenimientoCE\Services\bin\EntityFramework.xml
+C:\Users\mgalindo\Desktop\MantenimientoCE\Services\bin\EntityFramework.SqlServer.xml
+C:\Users\mgalindo\Desktop\MantenimientoCE\Services\obj\Release\Services.csprojResolveAssemblyReference.cache
+C:\Users\mgalindo\Desktop\MantenimientoCE\Services\obj\Release\Services.dll
+C:\Users\mgalindo\Desktop\MantenimientoCE\Services\obj\Release\Services.pdb
