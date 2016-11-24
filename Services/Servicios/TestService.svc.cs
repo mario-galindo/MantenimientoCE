@@ -82,7 +82,7 @@ namespace Services.Servicios
                 };
 
 
-                foreach (var subtema in tema.Subtemas.ToList())
+                foreach (var subtema in tema.Subtemas.ToList().OrderBy(x=> x.Orden))
                 {
 
                     var subtemanuevo = new SubtemaDTO()

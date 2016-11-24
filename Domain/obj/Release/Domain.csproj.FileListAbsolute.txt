@@ -1,0 +1,4 @@
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Domain\bin\Release\Domain.dll
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Domain\bin\Release\Domain.pdb
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Domain\obj\Release\Domain.dll
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Domain\obj\Release\Domain.pdb

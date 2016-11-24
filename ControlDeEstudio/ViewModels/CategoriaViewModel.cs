@@ -998,7 +998,7 @@ namespace ControlDeEstudio.ViewModels
             ReferenciaDto.SubtemaId = SubtemaSeleccionado.SubtemaId;
             proxy.GuardarReferenciaAsync(ReferenciaDto);
         }
-        
+
         void proxy_GuardarReferenciaCompleted(object sender, TestServiceReference.GuardarReferenciaCompletedEventArgs e)
         {
             if (e.Result.Error == null)

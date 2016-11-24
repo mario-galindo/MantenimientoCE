@@ -1,0 +1,12 @@
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\bin\Release\Infrastructure.dll.config
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\bin\Release\Infrastructure.dll
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\bin\Release\Infrastructure.pdb
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\bin\Release\Domain.dll
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\bin\Release\EntityFramework.dll
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\bin\Release\EntityFramework.SqlServer.dll
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\bin\Release\Domain.pdb
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\bin\Release\EntityFramework.xml
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\bin\Release\EntityFramework.SqlServer.xml
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\obj\Release\Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\obj\Release\Infrastructure.dll
+C:\Users\jburbara\Documents\Visual Studio 2015\Projects\MantenimientoCE\Infrastructure\obj\Release\Infrastructure.pdb
