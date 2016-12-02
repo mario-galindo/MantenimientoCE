@@ -436,7 +436,6 @@ namespace ControlDeEstudio.ViewModels
             proxy.EditarSubtemaCompleted += Proxy_EditarSubtemaCompleted;
             proxy.EliminarSubtemaCompleted += Proxy_EliminarSubtemaCompleted;
             proxy.GuardarReferenciaCompleted += proxy_GuardarReferenciaCompleted;
-            //proxy.GuardarReferencia2Completed += Proxy_GuardarReferencia2Completed;
             proxy.EliminarReferenciaCompleted += Proxy_EliminarReferenciaCompleted;
             proxy.EditarReferenciaCompleted += Proxy_EditarReferenciaCompleted;
             proxy.GuardarTemaCompleted += proxy_GuardarTemaCompleted;

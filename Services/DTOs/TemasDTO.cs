@@ -13,7 +13,7 @@ namespace Services.DTOs
         [DataMember]
         public string TemaId { get; set; }
         [DataMember]
-        public int? Orden { get; set; }
+        public int Orden { get; set; }
         [DataMember]
         public string Nombre { get; set; }
         [DataMember]

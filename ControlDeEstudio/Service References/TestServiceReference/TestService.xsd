@@ -28,7 +28,7 @@
       <xs:element minOccurs="0" name="Error" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Estado" nillable="true" type="xs:string" />
       <xs:element minOccurs="0" name="Nombre" nillable="true" type="xs:string" />
-      <xs:element minOccurs="0" name="Orden" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Orden" type="xs:int" />
       <xs:element minOccurs="0" name="SubTemas" nillable="true" type="tns:ArrayOfSubtemaDTO" />
       <xs:element minOccurs="0" name="TemaId" nillable="true" type="xs:string" />
     </xs:sequence>

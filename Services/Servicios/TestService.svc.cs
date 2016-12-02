@@ -69,7 +69,7 @@ namespace Services.Servicios
                 Nombre = Categoria.Nombre,
                 Temas = new List<TemasDTO>()
             };
-            foreach (var tema in Categoria.Temas.ToList())
+            foreach (var tema in Categoria.Temas.ToList().OrderBy(x=> x.Orden))
             {
 
                 var temanuevo = new TemasDTO()
@@ -206,6 +206,7 @@ namespace Services.Servicios
         #region Temas
         public TemasDTO GuardarTema(TemasDTO temaDTO)
         {
+            
             if (temaDTO.Nombre== null)
             {
                 return new TemasDTO() { Error = "Campos vacios" };

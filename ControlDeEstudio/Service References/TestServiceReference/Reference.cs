@@ -118,7 +118,7 @@ namespace ControlDeEstudio.TestServiceReference {
         
         private string NombreField;
         
-        private System.Nullable<int> OrdenField;
+        private int OrdenField;
         
         private System.Collections.ObjectModel.ObservableCollection<ControlDeEstudio.TestServiceReference.SubtemaDTO> SubTemasField;
         
@@ -177,7 +177,7 @@ namespace ControlDeEstudio.TestServiceReference {
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public System.Nullable<int> Orden {
+        public int Orden {
             get {
                 return this.OrdenField;
             }

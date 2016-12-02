@@ -18,7 +18,7 @@ namespace Infrastructure
             Property(t => t.Nombre).HasColumnName("Nombre").IsRequired().IsUnicode(false).HasMaxLength(50);
             Property(t => t.CategoriaId).HasColumnName("CategoriaId").IsRequired().IsUnicode(false).HasMaxLength(20);
             Property(t => t.Estado).HasColumnName("Estado").IsRequired().IsUnicode(false).HasMaxLength(20);
-            Property(t => t.Orden).HasColumnName("Orden");
+            Property(t => t.Orden).HasColumnName("Orden").IsRequired();
             HasMany(c => c.Subtemas).WithRequired(t => t.Tema).HasForeignKey(t => t.TemaId);
         }
     }
